@@ -1,0 +1,70 @@
+name: Prepare voice audio (run once, re-run when the library grows)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve LibriVox projects and list chapters to transcribe
+        id: m
+        run: |
+          python audio/prepare_audio.py resolve || true
+          echo "matrix=$(python audio/prepare_audio.py matrix)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with: { name: resolved, path: audio/work/resolved.json, if-no-files-found: ignore }
+  transcribe:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/download-artifact@v4
+        with: { name: resolved, path: audio/work }
+        continue-on-error: true
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: whisper-small-en }
+      - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
+      - run: pip install faster-whisper
+      - run: python audio/prepare_audio.py transcribe --source ${{ matrix.source }} --chapter ${{ matrix.chapter }}
+      - uses: actions/upload-artifact@v4
+        with: { name: "asr-${{ matrix.source }}-${{ matrix.chapter }}", path: audio/work/asr/ }
+  align:
+    needs: transcribe
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with: { pattern: "asr-*", path: audio/work/asr, merge-multiple: true }
+      - uses: actions/download-artifact@v4
+        with: { name: resolved, path: audio/work }
+        continue-on-error: true
+      - name: Match every library item to its place in the recording, cut and normalise clips
+        run: |
+          python - <<'PY'
+          import sys; sys.path.insert(0, "audio")
+          import prepare_audio as P, json
+          # re-download the mp3s the cutter needs (cached by name, so already-downloaded files are skipped)
+          for it in P.load("library/library_*.json"):
+              s, ch = P.source_for(it)
+              if s and P.url_for(s, ch): P.download(P.url_for(s, ch), P.mp3_path(s, ch))
+          PY
+          python audio/prepare_audio.py align --libs "library/library_*.json"
+      - name: Commit clips, timings and index
+        run: |
+          git config user.name "audio-bot"; git config user.email "bot@users.noreply.github.com"
+          git add audio/clips audio/timings audio/audio_index.json
+          git commit -m "audio: clips + word timings" || echo "nothing to commit"
+          git push
