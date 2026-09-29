@@ -1,0 +1,823 @@
+{
+  "meta": {
+    "library": "Seneca — Moral Letters to Lucilius (batch 2: letters 30, 63, 72)",
+    "notes": [
+      "Gummere translation (Loeb 1917-25), US public domain; text from senecaletters.com; footnote markers removed.",
+      "Letter 63 items are flagged sensitivity=grief.",
+      "Still unmined: letters 2-4, 6, 8-12, 14-17, 19-27, 29, 31-62, 64-71, 73-95, 97-106, 108-124."
+    ]
+  },
+  "items": [
+    {
+      "id": "SE-L63-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "grief",
+        "balance"
+      ],
+      "text": "Let not the eyes be dry when we have lost a friend, nor let them overflow. We may weep, but we must not wail.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 63.1",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "grief",
+        "honesty"
+      ],
+      "text": "…we seek the proofs of our bereavement in our tears, and do not give way to sorrow, but merely parade it.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 63.2",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "memory",
+        "friendship"
+      ],
+      "text": "Let us see to it that the recollection of those whom we have lost becomes a pleasant memory to us.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 63.4",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "gratitude",
+        "loss"
+      ],
+      "text": "For I have had them as if I should one day lose them; I have lost them as if I have them still.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 63.7",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "gratitude",
+        "loss"
+      ],
+      "text": "Fortune has taken away, but Fortune has given.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 6,
+      "display_credit": "Seneca, Letter 63.7",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-f",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "friendship",
+        "time",
+        "gratitude"
+      ],
+      "text": "Let us greedily enjoy our friends, because we do not know how long this privilege will be ours. Let us think how often we shall leave them when we go upon distant journeys, and how often we shall fail to see them when we tarry together in the same place; we shall thus understand that we have lost too much of their time while they were alive.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 32,
+      "display_credit": "Seneca, Letter 63.8",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "friendship",
+        "time"
+      ],
+      "text": "Let us greedily enjoy our friends, because we do not know how long this privilege will be ours.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, Letter 63.8",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "friendship",
+        "neglect"
+      ],
+      "text": "…men who are most careless of their friends, and then mourn them most abjectly, and do not love anyone unless they have lost him…",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 63.9",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.10",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "friendship",
+        "loneliness"
+      ],
+      "text": "…Fortune has robbed us of one friend, but we have robbed ourselves of every friend whom we have failed to make.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 63.10",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-j",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.11",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "friendship",
+        "moving on"
+      ],
+      "text": "You have buried one whom you loved; look about for someone to love. It is better to replace your friend than to weep for him.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 63.11",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-k",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.15",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "mortality",
+        "preparation",
+        "present moment"
+      ],
+      "text": "Therefore let us continually think as much about our own mortality as about that of all those we love. In former days I ought to have said: \"My friend Serenus is younger than I; but what does that matter? He would naturally die after me, but he may precede me.\" It was just because I did not do this that I was unprepared when Fortune dealt me the sudden blow. Now is the time for you to reflect, not only that all things are mortal, but also that their mortality is subject to no fixed law. Whatever can happen at any time can happen to-day.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 49,
+      "display_credit": "Seneca, Letter 63.15",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L63-l",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 63.15",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "urgency"
+      ],
+      "text": "Whatever can happen at any time can happen to-day.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/63",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 7,
+      "display_credit": "Seneca, Letter 63.15",
+      "sensitivity": "grief",
+      "schedule_note": "avoid morning slot; prefer evening; never pair with a hard-sell CTA"
+    },
+    {
+      "id": "SE-L30-a",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, on Aufidius Bassus",
+      "excerpt": false,
+      "themes": [
+        "mortality",
+        "strength",
+        "age"
+      ],
+      "text": "But the mind of our friend Bassus is active. Philosophy bestows this boon upon us; it makes us joyful in the very sight of death, strong and brave no matter in what state the body may be, cheerful and never failing though the body fail us. A great pilot can sail even when his canvas is rent; if his ship be dismantled, he can yet put in trim what remains of her hull and hold her to her course. This is what our friend Bassus is doing; and he contemplates his own end with the courage and countenance which you would regard as undue indifference in a man who so contemplated another's.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 52,
+      "display_credit": "Seneca, Letter 30.3 (on Aufidius Bassus)"
+    },
+    {
+      "id": "SE-L30-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "resilience",
+        "strength"
+      ],
+      "text": "A great pilot can sail even when his canvas is rent; if his ship be dismantled, he can yet put in trim what remains of her hull and hold her to her course.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, Letter 30.3"
+    },
+    {
+      "id": "SE-L30-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "practice"
+      ],
+      "text": "This is a great accomplishment, Lucilius, and one which needs long practice to learn,—to depart calmly when the inevitable hour arrives.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 30.4"
+    },
+    {
+      "id": "SE-L30-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.6",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, reporting Aufidius Bassus",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "death"
+      ],
+      "text": "\"And it is just as insane,\" he adds, \"for a man to fear what will not happen to him, as to fear what he will not feel if it does happen.\"",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 30.6 (reporting Aufidius Bassus)"
+    },
+    {
+      "id": "SE-L30-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.10",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "life"
+      ],
+      "text": "He who does not wish to die cannot have wished to live. For life is granted to us with the reservation that we shall die; to this end our path leads.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 30.10"
+    },
+    {
+      "id": "SE-L30-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.10",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "uncertainty"
+      ],
+      "text": "Therefore, how foolish it is to fear it, since men simply await that which is sure, but fear only that which is uncertain!",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 30.10"
+    },
+    {
+      "id": "SE-L30-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.17",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, reporting Aufidius Bassus",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "imagination"
+      ],
+      "text": "We do not fear death; we fear the thought of death.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 8,
+      "display_credit": "Seneca, Letter 30.17 (reporting Aufidius Bassus)"
+    },
+    {
+      "id": "SE-L30-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.18",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "practice"
+      ],
+      "text": "Do you, however, always think on death in order that you may never fear it.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, Letter 30.18"
+    },
+    {
+      "id": "SE-L30-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 30.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, on Aufidius Bassus",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "peace"
+      ],
+      "text": "Our friend Bassus seemed to me to be attending his own funeral, and laying out his own body for burial, and living almost as if he had survived his own death, and bearing with wise resignation his grief at his own departure.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/30",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 21,
+      "display_credit": "Seneca, Letter 30.5 (on Aufidius Bassus)"
+    },
+    {
+      "id": "SE-L72-a",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "procrastination",
+        "busyness"
+      ],
+      "text": "For there is never a moment when fresh employments will not come along; we sow them, and for this reason several spring up from one. Then, too, we keep adjourning our own cases, saying: \"As soon as I am done with this, I shall settle down to hard work,\" or: \"If I ever set this troublesome matter in order, I shall devote myself to study.\"",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 31,
+      "display_credit": "Seneca, Letter 72.2"
+    },
+    {
+      "id": "SE-L72-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "busyness"
+      ],
+      "text": "…we keep adjourning our own cases, saying: \"As soon as I am done with this, I shall settle down to hard work,\" or: \"If I ever set this troublesome matter in order, I shall devote myself to study.\"",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 20,
+      "display_credit": "Seneca, Letter 72.2"
+    },
+    {
+      "id": "SE-L72-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "discipline",
+        "priorities"
+      ],
+      "text": "But the study of philosophy is not to be postponed until you have leisure; everything else is to be neglected in order that we may attend to philosophy…",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, Letter 72.3"
+    },
+    {
+      "id": "SE-L72-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "consistency",
+        "discipline"
+      ],
+      "text": "It makes little difference whether you leave philosophy out altogether or study it intermittently; for it does not stay as it was when you dropped it, but, because its continuity has been broken, it goes back to the position in which it was at the beginning…",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 23,
+      "display_credit": "Seneca, Letter 72.3"
+    },
+    {
+      "id": "SE-L72-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "busyness",
+        "focus"
+      ],
+      "text": "We must resist the affairs which occupy our time; they must not be untangled, but rather put out of the way.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 72.3"
+    },
+    {
+      "id": "SE-L72-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "excuses",
+        "discipline"
+      ],
+      "text": "Indeed, there is no time that is unsuitable for helpful studies; and yet many a man fails to study amid the very circumstances which make study necessary.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, Letter 72.3"
+    },
+    {
+      "id": "SE-L72-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "excuses",
+        "joy"
+      ],
+      "text": "He says: \"Something will happen to hinder me.\" No, not in the case of the man whose spirit, no matter what his business may be, is happy and alert.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 72.4"
+    },
+    {
+      "id": "SE-L72-h",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "happiness",
+        "inner life",
+        "independence"
+      ],
+      "text": "…the joy of a wise man, on the other hand, is a woven fabric, rent by no chance happening and by no change of fortune; at all times and in all places he is at peace. For his joy depends on nothing external and looks for no boon from man or fortune. His happiness is something within himself; it would depart from his soul if it entered in from the outside; it is born there.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 36,
+      "display_credit": "Seneca, Letter 72.4"
+    },
+    {
+      "id": "SE-L72-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "mind",
+        "self-sufficiency"
+      ],
+      "text": "I shall tell you what I mean by health: if the mind is content with its own self; if it has confidence in itself; if it understands that all those things for which men pray, all the benefits which are bestowed and sought for, are of no importance in relation to a life of happiness; under such conditions it is sound.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 30,
+      "display_credit": "Seneca, Letter 72.7"
+    },
+    {
+      "id": "SE-L72-j",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "happiness",
+        "ownership"
+      ],
+      "text": "For anything that can be added to is imperfect; anything that can suffer loss is not lasting; but let the man whose happiness is to be lasting, rejoice in what is truly his own.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, Letter 72.7"
+    },
+    {
+      "id": "SE-L72-k",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fortune",
+        "possession"
+      ],
+      "text": "Now all that which the crowd gapes after, ebbs and flows. Fortune gives us nothing which we can really own.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 72.7"
+    },
+    {
+      "id": "SE-L72-l",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, quoting his teacher Attalus",
+      "excerpt": false,
+      "themes": [
+        "desire",
+        "greed",
+        "contentment"
+      ],
+      "text": "Attalus used to employ the following simile: \"Did you ever see a dog snapping with wide-open jaws at bits of bread or meat which his master tosses to him? Whatever he catches, he straightway swallows whole, and always opens his jaws in the hope of something more. So it is with ourselves; we stand expectant, and whatever Fortune has thrown to us we forthwith bolt, without any real pleasure, and then stand alert and frantic for something else to snatch.\"",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 38,
+      "display_credit": "Seneca, Letter 72.8 (quoting Attalus)"
+    },
+    {
+      "id": "SE-L72-m",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 72.11",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "busyness",
+        "boundaries"
+      ],
+      "text": "They should be shut out; if they once gain an entrance, they will bring in still others to take their places. Let us resist them in their early stages. It is better that they shall never begin than that they shall be made to cease.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/72",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 23,
+      "display_credit": "Seneca, Letter 72.11"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "hooks": [
+    {
+      "id": "h01",
+      "text": "A Roman emperor wrote this to himself. It was never meant to be read.",
+      "authors": [
+        "Marcus Aurelius"
+      ]
+    },
+    {
+      "id": "h02",
+      "text": "The most powerful man in the Roman world, in his private journal:",
+      "authors": [
+        "Marcus Aurelius"
+      ]
+    },
+    {
+      "id": "h03",
+      "text": "Seneca wrote this almost 2,000 years ago. It's about you.",
+      "authors": [
+        "Seneca"
+      ]
+    },
+    {
+      "id": "h04",
+      "text": "Epictetus was a slave. This is what he taught.",
+      "authors": [
+        "Epictetus"
+      ]
+    },
+    {
+      "id": "h05",
+      "text": "Read this if people are testing your patience today.",
+      "themes": [
+        "people",
+        "anger",
+        "patience",
+        "insults",
+        "criticism",
+        "expectations"
+      ]
+    },
+    {
+      "id": "h06",
+      "text": "Save this for the day everything goes wrong.",
+      "themes": [
+        "adversity",
+        "resilience",
+        "strength",
+        "obstacles",
+        "acceptance"
+      ]
+    },
+    {
+      "id": "h07",
+      "text": "If your mind is racing right now, read this.",
+      "themes": [
+        "anxiety",
+        "fear",
+        "overthinking",
+        "future",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "h08",
+      "text": "You have less time than you think.",
+      "themes": [
+        "time",
+        "mortality",
+        "urgency",
+        "procrastination"
+      ]
+    },
+    {
+      "id": "h09",
+      "text": "Most people will scroll past this. Don't."
+    },
+    {
+      "id": "h10",
+      "text": "Read this slowly."
+    },
+    {
+      "id": "h11",
+      "text": "Nearly 2,000 years old. Still true."
+    },
+    {
+      "id": "h12",
+      "text": "This is what real Stoicism sounds like."
+    },
+    {
+      "id": "h13",
+      "text": "Stop scrolling for ten seconds."
+    },
+    {
+      "id": "h14",
+      "text": "You needed to hear this today."
+    }
+  ],
+  "ctas": [
+    {
+      "id": "c01",
+      "text": "Send this to someone who needs it today.",
+      "goal": "share"
+    },
+    {
+      "id": "c02",
+      "text": "Save this. You'll need it.",
+      "goal": "save"
+    },
+    {
+      "id": "c03",
+      "text": "Which line hit hardest? Comment below.",
+      "goal": "comment"
+    },
+    {
+      "id": "c04",
+      "text": "Follow for real Stoic wisdom, daily.",
+      "goal": "follow"
+    }
+  ],
+  "hashtags": {
+    "core": [
+      "#stoicism",
+      "#stoic",
+      "#dailystoic"
+    ],
+    "by_author": {
+      "Marcus Aurelius": [
+        "#marcusaurelius"
+      ],
+      "Seneca": [
+        "#seneca"
+      ],
+      "Epictetus": [
+        "#epictetus"
+      ]
+    },
+    "broad": [
+      "#mindset",
+      "#selfimprovement",
+      "#philosophy",
+      "#discipline",
+      "#wisdom",
+      "#motivation"
+    ],
+    "per_post": "3 core/author + 2-3 broad (5-6 total)"
+  },
+  "caption_template": "{hook}\n\n“{text}”\n— {credit}\n\n{cta}\n\n{hashtags}",
+  "rules": {
+    "hook_rules": "hook must match the item's author/themes if it has constraints; never the same hook twice in a row; same hook+CTA pair not within 7 days",
+    "honesty": "hooks make no claims the item cannot back up (e.g. 'Roman emperor' only on Marcus Aurelius items)"
+  }
+}

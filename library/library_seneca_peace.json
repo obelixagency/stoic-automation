@@ -1,0 +1,1617 @@
+{
+  "meta": {
+    "library": "Seneca — On Peace of Mind (Stewart translation)",
+    "notes": [
+      "Aubrey Stewart translation (1889), US public domain; text from the Standard Ebooks edition (CC0). Footnote markers and word-joiners removed; excerpts marked with an ellipsis.",
+      "Items in chapter 1 are spoken by Serenus (the friend Seneca is advising) and are credited as such. Passages Seneca reports from Athenodorus, Publilius, Socrates, Diogenes, Zeno and Theodorus carry explicit credits.",
+      "Deliberately skipped: the passages on Cato, Kanus's execution, and the end of chapter 2 (they touch suicide or execution) - platform-safety rule."
+    ]
+  },
+  "items": [
+    {
+      "id": "SD-PM-01",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 1",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, Serenus speaking",
+      "excerpt": false,
+      "themes": [
+        "self-honesty",
+        "ego",
+        "wisdom"
+      ],
+      "text": "I fancy that many men would have arrived at wisdom had they not believed themselves to have arrived there already, had they not purposely deceived themselves as to some parts of their character, and passed by others with their eyes shut: for you have no grounds for supposing that other people’s flattery is more ruinous to us than our own. Who dares to tell himself the truth? Who is there, by however large a troop of caressing courtiers he may be surrounded, who in spite of them is not his own greatest flatterer?",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 43,
+      "display_credit": "Seneca, On Peace of Mind 1 (Serenus speaking)"
+    },
+    {
+      "id": "SD-PM-02",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 1",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, Serenus speaking",
+      "excerpt": false,
+      "themes": [
+        "self-honesty",
+        "ego"
+      ],
+      "text": "Who dares to tell himself the truth? Who is there, by however large a troop of caressing courtiers he may be surrounded, who in spite of them is not his own greatest flatterer?",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, On Peace of Mind 1 (Serenus speaking)"
+    },
+    {
+      "id": "SD-PM-03",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 1",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, Serenus speaking",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "perspective"
+      ],
+      "text": "I am not suffering from a storm, but from seasickness.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 7,
+      "display_credit": "Seneca, On Peace of Mind 1 (Serenus speaking)"
+    },
+    {
+      "id": "SD-PM-04",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 1",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, Serenus speaking",
+      "excerpt": true,
+      "themes": [
+        "restlessness",
+        "discontent"
+      ],
+      "text": "…my state of mind, though not the worst possible, is a particularly discontented and sulky one: I am neither ill nor well.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On Peace of Mind 1 (Serenus speaking)"
+    },
+    {
+      "id": "SD-PM-05",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "peace",
+        "calm"
+      ],
+      "text": "What you desire, to be undisturbed, is a great thing, nay, the greatest thing of all, and one which raises a man almost to the level of a god.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-06",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "peace",
+        "mind"
+      ],
+      "text": "What we are seeking, then, is how the mind may always pursue a steady, unruffled course, may be pleased with itself, and look with pleasure upon its surroundings, and experience no interruption of this joy, but abide in a peaceful condition without being ever either elated or depressed: this will be “peace of mind.”",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 26,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-07",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "health"
+      ],
+      "text": "Such men, Serenus, are not unhealthy, but they are not accustomed to being healthy; just as even a quiet sea or lake nevertheless displays a certain amount of ripple when its waters are subsiding after a storm.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-08",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "confidence",
+        "self-trust"
+      ],
+      "text": "…have confidence in yourself, and believe that you are proceeding on the right path, without being led aside by the numerous divergent tracks of wanderers which cross it in every direction…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-09",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "escape",
+        "self",
+        "restlessness"
+      ],
+      "text": "We must understand, therefore, that what we suffer from is not the fault of the places but of ourselves: we are weak when there is anything to be endured, and cannot support either labour or pleasure, either one’s own business or anyone else’s for long.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 23,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-10",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "escape",
+        "self"
+      ],
+      "text": "…but what does he gain by so doing if he does not escape from himself? he follows himself and weighs himself down by his own most burdensome companionship.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-11",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "restlessness",
+        "discontent"
+      ],
+      "text": "Hence arises that weariness and dissatisfaction with oneself, that tossing to and fro of a mind which can nowhere find rest, that unhappy and unwilling endurance of enforced leisure.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-12",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "restlessness",
+        "escape"
+      ],
+      "text": "Hence men undertake aimless wanderings, travel along distant shores, and at one time at sea, at another by land, try to soothe that fickleness of disposition which always is dissatisfied with the present.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, On Peace of Mind 2"
+    },
+    {
+      "id": "SD-PM-13",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, quoting Athenodorus",
+      "excerpt": true,
+      "themes": [
+        "purpose",
+        "inner life"
+      ],
+      "text": "…a great mind even in a private station can find room wherein to expand freely.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 3 (quoting Athenodorus)"
+    },
+    {
+      "id": "SD-PM-14",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, quoting Athenodorus",
+      "excerpt": false,
+      "themes": [
+        "time",
+        "life"
+      ],
+      "text": "Often a man who is very old in years has nothing beyond his age by which he can prove that he has lived a long time.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, On Peace of Mind 3 (quoting Athenodorus)"
+    },
+    {
+      "id": "SD-PM-15",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, quoting Athenodorus",
+      "excerpt": true,
+      "themes": [
+        "virtue",
+        "character"
+      ],
+      "text": "…virtue, in however obscure a position, cannot be hidden, but gives signs of its presence: anyone who is worthy will trace it out by its footsteps.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, On Peace of Mind 3 (quoting Athenodorus)"
+    },
+    {
+      "id": "SD-PM-16",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 4",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "character",
+        "influence"
+      ],
+      "text": "The services of a good citizen are never thrown away: he does good by being heard and seen, by his expression, his gestures, his silent determination, and his very walk.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 4"
+    },
+    {
+      "id": "SD-PM-17",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 4",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "virtue",
+        "influence"
+      ],
+      "text": "As some remedies benefit us by their smell as well as by their taste and touch, so virtue even when concealed and at a distance sheds usefulness around.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, On Peace of Mind 4"
+    },
+    {
+      "id": "SD-PM-18",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 4",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "resilience",
+        "support"
+      ],
+      "text": "…if Fortune removes you from the front rank, stand your ground nevertheless and cheer on your comrades, and if somebody stops your mouth, stand nevertheless and help your side in silence.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 4"
+    },
+    {
+      "id": "SD-PM-19",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 4",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "excuses",
+        "ambition"
+      ],
+      "text": "Thus, it is never possible for so many outlets to be closed against your ambition that more will not remain open to it: but see whether the whole prohibition does not arise from your own fault.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, On Peace of Mind 4"
+    },
+    {
+      "id": "SD-PM-20",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 5",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "courage",
+        "fear",
+        "integrity"
+      ],
+      "text": "…we ought to move and not to become frozen still by fear: nay, he is the best man who, though peril menaces him on every side and arms and chains beset his path, nevertheless neither impairs nor conceals his virtue: for to keep oneself safe does not mean to bury oneself.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 25,
+      "display_credit": "Seneca, On Peace of Mind 5"
+    },
+    {
+      "id": "SD-PM-21",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 5",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, on Socrates",
+      "excerpt": true,
+      "themes": [
+        "courage",
+        "integrity"
+      ],
+      "text": "Yet Socrates was in the midst of the city, and consoled its mourning Fathers, encouraged those who despaired of the republic, by his reproaches brought rich men, who feared that their wealth would be their ruin, to a tardy repentance of their avarice, and moved about as a great example to those who wished to imitate him, because he walked a free man in the midst of thirty masters.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 33,
+      "display_credit": "Seneca, On Peace of Mind 5 (on Socrates)"
+    },
+    {
+      "id": "SD-PM-22",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 6",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "self-awareness",
+        "limits"
+      ],
+      "text": "It is above all things necessary to form a true estimate of oneself, because as a rule we think that we can do more than we are able…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, On Peace of Mind 6"
+    },
+    {
+      "id": "SD-PM-23",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 6",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "limits",
+        "burnout"
+      ],
+      "text": "…the bearer ought always to be more powerful than his load: indeed, loads which are too heavy for their bearer must of necessity crush him…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, On Peace of Mind 6"
+    },
+    {
+      "id": "SD-PM-24",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 6",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "commitment",
+        "focus"
+      ],
+      "text": "Neither should you engage in anything from which you are not free to retreat: apply yourself to something which you can finish, or at any rate can hope to finish…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 6"
+    },
+    {
+      "id": "SD-PM-25",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 7",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "friendship",
+        "joy"
+      ],
+      "text": "Yet nothing delights the mind so much as faithful and pleasant friendship: what a blessing it is when there is one whose breast is ready to receive all your secrets with safety, whose knowledge of your actions you fear less than your own conscience, whose conversation removes your anxieties, whose advice assists your plans, whose cheerfulness dispels your gloom, whose very sight delights you!",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 31,
+      "display_credit": "Seneca, On Peace of Mind 7"
+    },
+    {
+      "id": "SD-PM-26",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 7",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "friendship",
+        "influence",
+        "people"
+      ],
+      "text": "We should choose for our friends men who are, as far as possible, free from strong desires: for vices are contagious, and pass from a man to his neighbour, and injure those who touch them.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, On Peace of Mind 7"
+    },
+    {
+      "id": "SD-PM-27",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 7",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "complaining"
+      ],
+      "text": "Above all, however, avoid dismal men who grumble at whatever happens, and find something to complain of in everything.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, On Peace of Mind 7"
+    },
+    {
+      "id": "SD-PM-28",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 8",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "wealth",
+        "loss"
+      ],
+      "text": "Reflect, then, how much less a grief it is never to have had any money than to have lost it: we shall thus understand that the less poverty has to lose, the less torment it has with which to afflict us.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 21,
+      "display_credit": "Seneca, On Peace of Mind 8"
+    },
+    {
+      "id": "SD-PM-29",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 8",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, on Diogenes",
+      "excerpt": false,
+      "themes": [
+        "freedom",
+        "detachment",
+        "wealth"
+      ],
+      "text": "But Diogenes’s only slave ran away from him, and when he was pointed out to Diogenes, he did not think him worth fetching back. “It is a shame,” he said, “that Manes should be able to live without Diogenes, and that Diogenes should not be able to live without Manes.”",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 25,
+      "display_credit": "Seneca, On Peace of Mind 8 (on Diogenes)"
+    },
+    {
+      "id": "SD-PM-30",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 8",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "freedom",
+        "detachment"
+      ],
+      "text": "How far happier is he who is indebted to no man for anything except for what he can deprive himself of with the greatest ease!",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, On Peace of Mind 8"
+    },
+    {
+      "id": "SD-PM-31",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 8",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "wealth",
+        "perspective"
+      ],
+      "text": "Look upon the universe: you will see the gods quite bare of property, and possessing nothing though they give everything.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, On Peace of Mind 8"
+    },
+    {
+      "id": "SD-PM-32",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "simplicity",
+        "discipline"
+      ],
+      "text": "Let us accustom ourselves to set aside mere outward show, and to measure things by their uses, not by their ornamental trappings…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On Peace of Mind 9"
+    },
+    {
+      "id": "SD-PM-33",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "self-reliance",
+        "wealth"
+      ],
+      "text": "…to make it our business to get our riches from ourselves and not from Fortune.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 9"
+    },
+    {
+      "id": "SD-PM-34",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "learning",
+        "focus"
+      ],
+      "text": "What is the use of possessing numberless books and libraries, whose titles their owner can hardly read through in a lifetime? A student is overwhelmed by such a mass, not instructed, and it is much better to devote yourself to a few writers than to skim through many.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 24,
+      "display_credit": "Seneca, On Peace of Mind 9"
+    },
+    {
+      "id": "SD-PM-35",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "learning",
+        "ego"
+      ],
+      "text": "Let a man, then, obtain as many books as he wants, but none for show.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 9"
+    },
+    {
+      "id": "SD-PM-36",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "simplicity",
+        "status"
+      ],
+      "text": "Let us then teach ourselves to be able to dine without all Rome to look on, to be the slaves of fewer slaves, to get clothes which fulfill their original purpose, and to live in a smaller house.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 20,
+      "display_credit": "Seneca, On Peace of Mind 9"
+    },
+    {
+      "id": "SD-PM-37",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 10",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "perspective"
+      ],
+      "text": "In every station of life you will find amusements, relaxations, and enjoyments; that is, provided you be willing to make light of evils rather than to hate them.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, On Peace of Mind 10"
+    },
+    {
+      "id": "SD-PM-38",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 10",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "habit",
+        "resilience"
+      ],
+      "text": "Knowing to what sorrows we were born, there is nothing for which Nature more deserves our thanks than for having invented habit as an alleviation of misfortune, which soon accustoms us to the severest evils.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, On Peace of Mind 10"
+    },
+    {
+      "id": "SD-PM-39",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 10",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "perspective"
+      ],
+      "text": "No condition can be so wretched that an impartial mind can find no compensations in it.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 10"
+    },
+    {
+      "id": "SD-PM-40",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 10",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "envy",
+        "status"
+      ],
+      "text": "Neither let us envy those who are in high places: the heights which look lofty to us are steep and rugged.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, On Peace of Mind 10"
+    },
+    {
+      "id": "SD-PM-41",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 10",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "problem solving"
+      ],
+      "text": "Call good sense to your aid against difficulties: it is possible to soften what is harsh, to widen what is too narrow, and to make heavy burdens press less severely upon one who bears them skillfully.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, On Peace of Mind 10"
+    },
+    {
+      "id": "SD-PM-42",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 10",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "resilience",
+        "habit"
+      ],
+      "text": "…remember that fettered men suffer much at first from the burdens and clogs upon their legs: afterwards, when they have made up their minds not to fret themselves about them, but to endure them, necessity teaches them to bear them bravely, and habit to bear them easily.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 23,
+      "display_credit": "Seneca, On Peace of Mind 10"
+    },
+    {
+      "id": "SD-PM-43",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "detachment",
+        "loss",
+        "acceptance"
+      ],
+      "text": "…he lives as though he had borrowed them, and is ready to return them cheerfully whenever they are claimed.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, On Peace of Mind 11"
+    },
+    {
+      "id": "SD-PM-44",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, quoting Publilius",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "perspective"
+      ],
+      "text": "What one hath suffered may befall us all.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 6,
+      "display_credit": "Seneca, On Peace of Mind 11 (quoting Publilius)"
+    },
+    {
+      "id": "SD-PM-45",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "preparation",
+        "adversity",
+        "fear"
+      ],
+      "text": "…by looking forward to everything which can happen as though it would happen to him, he takes the sting out of all evils, which can make no difference to those who expect it and are prepared to meet it: evil only comes hard upon those who have lived without giving it a thought and whose attention has been exclusively directed to happiness.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 30,
+      "display_credit": "Seneca, On Peace of Mind 11"
+    },
+    {
+      "id": "SD-PM-46",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "preparation",
+        "adversity"
+      ],
+      "text": "It is too late to school the mind to endurance of peril after peril has come.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 11"
+    },
+    {
+      "id": "SD-PM-47",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "change",
+        "humility"
+      ],
+      "text": "Know then that every station of life is transitory, and that what has ever happened to anybody may happen to you also.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On Peace of Mind 11"
+    },
+    {
+      "id": "SD-PM-48",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "change",
+        "fortune"
+      ],
+      "text": "…there is but the space of an hour between sitting on the throne ourselves and clasping the knees of someone else as suppliants.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On Peace of Mind 11"
+    },
+    {
+      "id": "SD-PM-49",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "preparation",
+        "adversity",
+        "fear"
+      ],
+      "text": "Among such continual topsy-turvy changes, unless you expect that whatever can happen will happen to you, you give adversity power against you, a power which can be destroyed by anyone who looks at it beforehand.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, On Peace of Mind 11"
+    },
+    {
+      "id": "SD-PM-50",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 11",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "mortality",
+        "living well"
+      ],
+      "text": "He who fears death will never act as becomes a living man: but he who knows that this fate was laid upon him as soon as he was conceived will live according to it…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, On Peace of Mind 11"
+    },
+    {
+      "id": "SD-PM-51",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 12",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "busyness",
+        "purpose"
+      ],
+      "text": "They move uselessly and without any plan, just like ants crawling over bushes, which creep up to the top and then down to the bottom again without gaining anything.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 12"
+    },
+    {
+      "id": "SD-PM-52",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 12",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "busyness",
+        "purpose",
+        "time"
+      ],
+      "text": "They wander purposelessly seeking for something to do, and do, not what they have made up their minds to do, but what has casually fallen in their way. They move uselessly and without any plan, just like ants crawling over bushes, which creep up to the top and then down to the bottom again without gaining anything. Many men spend their lives in exactly the same fashion, which one may call a state of restless indolence.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 36,
+      "display_credit": "Seneca, On Peace of Mind 12"
+    },
+    {
+      "id": "SD-PM-53",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 12",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "busyness",
+        "purpose"
+      ],
+      "text": "Many men spend their lives in exactly the same fashion, which one may call a state of restless indolence.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, On Peace of Mind 12"
+    },
+    {
+      "id": "SD-PM-54",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 12",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "purpose",
+        "busyness"
+      ],
+      "text": "Let all your work, therefore, have some purpose, and keep some object in view: these restless people are not made restless by labour, but are driven out of their minds by mistaken ideas…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, On Peace of Mind 12"
+    },
+    {
+      "id": "SD-PM-55",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 12",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "self",
+        "restlessness"
+      ],
+      "text": "…he finds that the most difficult person of all to find at home is himself.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 12"
+    },
+    {
+      "id": "SD-PM-56",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 13",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "expectations",
+        "acceptance"
+      ],
+      "text": "…we do not make him exempt from the chances of human life, but from its mistakes, nor does everything happen to him as he wished it would, but as he thought it would…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, On Peace of Mind 13"
+    },
+    {
+      "id": "SD-PM-57",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 14",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, on Zeno",
+      "excerpt": false,
+      "themes": [
+        "loss",
+        "freedom",
+        "adversity"
+      ],
+      "text": "Zeno, the chief of our school, when he heard the news of a shipwreck, in which all his property had been lost, remarked, “Fortune bids me follow philosophy in lighter marching order.”",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, On Peace of Mind 14 (on Zeno)"
+    },
+    {
+      "id": "SD-PM-58",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 14",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "inner life",
+        "resilience",
+        "self-reliance"
+      ],
+      "text": "The mind ought in all cases to be called away from the contemplation of external things to that of itself: let it confide in itself, rejoice in itself, admire its own works; avoid as far as may be those of others, and devote itself to itself; let it not feel losses, and put a good construction even upon misfortunes.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 29,
+      "display_credit": "Seneca, On Peace of Mind 14"
+    },
+    {
+      "id": "SD-PM-59",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 14",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca, on Theodorus",
+      "excerpt": false,
+      "themes": [
+        "fear",
+        "death",
+        "freedom"
+      ],
+      "text": "A tyrant threatened Theodorus with death, and even with want of burial. “You are able to please yourself,” he answered, “my half pint of blood is in your power: for, as for burial, what a fool you must be if you suppose that I care whether I rot above ground or under it.”",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 26,
+      "display_credit": "Seneca, On Peace of Mind 14 (on Theodorus)"
+    },
+    {
+      "id": "SD-PM-60",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 15",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "perspective",
+        "humor"
+      ],
+      "text": "We must take a higher view of all things, and bear with them more easily: it better becomes a man to scoff at life than to lament over it.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On Peace of Mind 15"
+    },
+    {
+      "id": "SD-PM-61",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 15",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "perspective"
+      ],
+      "text": "He who laughs at the human race deserves better of it than he who mourns for it, for the former leaves it some good hopes of improvement, while the latter stupidly weeps over what he has given up all hopes of mending.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 21,
+      "display_credit": "Seneca, On Peace of Mind 15"
+    },
+    {
+      "id": "SD-PM-62",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "balance",
+        "solitude"
+      ],
+      "text": "…solitude will cure us when we are sick of crowds, and crowds will cure us when we are sick of solitude.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    },
+    {
+      "id": "SD-PM-63",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "balance",
+        "rest"
+      ],
+      "text": "There is a great difference between slackening your hold of a thing and letting it go.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    },
+    {
+      "id": "SD-PM-64",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "rest",
+        "balance"
+      ],
+      "text": "Men’s minds ought to have relaxation: they rise up better and more vigorous after rest.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    },
+    {
+      "id": "SD-PM-65",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "rest",
+        "balance"
+      ],
+      "text": "We must humour our minds and grant them rest from time to time, which acts upon them like food, and restores their strength.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    },
+    {
+      "id": "SD-PM-66",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "honesty",
+        "character"
+      ],
+      "text": "But what pleasure there is in that honest straightforwardness which is its own ornament, and which conceals no part of its character?",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    },
+    {
+      "id": "SD-PM-67",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "authenticity",
+        "integrity"
+      ],
+      "text": "…it is better to be scorned for one’s simplicity than to bear the burden of unceasing hypocrisy.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    },
+    {
+      "id": "SD-PM-68",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "discipline",
+        "mind",
+        "practice"
+      ],
+      "text": "…none of these is strong enough to enable us to retain so fleeting a blessing, unless we watch over our vacillating mind with intense and unremitting care.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    },
+    {
+      "id": "SD-PM-69",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On Peace of Mind",
+      "ref": "On Peace of Mind 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "balance",
+        "solitude",
+        "people"
+      ],
+      "text": "Nevertheless we ought to mix up these two things, and to pass our lives alternately in solitude and among throngs of people; for the former will make us long for the society of mankind, the latter for that of ourselves, and the one will counteract the other: solitude will cure us when we are sick of crowds, and crowds will cure us when we are sick of solitude.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 33,
+      "display_credit": "Seneca, On Peace of Mind 17"
+    }
+  ]
+}
