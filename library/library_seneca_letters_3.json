@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "library": "Seneca — Moral Letters to Lucilius (batch 3: letter 24, safe excerpts only)",
+    "notes": [
+      "Gummere translation; text from Monadnock Valley Press (public domain). '—' spacing normalized. L24-b punctuation follows the Wikisource text.",
+      "Deliberately SKIPPED from Letter 24: the Cato and Mucius passages (graphic self-harm) and the closing section on wanting to die. Letters that dwell on suicide (24, 70, 77, 82) are excluded wholesale as a platform-safety rule.",
+      "LibriVox has two public-domain readings of the Gummere letters: Felipe Vogel (Vol. I; ch. numbers = letter numbers, e.g. ch.24 = 'On Despising Death') and John Van Stan (his chapter numbers are offset by +1 because ch.1 is the introduction). Pick ONE reader for brand consistency."
+    ]
+  },
+  "items": [
+    {
+      "id": "SE-L24-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "future"
+      ],
+      "text": "It is indeed foolish to be unhappy now because you may be unhappy at some future time.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, Letter 24.1"
+    },
+    {
+      "id": "SE-L24-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "present moment"
+      ],
+      "text": "Why, indeed, is it necessary to summon trouble,—which must be endured soon enough when it has once arrived,—or to anticipate trouble and ruin the present through fear of the future?",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 24.1"
+    },
+    {
+      "id": "SE-L24-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "perspective"
+      ],
+      "text": "…if you would put off all worry, assume that what you fear may happen will certainly happen in any event; whatever the trouble may be, measure it in your own mind, and estimate the amount of your fear. You will thus understand that what you fear is either insignificant or short-lived.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 25,
+      "display_credit": "Seneca, Letter 24.2"
+    },
+    {
+      "id": "SE-L24-d",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24.1-24.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "anxiety",
+        "fear",
+        "future"
+      ],
+      "text": "It is indeed foolish to be unhappy now because you may be unhappy at some future time. But I shall conduct you to peace of mind by another route: if you would put off all worry, assume that what you fear may happen will certainly happen in any event; whatever the trouble may be, measure it in your own mind, and estimate the amount of your fear. You will thus understand that what you fear is either insignificant or short-lived.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 38,
+      "display_credit": "Seneca, Letter 24.1-24.2"
+    },
+    {
+      "id": "SE-L24-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "perception"
+      ],
+      "text": "Remember, however, before all else, to strip things of all that disturbs and confuses, and to see what each is at bottom; you will then comprehend that they contain nothing fearful except the actual fear.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-f",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "fear",
+        "perception",
+        "growing up"
+      ],
+      "text": "That you see happening to boys happens also to ourselves, who are only slightly bigger boys: when those whom they love, with whom they daily associate, with whom they play, appear with masks on, the boys are frightened out of their wits. We should strip the mask, not only from men, but from things, and restore to each object its own aspect.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 30,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "perception"
+      ],
+      "text": "We should strip the mask, not only from men, but from things, and restore to each object its own aspect.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca (imagined address to Pain)",
+      "excerpt": true,
+      "themes": [
+        "pain",
+        "endurance"
+      ],
+      "text": "Slight thou art, if I can bear thee; short thou art if I cannot bear thee!",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, Letter 24 (address to Pain)"
+    },
+    {
+      "id": "SE-L24-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "preparation"
+      ],
+      "text": "You were born to these perils. Let us think of everything that can happen as something which will happen.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-j",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "acceptance"
+      ],
+      "text": "I may become a poor man; I shall then be one among many. I may be exiled; I shall then regard myself as born in the place to which I shall be sent.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-k",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "time",
+        "mortality",
+        "aging"
+      ],
+      "text": "For every day a little of our life is taken from us; even when we are growing, our life is on the wane. We lose our childhood, then our boyhood, and then our youth. Counting even yesterday, all past time is lost time; the very day which we are now spending is shared between ourselves and death. It is not the last drop that empties the water-clock, but all that which previously has flowed out; similarly, the final hour when we cease to exist does not of itself bring death; it merely of itself completes the death-process. We reach death at that moment, but we have been a long time on the way.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 52,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-l",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "waste"
+      ],
+      "text": "Counting even yesterday, all past time is lost time; the very day which we are now spending is shared between ourselves and death.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-m",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "mortality"
+      ],
+      "text": "It is not the last drop that empties the water-clock, but all that which previously has flowed out…",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-n",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "action",
+        "integrity"
+      ],
+      "text": "For there is a very disgraceful charge often brought against our school—that we deal with the words, and not with the deeds, of philosophy.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-o",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "action",
+        "practice"
+      ],
+      "text": "Ponder these words which you have often heard and often uttered. Moreover, prove by the result whether that which you have heard and uttered is true.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-p",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "courage",
+        "injustice"
+      ],
+      "text": "Sentence of conviction was borne by Rutilius as if the injustice of the decision were the only thing which annoyed him.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 24"
+    },
+    {
+      "id": "SE-L24-q",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 24",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "courage",
+        "integrity"
+      ],
+      "text": "Socrates in prison discoursed, and declined to flee when certain persons gave him the opportunity; he remained there, in order to free mankind from the fear of two most grievous things, death and imprisonment.",
+      "verified": true,
+      "source_url": "https://monadnock.net/seneca/24.html",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, Letter 24"
+    }
+  ]
+}

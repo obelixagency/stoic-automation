@@ -1,0 +1,1696 @@
+{
+  "meta": {
+    "library": "Seneca — Moral Letters to Lucilius (batch 1: letters 1, 5, 7, 13, 18, 28, 96, 107)",
+    "notes": [
+      "Gummere translation (Loeb 1917-25), US public domain. Text from senecaletters.com; footnote markers removed; italics/notes stripped.",
+      "Letters not yet mined: 3, 4, 9-12, 14-17, 19-27 and 29-124. Fetch a few per session.",
+      "Quotes Seneca attributes to others (Epicurus, Democritus, Cleanthes) carry an explicit credit."
+    ]
+  },
+  "items": [
+    {
+      "id": "SE-L01-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 1.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "freedom"
+      ],
+      "text": "Continue to act thus, my dear Lucilius—set yourself free for your own sake; gather and save your time, which till lately has been forced from you, or filched away, or has merely slipped from your hands.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/1",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, Letter 1.1"
+    },
+    {
+      "id": "SE-L01-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 1.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "waste"
+      ],
+      "text": "…the largest portion of our life passes while we are doing ill, a goodly share while we are doing nothing, and the whole while we are doing that which is not to the purpose.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/1",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, Letter 1.1"
+    },
+    {
+      "id": "SE-L01-c",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 1.2-1.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "time",
+        "mortality",
+        "procrastination"
+      ],
+      "text": "What man can you show me who places any value on his time, who reckons the worth of each day, who understands that he is dying daily? For we are mistaken when we look forward to death; the major portion of death has already passed. Whatever years lie behind us are in death's hands. Therefore, Lucilius, do as you write me that you are doing: hold every hour in your grasp. Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's. While we are postponing, life speeds by.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/1",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 44,
+      "display_credit": "Seneca, Letter 1.2-1.3"
+    },
+    {
+      "id": "SE-L01-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 1.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "time"
+      ],
+      "text": "Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's. While we are postponing, life speeds by.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/1",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 1.3"
+    },
+    {
+      "id": "SE-L01-e",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 1.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "time",
+        "value"
+      ],
+      "text": "Nothing, Lucilius, is ours, except time. We were entrusted by nature with the ownership of this single thing, so fleeting and slippery that anyone who will can oust us from possession. What fools these mortals be! They allow the cheapest and most useless things, which can easily be replaced, to be charged in the reckoning, after they have acquired them; but they never regard themselves as in debt when they have received some of that precious commodity,—time! And yet time is the one loan which even a grateful recipient cannot repay.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/1",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 43,
+      "display_credit": "Seneca, Letter 1.4"
+    },
+    {
+      "id": "SE-L01-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 1.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time"
+      ],
+      "text": "Nothing, Lucilius, is ours, except time.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/1",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 6,
+      "display_credit": "Seneca, Letter 1.4"
+    },
+    {
+      "id": "SE-L01-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 1.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "honesty",
+        "waste"
+      ],
+      "text": "I cannot boast that I waste nothing, but I can at least tell you what I am wasting, and the cause and manner of the loss…",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/1",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 1.5"
+    },
+    {
+      "id": "SE-L05-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 5.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "character",
+        "discipline"
+      ],
+      "text": "Inwardly, we ought to be different in all respects, but our exterior should conform to society.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/5",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, Letter 5.2"
+    },
+    {
+      "id": "SE-L05-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 5.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "simplicity",
+        "balance"
+      ],
+      "text": "Philosophy calls for plain living, but not for penance; and we may perfectly well be plain and neat at the same time.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/5",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 5.5"
+    },
+    {
+      "id": "SE-L05-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 5.6",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "wealth",
+        "detachment"
+      ],
+      "text": "He is a great man who uses earthenware dishes as if they were silver; but he is equally great who uses silver as if it were earthenware. It is the sign of an unstable mind not to be able to endure riches.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/5",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 21,
+      "display_credit": "Seneca, Letter 5.6"
+    },
+    {
+      "id": "SE-L05-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 5.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "hope"
+      ],
+      "text": "Just as the same chain fastens the prisoner and the soldier who guards him, so hope and fear, dissimilar as they are, keep step together; fear follows hope.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/5",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, Letter 5.7"
+    },
+    {
+      "id": "SE-L05-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 5.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "present moment",
+        "anxiety"
+      ],
+      "text": "…the chief cause of both these ills is that we do not adapt ourselves to the present, but send our thoughts a long way ahead.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/5",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 5.8"
+    },
+    {
+      "id": "SE-L05-f",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 5.8-5.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "present moment",
+        "anxiety",
+        "fear"
+      ],
+      "text": "But the chief cause of both these ills is that we do not adapt ourselves to the present, but send our thoughts a long way ahead. And so foresight, the noblest blessing of the human race, becomes perverted. Beasts avoid the dangers which they see, and when they have escaped them are free from care; but we men torment ourselves over that which is to come as well as over that which is past. Many of our blessings bring bane to us; for memory recalls the tortures of fear, while foresight anticipates them. The present alone can make no man wretched.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/5",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 47,
+      "display_credit": "Seneca, Letter 5.8-5.9"
+    },
+    {
+      "id": "SE-L05-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 5.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "present moment"
+      ],
+      "text": "The present alone can make no man wretched.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/5",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 6,
+      "display_credit": "Seneca, Letter 5.9"
+    },
+    {
+      "id": "SE-L07-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "influence"
+      ],
+      "text": "To consort with the crowd is harmful; there is no person who does not make some vice attractive to us, or stamp it upon us, or taint us unconsciously therewith.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 7.2"
+    },
+    {
+      "id": "SE-L07-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "character"
+      ],
+      "text": "I come home more greedy, more ambitious, more voluptuous, and even more cruel and inhuman,—because I have been among human beings.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 7.3"
+    },
+    {
+      "id": "SE-L07-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "conformity",
+        "courage"
+      ],
+      "text": "…it is too easy to side with the majority.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 7,
+      "display_credit": "Seneca, Letter 7.7"
+    },
+    {
+      "id": "SE-L07-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "influence"
+      ],
+      "text": "…the companion, if he be slanderous, rubs off some of his rust upon us, even though we be spotless and sincere.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 7.8"
+    },
+    {
+      "id": "SE-L07-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "conformity"
+      ],
+      "text": "You must either imitate or loathe the world.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 6,
+      "display_credit": "Seneca, Letter 7.8"
+    },
+    {
+      "id": "SE-L07-f",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "growth",
+        "balance"
+      ],
+      "text": "But both courses are to be avoided; you should not copy the bad simply because they are many, nor should you hate the many because they are unlike you. Withdraw into yourself, as far as you can. Associate with those who will make a better man of you. Welcome those whom you yourself can improve. The process is mutual; for men learn while they teach.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 31,
+      "display_credit": "Seneca, Letter 7.9"
+    },
+    {
+      "id": "SE-L07-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "growth"
+      ],
+      "text": "Associate with those who will make a better man of you. Welcome those whom you yourself can improve. The process is mutual; for men learn while they teach.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, Letter 7.9"
+    },
+    {
+      "id": "SE-L07-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.11",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, quoting Democritus",
+      "excerpt": true,
+      "themes": [
+        "approval",
+        "independence"
+      ],
+      "text": "One man means as much to me as a multitude, and a multitude only as much as one man.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, Letter 7.11 (quoting Democritus)"
+    },
+    {
+      "id": "SE-L07-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.12",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, quoting an unnamed sage",
+      "excerpt": true,
+      "themes": [
+        "approval",
+        "independence"
+      ],
+      "text": "I am content with few, content with one, content with none at all.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 9,
+      "display_credit": "Seneca, Letter 7.12 (quoting an unnamed sage)"
+    },
+    {
+      "id": "SE-L07-j",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 7.13",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "approval",
+        "ego"
+      ],
+      "text": "Many men praise you; but have you any reason for being pleased with yourself, if you are a person whom the many can understand? Your good qualities should face inwards.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/7",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 7.13"
+    },
+    {
+      "id": "SE-L13-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "anxiety"
+      ],
+      "text": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 13.4"
+    },
+    {
+      "id": "SE-L13-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "future"
+      ],
+      "text": "What I advise you to do is, not to be unhappy before the crisis comes; since it may be that the dangers before which you paled as if they were threatening you, will never come upon you; they certainly have not yet come.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 22,
+      "display_credit": "Seneca, Letter 13.4"
+    },
+    {
+      "id": "SE-L13-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anxiety"
+      ],
+      "text": "We are in the habit of exaggerating, or imagining, or anticipating, sorrow.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 8,
+      "display_credit": "Seneca, Letter 13.5"
+    },
+    {
+      "id": "SE-L13-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "uncertainty"
+      ],
+      "text": "For truth has its own definite boundaries, but that which arises from uncertainty is delivered over to guesswork and the irresponsible license of a frightened mind.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 13.9"
+    },
+    {
+      "id": "SE-L13-e",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.10",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "anxiety",
+        "future",
+        "hope"
+      ],
+      "text": "Let us, then, look carefully into the matter. It is likely that some troubles will befall us; but it is not a present fact. How often has the unexpected happened! How often has the expected never come to pass! And even though it is ordained to be, what does it avail to run out to meet your suffering? You will suffer soon enough, when it arrives; so look forward meanwhile to better things.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 35,
+      "display_credit": "Seneca, Letter 13.10"
+    },
+    {
+      "id": "SE-L13-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.10",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "future"
+      ],
+      "text": "How often has the unexpected happened! How often has the expected never come to pass! And even though it is ordained to be, what does it avail to run out to meet your suffering? You will suffer soon enough, when it arrives; so look forward meanwhile to better things.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 24,
+      "display_credit": "Seneca, Letter 13.10"
+    },
+    {
+      "id": "SE-L13-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.12",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "hope"
+      ],
+      "text": "There is nothing so certain among these objects of fear that it is not more certain still that things we dread sink into nothing and that things we hope for mock us.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, Letter 13.12"
+    },
+    {
+      "id": "SE-L13-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.13",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "fear",
+        "uncertainty"
+      ],
+      "text": "We let ourselves drift with every breeze; we are frightened at uncertainties, just as if they were certain.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, Letter 13.13"
+    },
+    {
+      "id": "SE-L13-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.14",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "courage",
+        "fear"
+      ],
+      "text": "Well, what if it does happen? Let us see who wins!",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 8,
+      "display_credit": "Seneca, Letter 13.14"
+    },
+    {
+      "id": "SE-L13-j",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "resilience",
+        "adversity",
+        "strength"
+      ],
+      "text": "This is the touchstone of such a spirit; no prizefighter can go with high spirits into the strife if he has never been beaten black and blue; the only contestant who can confidently enter the lists is the man who has seen his own blood, who has felt his teeth rattle beneath his opponent's fist, who has been tripped and felt the full force of his adversary's charge, who has been downed in body but not in spirit, one who, as often as he falls, rises again with greater defiance than ever.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 43,
+      "display_credit": "Seneca, Letter 13.2"
+    },
+    {
+      "id": "SE-L13-k",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "resilience",
+        "adversity"
+      ],
+      "text": "…who has been downed in body but not in spirit, one who, as often as he falls, rises again with greater defiance than ever.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 13.2"
+    },
+    {
+      "id": "SE-L13-l",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "strength",
+        "challenge"
+      ],
+      "text": "For manliness gains much strength by being challenged…",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 6,
+      "display_credit": "Seneca, Letter 13.3"
+    },
+    {
+      "id": "SE-L13-m",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.16",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, quoting Epicurus",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "life"
+      ],
+      "text": "The fool, with all his other faults, has this also,—he is always getting ready to live.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, Letter 13.16 (quoting Epicurus)"
+    },
+    {
+      "id": "SE-L13-n",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 13.17",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "age"
+      ],
+      "text": "And what is baser than getting ready to live when you are already old?",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/13",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 9,
+      "display_credit": "Seneca, Letter 13.17"
+    },
+    {
+      "id": "SE-L18-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "crowds",
+        "self-control"
+      ],
+      "text": "It shows much more courage to remain dry and sober when the mob is drunk and vomiting; but it shows greater self-control to refuse to withdraw oneself and to do what the crowd does, but in a different way,—thus neither making oneself conspicuous nor becoming one of the crowd.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 24,
+      "display_credit": "Seneca, Letter 18.4"
+    },
+    {
+      "id": "SE-L18-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "discipline",
+        "fear"
+      ],
+      "text": "Set aside a certain number of days, during which you shall be content with the scantiest and cheapest fare, with coarse and rough dress, saying to yourself the while: \"Is this the condition that I feared?\"",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, Letter 18.5"
+    },
+    {
+      "id": "SE-L18-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.6",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "discipline",
+        "preparation"
+      ],
+      "text": "It is precisely in times of immunity from care that the soul should toughen itself beforehand for occasions of greater stress, and it is while Fortune is kind that it should fortify itself against her violence.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, Letter 18.6"
+    },
+    {
+      "id": "SE-L18-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.6",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "preparation",
+        "discipline"
+      ],
+      "text": "If you would not have a man flinch when the crisis comes, train him before it comes.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, Letter 18.6"
+    },
+    {
+      "id": "SE-L18-e",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.5-18.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "discipline",
+        "fear",
+        "wealth"
+      ],
+      "text": "Set aside a certain number of days, during which you shall be content with the scantiest and cheapest fare, with coarse and rough dress, saying to yourself the while: \"Is this the condition that I feared?\" It is precisely in times of immunity from care that the soul should toughen itself beforehand for occasions of greater stress, and it is while Fortune is kind that it should fortify itself against her violence. In days of peace the soldier performs manœuvres, throws up earthworks with no enemy in sight, and wearies himself by gratuitous toil, in order that he may be equal to unavoidable toil. If you would not have a man flinch when the crisis comes, train him before it comes.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 56,
+      "display_credit": "Seneca, Letter 18.5-18.7"
+    },
+    {
+      "id": "SE-L18-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "wealth",
+        "fear"
+      ],
+      "text": "We shall be rich with all the more comfort, if we once learn how far poverty is from being a burden.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 18.8"
+    },
+    {
+      "id": "SE-L18-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.13",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "wealth",
+        "detachment"
+      ],
+      "text": "Of course I do not forbid you to possess it, but I would have you reach the point at which you possess it dauntlessly; this can be accomplished only by persuading yourself that you can live happily without it as well as with it, and by regarding riches always as likely to elude you.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 26,
+      "display_credit": "Seneca, Letter 18.13"
+    },
+    {
+      "id": "SE-L18-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.14",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, quoting Epicurus",
+      "excerpt": true,
+      "themes": [
+        "anger"
+      ],
+      "text": "\"Ungoverned anger begets madness.\"",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 5,
+      "display_credit": "Seneca, Letter 18.14 (quoting Epicurus)"
+    },
+    {
+      "id": "SE-L18-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 18.15",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anger"
+      ],
+      "text": "…the outcome of a mighty anger is madness, and hence anger should be avoided, not merely that we may escape excess, but that we may have a healthy mind.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/18",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 18.15"
+    },
+    {
+      "id": "SE-L28-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "change",
+        "self"
+      ],
+      "text": "You need a change of soul rather than a change of climate.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 8,
+      "display_credit": "Seneca, Letter 28.1"
+    },
+    {
+      "id": "SE-L28-b",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, retelling Socrates",
+      "excerpt": false,
+      "themes": [
+        "escape",
+        "self"
+      ],
+      "text": "Socrates made the same remark to one who complained; he said: \"Why do you wonder that globe-trotting does not help you, seeing that you always take yourself with you? The reason which set you wandering is ever at your heels.\"",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 20,
+      "display_credit": "Seneca, Letter 28.2 (on Socrates)"
+    },
+    {
+      "id": "SE-L28-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, retelling Socrates",
+      "excerpt": true,
+      "themes": [
+        "escape",
+        "self"
+      ],
+      "text": "Why do you wonder that globe-trotting does not help you, seeing that you always take yourself with you?",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, Letter 28.2 (on Socrates)"
+    },
+    {
+      "id": "SE-L28-d",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "escape",
+        "self",
+        "peace"
+      ],
+      "text": "Do you ask why such flight does not help you? It is because you flee along with yourself. You must lay aside the burdens of the mind; until you do this, no place will satisfy you.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, Letter 28.2"
+    },
+    {
+      "id": "SE-L28-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "identity",
+        "place"
+      ],
+      "text": "The person you are matters more than the place to which you go…",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 9,
+      "display_credit": "Seneca, Letter 28.4"
+    },
+    {
+      "id": "SE-L28-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "restlessness",
+        "living well"
+      ],
+      "text": "…you are not journeying; you are drifting and being driven, only exchanging one place for another, although that which you seek,—to live well,—is found everywhere.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 28.5"
+    },
+    {
+      "id": "SE-L28-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.8",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "freedom",
+        "people"
+      ],
+      "text": "\"Slavery\" has no plural; and he who has scorned it is free,—no matter amid how large a mob of over-lords he stands.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, Letter 28.8"
+    },
+    {
+      "id": "SE-L28-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca, after Epicurus",
+      "excerpt": true,
+      "themes": [
+        "growth",
+        "honesty"
+      ],
+      "text": "…he who does not know that he has sinned does not desire correction; you must discover yourself in the wrong before you can reform yourself.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 28.9 (after Epicurus)"
+    },
+    {
+      "id": "SE-L28-i",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 28.10",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "self-honesty",
+        "discipline"
+      ],
+      "text": "Therefore, as far as possible, prove yourself guilty, hunt up charges against yourself; play the part, first of accuser, then of judge, last of intercessor. At times be harsh with yourself.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/28",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 28.10"
+    },
+    {
+      "id": "SE-L96-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 96.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "complaining",
+        "perception"
+      ],
+      "text": "…in all the evils to which you refer, there is really only one—the fact that you do chafe and complain?",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/96",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, Letter 96.1"
+    },
+    {
+      "id": "SE-L96-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 96.1",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "strength",
+        "perception"
+      ],
+      "text": "I shall not endure myself on that day when I find anything unendurable.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/96",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 9,
+      "display_credit": "Seneca, Letter 96.1"
+    },
+    {
+      "id": "SE-L96-c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 96.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "acceptance",
+        "will"
+      ],
+      "text": "I follow Him because my soul wills it, and not because I must.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/96",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 9,
+      "display_credit": "Seneca, Letter 96.2"
+    },
+    {
+      "id": "SE-L96-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 96.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "acceptance",
+        "adversity"
+      ],
+      "text": "Now all the things which cause us to groan or recoil, are part of the tax of life—things, my dear Lucilius, which you should never hope and never seek to escape.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/96",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, Letter 96.2"
+    },
+    {
+      "id": "SE-L96-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 96.3",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "life"
+      ],
+      "text": "A long life includes all these troubles, just as a long journey includes dust and mud and rain.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/96",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, Letter 96.3"
+    },
+    {
+      "id": "SE-L96-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 96.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "comfort",
+        "strength"
+      ],
+      "text": "May gods and goddesses alike forbid that Fortune keep you in luxury!",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/96",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 8,
+      "display_credit": "Seneca, Letter 96.4"
+    },
+    {
+      "id": "SE-L96-g",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 96.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "strength",
+        "comfort"
+      ],
+      "text": "Ask yourself voluntarily which you would choose if some god gave you the choice—life in a café or life in a camp. And yet life, Lucilius, is really a battle. For this reason those who are tossed about at sea, who proceed uphill and downhill over toilsome crags and heights, who go on campaigns that bring the greatest danger, are heroes and front-rank fighters; but persons who live in rotten luxury and ease while others toil, are mere turtle-doves—safe only because men despise them.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/96",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 40,
+      "display_credit": "Seneca, Letter 96.5"
+    },
+    {
+      "id": "SE-L107-a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "expectations"
+      ],
+      "text": "Life is not a dainty business.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 6,
+      "display_credit": "Seneca, Letter 107.2"
+    },
+    {
+      "id": "SE-L107-b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.2",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "expectations",
+        "people"
+      ],
+      "text": "The programme of life is the same as that of a bathing establishment, a crowd, or a journey: sometimes things will be thrown at you, and sometimes they will strike you by accident.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, Letter 107.2"
+    },
+    {
+      "id": "SE-L107-c",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "preparation",
+        "fear",
+        "adversity"
+      ],
+      "text": "Everyone approaches courageously a danger which he has prepared himself to meet long before, and withstands even hardships if he has previously practised how to meet them. But, contrariwise, the unprepared are panic-stricken even at the most trifling things. We must see to it that nothing shall come upon us unforeseen. And since things are all the more serious when they are unfamiliar, continual reflection will give you the power, no matter what the evil may be, not to play the unschooled boy.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 39,
+      "display_credit": "Seneca, Letter 107.4"
+    },
+    {
+      "id": "SE-L107-d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.4",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "preparation",
+        "fear"
+      ],
+      "text": "We must see to it that nothing shall come upon us unforeseen.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 8,
+      "display_credit": "Seneca, Letter 107.4"
+    },
+    {
+      "id": "SE-L107-e",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.5",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "perspective"
+      ],
+      "text": "…other men have been robbed, blackmailed, slain, betrayed, stamped under foot, attacked by poison or by slander; no matter what trouble you mention, it has happened to many.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, Letter 107.5"
+    },
+    {
+      "id": "SE-L107-f",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.7",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "control",
+        "strength"
+      ],
+      "text": "And we cannot change this order of things; but what we can do is to acquire stout hearts, worthy of good men, thereby courageously enduring chance and placing ourselves in harmony with Nature.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, Letter 107.7"
+    },
+    {
+      "id": "SE-L107-g",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.9",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "acceptance",
+        "complaining"
+      ],
+      "text": "That which you cannot reform, it is best to endure, and to attend uncomplainingly upon the God under whose guidance everything progresses; for it is a bad soldier who grumbles when following his commander.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 18,
+      "display_credit": "Seneca, Letter 107.9"
+    },
+    {
+      "id": "SE-L107-h",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.11",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Verse attributed to Cleanthes, in Gummere's rendering",
+      "excerpt": true,
+      "themes": [
+        "fate",
+        "will"
+      ],
+      "text": "Aye, the willing soul Fate leads, but the unwilling drags along.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 8,
+      "display_credit": "Seneca, Letter 107.11 (verse attrib. to Cleanthes)"
+    },
+    {
+      "id": "SE-L107-i",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.12",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "acceptance",
+        "strength",
+        "responsibility"
+      ],
+      "text": "Let us live thus, and speak thus; let Fate find us ready and alert. Here is your great soul—the man who has given himself over to Fate; on the other hand, that man is a weakling and a degenerate who struggles and maligns the order of the universe and would rather reform the gods than reform himself.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 28,
+      "display_credit": "Seneca, Letter 107.12"
+    },
+    {
+      "id": "SE-L107-j",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "Moral Letters to Lucilius",
+      "ref": "Letter 107.12",
+      "translator": "Richard M. Gummere (Loeb, 1917)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "responsibility",
+        "ego"
+      ],
+      "text": "…that man is a weakling and a degenerate who struggles and maligns the order of the universe and would rather reform the gods than reform himself.",
+      "verified": true,
+      "source_url": "https://senecaletters.com/en/letters/107",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 14,
+      "display_credit": "Seneca, Letter 107.12"
+    }
+  ]
+}

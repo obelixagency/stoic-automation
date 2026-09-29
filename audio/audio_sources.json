@@ -1,0 +1,45 @@
+{
+  "_note": "Only public-domain LibriVox recordings of the SAME translation as the text. Verified by the transcript-match score, not by trust.",
+  "sources": {
+    "meditations": {
+      "status": "found",
+      "librivox_url": "https://librivox.org/the-meditations-of-marcus-aurelius/",
+      "archive_identifier": "meditations_0708_librivox",
+      "file_pattern": "meditations_{n:02d}_marcusaurelius_64kb.mp3",
+      "chapter_rule": "book number = section number (01..12); sections 13-14 are Long's essays",
+      "text_translation": "George Long (1862)",
+      "todo": "confirm on the LibriVox page whether one reader or several read Books I-XII (brand voice must be consistent)"
+    },
+    "letters_vogel_vol1": {
+      "status": "found",
+      "librivox_url": "https://librivox.org/moral-letters-vol-i-by-lucius-annaeus-seneca/",
+      "librivox_title": "Moral Letters, Vol. I",
+      "reader": "Felipe Vogel",
+      "chapter_rule": "chapter number = letter number (00 = introduction). Page listing confirmed letters 1-55; 56-65 to verify.",
+      "text_translation": "Richard M. Gummere (Loeb)",
+      "covers_letters": [1, 65]
+    },
+    "letters_vogel_vol2_vol3": {
+      "status": "unverified",
+      "librivox_titles_to_search": ["Moral Letters, Vol. II", "Moral Letters, Vol. III"],
+      "covers_letters": [66, 124],
+      "todo": "the resolver searches LibriVox by title; if found, fill archive_identifier here"
+    },
+    "letters_vanstan_selection": {
+      "status": "found (partial, fallback)",
+      "librivox_url": "https://librivox.org/moral-letters-to-lucilius-epistulae-morales-ad-lucilium-by-lucius-annaeus-seneca/",
+      "reader": "John Van Stan",
+      "chapter_rule": "chapter number = letter number + 1 (01 = introduction); only a selection of letters"
+    },
+    "epictetus_long": {
+      "status": "none_found",
+      "note": "No LibriVox reading of Long's Enchiridion / Fragments / Discourses found. Other LibriVox Epictetus readings use different translations (Higginson, Crossley, Carter) and would NOT match our text.",
+      "options": ["hire or record a human reader (public-domain text, we own the recording)", "text-only reels with ambient music"]
+    },
+    "seneca_dialogues_stewart": {
+      "status": "none_found_yet",
+      "librivox_titles_to_search": ["On the Shortness of Life", "Of Peace of Mind", "On Providence"],
+      "note": "Must be the Aubrey Stewart translation; the popular Basore reading is a different (still copyrighted) text."
+    }
+  }
+}

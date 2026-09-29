@@ -1,0 +1,794 @@
+{
+  "meta": {
+    "library": "Seneca — On the Shortness of Life (complete work mined)",
+    "notes": [
+      "Aubrey Stewart translation (1889), US public domain; text from Standard Ebooks (CC0). Footnote numbers removed.",
+      "The popular John W. Basore translation (1932) is still under US copyright until 2028 — do NOT use it.",
+      "Gummere's Moral Letters (1917–1925, public domain) planned next; Wikisource could not be fetched this session."
+    ]
+  },
+  "items": [
+    {
+      "id": "SE-SL-01a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 1",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "life"
+      ],
+      "text": "We do not have a very short time assigned to us, but we lose a great deal of it: life is long enough to carry out the most important projects: we have an ample portion, if we do but arrange the whole of it aright…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 23,
+      "display_credit": "Seneca, On the Shortness of Life 1"
+    },
+    {
+      "id": "SE-SL-01b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 1",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "waste"
+      ],
+      "text": "Thus it is: we do not receive a short life, but we make it a short one, and we are not poor in days, but wasteful of them.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, On the Shortness of Life 1"
+    },
+    {
+      "id": "SE-SL-01c",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 1",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "waste"
+      ],
+      "text": "We do not have a very short time assigned to us, but we lose a great deal of it: life is long enough to carry out the most important projects: we have an ample portion, if we do but arrange the whole of it aright: but when it all runs to waste through luxury and carelessness, when it is not devoted to any good purpose, then at the last we are forced to feel that it is all over, although we never noticed how it glided away. Thus it is: we do not receive a short life, but we make it a short one, and we are not poor in days, but wasteful of them. When great and kinglike riches fall into the hands of a bad master, they are dispersed straightaway, but even a moderate fortune, when bestowed upon a wise guardian, increases by use: and in like manner our life has great opportunities for one who knows how to dispose of it to the best advantage.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 76,
+      "display_credit": "Seneca, On the Shortness of Life 1"
+    },
+    {
+      "id": "SE-SL-02a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "gratitude"
+      ],
+      "text": "Why do we complain of Nature? she has dealt kindly with us. Life is long enough, if you know how to use it.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On the Shortness of Life 2"
+    },
+    {
+      "id": "SE-SL-02b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 2",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "people"
+      ],
+      "text": "…no one lays claim to his own self, everyone wastes his time over someone else.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On the Shortness of Life 2"
+    },
+    {
+      "id": "SE-SL-03a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "boundaries"
+      ],
+      "text": "You cannot find anyone who wants to distribute his money; yet among how many people does everyone distribute his life?",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, On the Shortness of Life 3"
+    },
+    {
+      "id": "SE-SL-03b",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "boundaries"
+      ],
+      "text": "You cannot find anyone who wants to distribute his money; yet among how many people does everyone distribute his life? men covetously guard their property from waste, but when it comes to waste of time, they are most prodigal of that of which it would become them to be sparing.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 25,
+      "display_credit": "Seneca, On the Shortness of Life 3"
+    },
+    {
+      "id": "SE-SL-03c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "desire"
+      ],
+      "text": "You fear everything, like mortals as you are, and yet you desire everything as if you were immortals.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, On the Shortness of Life 3"
+    },
+    {
+      "id": "SE-SL-03d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "mortality"
+      ],
+      "text": "How late it is to begin life just when we have to be leaving it!",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On the Shortness of Life 3"
+    },
+    {
+      "id": "SE-SL-03e",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 3",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "mortality"
+      ],
+      "text": "What, then, is the reason of this? It is that people live as though they would live forever: you never remember your human frailty; you never notice how much of your time has already gone by: you spend it as though you had an abundant and overflowing store of it, though all the while that day which you devote to some man or to some thing is perhaps your last. You fear everything, like mortals as you are, and yet you desire everything as if you were immortals. You will hear many men say, “After my fiftieth year I will give myself up to leisure: my sixtieth shall be my last year of public office”: and what guarantee have you that your life will last any longer? who will let all this go on just as you have arranged it? are you not ashamed to reserve only the leavings of your life for yourself, and appoint for the enjoyment of your own right mind only that time which you cannot devote to any business? How late it is to begin life just when we have to be leaving it! What a foolish forgetfulness of our mortality, to put off wholesome counsels until our fiftieth or sixtieth year, and to choose that our lives shall begin at a point which few of us ever reach.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 100,
+      "display_credit": "Seneca, On the Shortness of Life 3"
+    },
+    {
+      "id": "SE-SL-04a",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 4",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "leisure",
+        "power"
+      ],
+      "text": "The late Emperor Augustus, upon whom the gods bestowed more blessings than on anyone else, never ceased to pray for rest and exemption from the troubles of empire: he used to enliven his labours with this sweet, though unreal consolation, that he would some day live for himself alone.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 24,
+      "display_credit": "Seneca, On the Shortness of Life 4"
+    },
+    {
+      "id": "SE-SL-07a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 7",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "learning",
+        "life"
+      ],
+      "text": "…one’s whole life must be spent in learning how to live, and, which may perhaps surprise you more, one’s whole life must be spent in learning how to die.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On the Shortness of Life 7"
+    },
+    {
+      "id": "SE-SL-07b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 7",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "age",
+        "living fully"
+      ],
+      "text": "You have no grounds, therefore, for supposing that anyone has lived long, because he has wrinkles or grey hairs: such a man has not lived long, but has only been long alive.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 17,
+      "display_credit": "Seneca, On the Shortness of Life 7"
+    },
+    {
+      "id": "SE-SL-07c",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 7",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "age",
+        "living fully"
+      ],
+      "text": "You have no grounds, therefore, for supposing that anyone has lived long, because he has wrinkles or grey hairs: such a man has not lived long, but has only been long alive. Why! would you think that a man had voyaged much if a fierce gale had caught him as soon as he left his port, and he had been driven round and round the same place continually by a succession of winds blowing from opposite quarters? such a man has not travelled much, he has only been much tossed about.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 43,
+      "display_credit": "Seneca, On the Shortness of Life 7"
+    },
+    {
+      "id": "SE-SL-07d",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 7",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "present moment",
+        "anxiety"
+      ],
+      "text": "Every man hurries through his life, and suffers from a yearning for the future, and a weariness of the present…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 12,
+      "display_credit": "Seneca, On the Shortness of Life 7"
+    },
+    {
+      "id": "SE-SL-08a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 8",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "value"
+      ],
+      "text": "Men set the greatest store upon presents or pensions, and hire out their work, their services, or their care in order to gain them: no one values time: they give it much more freely, as though it cost nothing.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 20,
+      "display_credit": "Seneca, On the Shortness of Life 8"
+    },
+    {
+      "id": "SE-SL-08b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 8",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "urgency"
+      ],
+      "text": "Why! you are busy, but life is hurrying on: death will be here some time or other, and you must attend to him, whether you will or no.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 15,
+      "display_credit": "Seneca, On the Shortness of Life 8"
+    },
+    {
+      "id": "SE-SL-08c",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 8",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "urgency"
+      ],
+      "text": "…yet no one will give you back your years, no one will restore them to you again: your life will run its course when once it has begun, and will neither begin again or efface what it has done. It will make no disturbance, it will give you no warning of how fast it flies: it will move silently on: it will not prolong itself at the command of a king, or at the wish of a nation: as it started on its first day, so it will run: it will never turn aside, never delay. What follows, then? Why! you are busy, but life is hurrying on: death will be here some time or other, and you must attend to him, whether you will or no.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 58,
+      "display_credit": "Seneca, On the Shortness of Life 8"
+    },
+    {
+      "id": "SE-SL-09a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "present moment"
+      ],
+      "text": "…postponement is the greatest waste of life: it wrings day after day from us, and takes away the present by promising something hereafter: there is no such obstacle to true living as waiting, which loses today while it is depending on the morrow.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 22,
+      "display_credit": "Seneca, On the Shortness of Life 9"
+    },
+    {
+      "id": "SE-SL-09b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "present moment",
+        "urgency"
+      ],
+      "text": "You dispose of that which is in the hand of Fortune, and you let go that which is in your own. Whither are you looking, whither are you stretching forward? everything future is uncertain: live now straightaway.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, On the Shortness of Life 9"
+    },
+    {
+      "id": "SE-SL-09c",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "present moment"
+      ],
+      "text": "Can anything be mentioned which is more insane than the ideas of leisure of those people who boast of their worldly wisdom? They live laboriously, in order that they may live better; they fit themselves out for life at the expense of life itself, and cast their thoughts a long way forwards: yet postponement is the greatest waste of life: it wrings day after day from us, and takes away the present by promising something hereafter: there is no such obstacle to true living as waiting, which loses today while it is depending on the morrow. You dispose of that which is in the hand of Fortune, and you let go that which is in your own. Whither are you looking, whither are you stretching forward? everything future is uncertain: live now straightaway.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 61,
+      "display_credit": "Seneca, On the Shortness of Life 9"
+    },
+    {
+      "id": "SE-SL-09d",
+      "type": "passage_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 9",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "aging"
+      ],
+      "text": "As conversation, or reading, or deep thought deceives travellers, and they find themselves at their journey’s end before they knew that it was drawing near, so in this fast and never-ceasing journey of life, which we make at the same pace whether we are asleep or awake, busy people never notice that they are moving till they are at the end of it.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 30,
+      "display_credit": "Seneca, On the Shortness of Life 9"
+    },
+    {
+      "id": "SE-SL-10a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 10",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "past"
+      ],
+      "text": "Life is divided into three parts: that which has been, that which is, and that which is to come: of these three stages, that which we are passing through is brief, that which we are about to pass is uncertain, and that which we have passed is certain…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 24,
+      "display_credit": "Seneca, On the Shortness of Life 10"
+    },
+    {
+      "id": "SE-SL-12a",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 12",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "luxury",
+        "self-reliance"
+      ],
+      "text": "I have heard one of these luxurious folk—if indeed, we ought to give the name of luxury to unlearning the life and habits of a man—when he was carried in men’s arms out of the bath and placed in his chair, say inquiringly, “Am I seated?”",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 23,
+      "display_credit": "Seneca, On the Shortness of Life 12"
+    },
+    {
+      "id": "SE-SL-16a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 16",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": false,
+      "themes": [
+        "time",
+        "anxiety"
+      ],
+      "text": "Those men lead the shortest and unhappiest lives who forget the past, neglect the present, and dread the future: when they reach the end of it the poor wretches learn too late that they were busied all the while that they were doing nothing.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 22,
+      "display_credit": "Seneca, On the Shortness of Life 16"
+    },
+    {
+      "id": "SE-SL-16b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 16",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "pleasure"
+      ],
+      "text": "…they lose the day in looking forward to the night, and lose the night through fear of the dawn.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 11,
+      "display_credit": "Seneca, On the Shortness of Life 16"
+    },
+    {
+      "id": "SE-SL-17a",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "power"
+      ],
+      "text": "That most arrogant Persian king, when his army stretched over vast plains and could not be counted but only measured, burst into tears at the thought that in less than a hundred years none of all those warriors would be alive: yet their death was brought upon them by the very man who wept over it, who was about to destroy some of them by sea, some on land, some in battle, and some in flight, and who would in a very short space of time put an end to those about whose hundredth year he showed such solicitude.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 46,
+      "display_credit": "Seneca, On the Shortness of Life 17"
+    },
+    {
+      "id": "SE-SL-17b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "ambition",
+        "busyness"
+      ],
+      "text": "…they do not seek for an end to their wretchedness, but they change its subject.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On the Shortness of Life 17"
+    },
+    {
+      "id": "SE-SL-17c",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 17",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "busyness",
+        "leisure"
+      ],
+      "text": "We shall never lack causes of anxiety, either pleasurable or painful: our life will be pushed along from one business to another: leisure will always be wished for, and never enjoyed.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 16,
+      "display_credit": "Seneca, On the Shortness of Life 17"
+    },
+    {
+      "id": "SE-SL-18a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 18",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "self-knowledge",
+        "work"
+      ],
+      "text": "…believe me, it is better to understand your own mind than to understand the corn-market.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On the Shortness of Life 18"
+    },
+    {
+      "id": "SE-SL-19a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 19",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "freedom",
+        "time"
+      ],
+      "text": "If such men wish to know how short their lives are, let them think how small a fraction of them is their own.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 13,
+      "display_credit": "Seneca, On the Shortness of Life 19"
+    },
+    {
+      "id": "SE-SL-20a",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 20",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "envy",
+        "status"
+      ],
+      "text": "When, therefore, you see a man often wear the purple robes of office, and hear his name often repeated in the forum, do not envy him: he gains these things by losing so much of his life.",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 19,
+      "display_credit": "Seneca, On the Shortness of Life 20"
+    },
+    {
+      "id": "SE-SL-20b",
+      "type": "quote_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 20",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "ambition",
+        "status"
+      ],
+      "text": "Men throw away all their years in order to have one year named after them as consul…",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 10,
+      "display_credit": "Seneca, On the Shortness of Life 20"
+    },
+    {
+      "id": "SE-SL-20c",
+      "type": "story_reel",
+      "author": "Seneca",
+      "work": "On the Shortness of Life",
+      "ref": "On the Shortness of Life 20",
+      "translator": "Aubrey Stewart (1889)",
+      "attribution": "Seneca",
+      "excerpt": true,
+      "themes": [
+        "work",
+        "identity"
+      ],
+      "text": "Turannius was an old man of the most painstaking exactitude, who after entering upon his ninetieth year, when he had by Gr. Caesar’s own act been relieved of his duties as collector of the revenue, ordered himself to be laid out on his bed and mourned for as though he were dead. The whole house mourned for the leisure of its old master, and did not lay aside its mourning until his work was restored to him. Can men find such pleasure in dying in harness?",
+      "verified": true,
+      "source_url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-the-shortness-of-life",
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_check_translation_match"
+      },
+      "est_seconds": 40,
+      "display_credit": "Seneca, On the Shortness of Life 20"
+    }
+  ]
+}

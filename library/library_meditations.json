@@ -1,0 +1,2985 @@
+{
+  "meta": {
+    "library": "Meditations — complete (Books II–XII.27)",
+    "batches": [
+      {
+        "project": "stoic-automation (brand name TBD)",
+        "batch": 1,
+        "author": "Marcus Aurelius",
+        "work": "Meditations",
+        "translator": "George Long (1862)",
+        "text_source": "Standard Ebooks edition (CC0, US public domain) — https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long/text/single-page",
+        "verification": "Every text below was copied verbatim from the source above. Footnote numbers removed; word-joiner dashes normalized to an em dash. Excerpts are contiguous text marked with an ellipsis where cut.",
+        "numbering": "Book.Section per the standard Long numbering; cross-checked against section references in Long's own introduction (e.g. 4.36, 4.41, 5.27, 5.32, 6.44, 6.48, 6.54).",
+        "audio": "LibriVox recording of the Long translation (public domain). Clip timestamps to be generated automatically by forced alignment. Do NOT use commercial recordings (e.g. Naxos): the text is public domain but those recordings are not.",
+        "coverage": "Books II–VII.12. Batch 2 will cover VII–XII, Batch 3 Seneca, Batch 4 Epictetus."
+      },
+      {
+        "batch": 2,
+        "author": "Marcus Aurelius",
+        "work": "Meditations",
+        "translator": "George Long (1862)",
+        "text_source": "The Internet Classics Archive (MIT) transcription of the George Long translation — https://classics.mit.edu/Antoninus/meditations.html (Books VII–XII)",
+        "normalizations": "MIT hyphen-dashes ('- ') converted to em dashes; typo 'fly for, refuge' → 'fly for refuge' (8.48); 'thou are' → 'thou art' (10.32 not used). No other changes. Editorial cross-reference '(Book IV)' removed from 12.14.",
+        "numbering": "Standard Long numbering, cross-checked against Long's introduction references (7.26, 7.31, 7.55, 7.64, 7.75, 8.13, 8.54, 8.55, 9.1, 9.16, 9.28, 9.31, 10.1, 10.6, 10.26, 10.38, 11.1, 11.3, 11.18, 11.19, 11.21, 12.2, 12.5, 12.10, 12.23).",
+        "note": "The MIT page for Book XII is cut off after 12.27, so 12.28–12.36 are not included yet."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "MA-02-01a",
+      "type": "quote_reel",
+      "ref": "2.1",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "morning",
+        "patience"
+      ],
+      "text": "Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 2.1",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-02-04a",
+      "type": "quote_reel",
+      "ref": "2.4",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "urgency"
+      ],
+      "text": "…a limit of time is fixed for thee, which if thou dost not use for clearing away the clouds from thy mind, it will go and thou wilt go, and it will never return.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 18,
+      "display_credit": "Marcus Aurelius, Meditations 2.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-02-05a",
+      "type": "quote_reel",
+      "ref": "2.5",
+      "excerpt": true,
+      "themes": [
+        "focus",
+        "mortality"
+      ],
+      "text": "…thou wilt give thyself relief, if thou doest every act of thy life as if it were the last…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 2.5",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-02-08",
+      "type": "quote_reel",
+      "ref": "2.8",
+      "excerpt": false,
+      "themes": [
+        "self-awareness",
+        "happiness"
+      ],
+      "text": "Through not observing what is in the mind of another a man has seldom been seen to be unhappy; but those who do not observe the movements of their own minds must of necessity be unhappy.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 19,
+      "display_credit": "Marcus Aurelius, Meditations 2.8",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-02-11a",
+      "type": "quote_reel",
+      "ref": "2.11",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "urgency"
+      ],
+      "text": "Since it is possible that thou mayest depart from life this very moment, regulate every act and thought accordingly.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 2.11",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-02-15a",
+      "type": "quote_reel",
+      "ref": "2.15",
+      "excerpt": true,
+      "themes": [
+        "perception"
+      ],
+      "text": "Remember that all is opinion.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 5,
+      "display_credit": "Marcus Aurelius, Meditations 2.15",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-03-04a",
+      "type": "quote_reel",
+      "ref": "3.4",
+      "excerpt": true,
+      "themes": [
+        "focus",
+        "people"
+      ],
+      "text": "Do not waste the remainder of thy life in thoughts about others, when thou dost not refer thy thoughts to some object of common utility.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 14,
+      "display_credit": "Marcus Aurelius, Meditations 3.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-03-05a",
+      "type": "quote_reel",
+      "ref": "3.5",
+      "excerpt": true,
+      "themes": [
+        "self-reliance",
+        "strength"
+      ],
+      "text": "A man then must stand erect, not be kept erect by others.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 8,
+      "display_credit": "Marcus Aurelius, Meditations 3.5",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-03-10a",
+      "type": "quote_reel",
+      "ref": "3.10",
+      "excerpt": true,
+      "themes": [
+        "present moment",
+        "time"
+      ],
+      "text": "…every man lives only this present time, which is an indivisible point, and that all the rest of his life is either past or it is uncertain.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 15,
+      "display_credit": "Marcus Aurelius, Meditations 3.10",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-03a",
+      "type": "quote_reel",
+      "ref": "4.3",
+      "excerpt": true,
+      "themes": [
+        "peace",
+        "inner life"
+      ],
+      "text": "For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 12,
+      "display_credit": "Marcus Aurelius, Meditations 4.3",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-03b",
+      "type": "quote_reel",
+      "ref": "4.3",
+      "excerpt": true,
+      "themes": [
+        "perception",
+        "change"
+      ],
+      "text": "The universe is transformation: life is opinion.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 6,
+      "display_credit": "Marcus Aurelius, Meditations 4.3",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-07",
+      "type": "quote_reel",
+      "ref": "4.7",
+      "excerpt": false,
+      "themes": [
+        "perception",
+        "resilience"
+      ],
+      "text": "Take away thy opinion, and then there is taken away the complaint, “I have been harmed.” Take away the complaint, “I have been harmed,” and the harm is taken away.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 4.7",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-11",
+      "type": "quote_reel",
+      "ref": "4.11",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "perception"
+      ],
+      "text": "Do not have such an opinion of things as he has who does thee wrong, or such as he wishes thee to have, but look at them as they are in truth.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 17,
+      "display_credit": "Marcus Aurelius, Meditations 4.11",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-17",
+      "type": "quote_reel",
+      "ref": "4.17",
+      "excerpt": false,
+      "themes": [
+        "mortality",
+        "virtue"
+      ],
+      "text": "Do not act as if thou wert going to live ten thousand years. Death hangs over thee. While thou livest, while it is in thy power, be good.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 15,
+      "display_credit": "Marcus Aurelius, Meditations 4.17",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-18a",
+      "type": "quote_reel",
+      "ref": "4.18",
+      "excerpt": true,
+      "themes": [
+        "focus",
+        "people"
+      ],
+      "text": "How much trouble he avoids who does not look to see what his neighbour says or does or thinks, but only to what he does himself, that it may be just and pure…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 17,
+      "display_credit": "Marcus Aurelius, Meditations 4.18",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-24a",
+      "type": "quote_reel",
+      "ref": "4.24",
+      "excerpt": true,
+      "themes": [
+        "focus",
+        "simplicity"
+      ],
+      "text": "…on every occasion a man should ask himself, Is this one of the unnecessary things?",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 4.24",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-26a",
+      "type": "quote_reel",
+      "ref": "4.26",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "present moment"
+      ],
+      "text": "In a word, thy life is short. Thou must turn to profit the present by the aid of reason and justice.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 12,
+      "display_credit": "Marcus Aurelius, Meditations 4.26",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-31a",
+      "type": "quote_reel",
+      "ref": "4.31",
+      "excerpt": true,
+      "themes": [
+        "work",
+        "contentment"
+      ],
+      "text": "Love the art, poor as it may be, which thou hast learned, and be content with it…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 4.31",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-35",
+      "type": "quote_reel",
+      "ref": "4.35",
+      "excerpt": false,
+      "themes": [
+        "fame",
+        "mortality"
+      ],
+      "text": "Everything is only for a day, both that which remembers and that which is remembered.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 4.35",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-43",
+      "type": "quote_reel",
+      "ref": "4.43",
+      "excerpt": false,
+      "themes": [
+        "time",
+        "change"
+      ],
+      "text": "Time is like a river made up of the events which happen, and a violent stream; for as soon as a thing has been seen, it is carried away, and another comes in its place, and this will be carried away too.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 21,
+      "display_credit": "Marcus Aurelius, Meditations 4.43",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-48a",
+      "type": "quote_reel",
+      "ref": "4.48",
+      "excerpt": true,
+      "themes": [
+        "mortality",
+        "gratitude"
+      ],
+      "text": "Pass then through this little space of time conformably to nature, and end thy journey in content, just as an olive falls off when it is ripe, blessing nature who produced it, and thanking the tree on which it grew.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 20,
+      "display_credit": "Marcus Aurelius, Meditations 4.48",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-49a",
+      "type": "quote_reel",
+      "ref": "4.49",
+      "excerpt": true,
+      "themes": [
+        "strength",
+        "adversity"
+      ],
+      "text": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 4.49",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-49b",
+      "type": "quote_reel",
+      "ref": "4.49",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "resilience"
+      ],
+      "text": "…not that this is a misfortune, but that to bear it nobly is good fortune.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 4.49",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-01a",
+      "type": "quote_reel",
+      "ref": "5.1",
+      "excerpt": true,
+      "themes": [
+        "morning",
+        "discipline"
+      ],
+      "text": "In the morning when thou risest unwillingly, let this thought be present—I am rising to the work of a human being.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 12,
+      "display_credit": "Marcus Aurelius, Meditations 5.1",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-16a",
+      "type": "quote_reel",
+      "ref": "5.16",
+      "excerpt": true,
+      "themes": [
+        "mind",
+        "habits"
+      ],
+      "text": "Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 5.16",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-18a",
+      "type": "quote_reel",
+      "ref": "5.18",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "strength"
+      ],
+      "text": "Nothing happens to any man which he is not formed by nature to bear.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 5.18",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-19a",
+      "type": "quote_reel",
+      "ref": "5.19",
+      "excerpt": true,
+      "themes": [
+        "perception",
+        "control"
+      ],
+      "text": "Things themselves touch not the soul, not in the least degree…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 8,
+      "display_credit": "Marcus Aurelius, Meditations 5.19",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-20a",
+      "type": "quote_reel",
+      "ref": "5.20",
+      "excerpt": true,
+      "themes": [
+        "obstacles",
+        "adversity"
+      ],
+      "text": "…the mind converts and changes every hindrance to its activity into an aid; and so that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 21,
+      "display_credit": "Marcus Aurelius, Meditations 5.20",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-25a",
+      "type": "quote_reel",
+      "ref": "5.25",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "control"
+      ],
+      "text": "Does another do me wrong? Let him look to it. He has his own disposition, his own activity.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 5.25",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-02a",
+      "type": "quote_reel",
+      "ref": "6.2",
+      "excerpt": true,
+      "themes": [
+        "duty",
+        "discipline"
+      ],
+      "text": "Let it make no difference to thee whether thou art cold or warm, if thou art doing thy duty…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 6.2",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-03",
+      "type": "quote_reel",
+      "ref": "6.3",
+      "excerpt": false,
+      "themes": [
+        "self-awareness"
+      ],
+      "text": "Look within. Let neither the peculiar quality of anything nor its value escape thee.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 6.3",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-06",
+      "type": "quote_reel",
+      "ref": "6.6",
+      "excerpt": false,
+      "themes": [
+        "anger",
+        "people"
+      ],
+      "text": "The best way of avenging thyself is not to become like the wrong doer.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 6.6",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-19",
+      "type": "quote_reel",
+      "ref": "6.19",
+      "excerpt": false,
+      "themes": [
+        "confidence",
+        "discipline"
+      ],
+      "text": "If a thing is difficult to be accomplished by thyself, do not think that it is impossible for man: but if anything is possible for man and conformable to his nature, think that this can be attained by thyself too.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 20,
+      "display_credit": "Marcus Aurelius, Meditations 6.19",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-21",
+      "type": "quote_reel",
+      "ref": "6.21",
+      "excerpt": false,
+      "themes": [
+        "humility",
+        "truth"
+      ],
+      "text": "If any man is able to convince me and show me that I do not think or act right, I will gladly change; for I seek the truth by which no man was ever injured. But he is injured who abides in his error and ignorance.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 23,
+      "display_credit": "Marcus Aurelius, Meditations 6.21",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-22",
+      "type": "quote_reel",
+      "ref": "6.22",
+      "excerpt": false,
+      "themes": [
+        "duty",
+        "focus"
+      ],
+      "text": "I do my duty: other things trouble me not; for they are either things without life, or things without reason, or things that have rambled and know not the way.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 6.22",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-29",
+      "type": "quote_reel",
+      "ref": "6.29",
+      "excerpt": false,
+      "themes": [
+        "strength",
+        "endurance"
+      ],
+      "text": "It is a shame for the soul to be first to give way in this life, when thy body does not give way.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 6.29",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-30a",
+      "type": "quote_reel",
+      "ref": "6.30",
+      "excerpt": true,
+      "themes": [
+        "character",
+        "virtue"
+      ],
+      "text": "Keep thyself then simple, good, pure, serious, free from affectation, a friend of justice, a worshipper of the gods, kind, affectionate, strenuous in all proper acts.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 14,
+      "display_credit": "Marcus Aurelius, Meditations 6.30",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-39",
+      "type": "quote_reel",
+      "ref": "6.39",
+      "excerpt": false,
+      "themes": [
+        "acceptance",
+        "love"
+      ],
+      "text": "Adapt thyself to the things with which thy lot has been cast: and the men among whom thou hast received thy portion, love them, but do it truly, sincerely.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 6.39",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-52",
+      "type": "quote_reel",
+      "ref": "6.52",
+      "excerpt": false,
+      "themes": [
+        "perception",
+        "control"
+      ],
+      "text": "It is in our power to have no opinion about a thing, and not to be disturbed in our soul; for things themselves have no natural power to form our judgements.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 6.52",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-53",
+      "type": "quote_reel",
+      "ref": "6.53",
+      "excerpt": false,
+      "themes": [
+        "listening",
+        "people"
+      ],
+      "text": "Accustom thyself to attend carefully to what is said by another, and as much as it is possible, be in the speaker’s mind.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 6.53",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-54",
+      "type": "quote_reel",
+      "ref": "6.54",
+      "excerpt": false,
+      "themes": [
+        "community"
+      ],
+      "text": "That which is not good for the swarm, neither is it good for the bee.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 6.54",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-07a",
+      "type": "quote_reel",
+      "ref": "7.7",
+      "excerpt": true,
+      "themes": [
+        "humility",
+        "help"
+      ],
+      "text": "Be not ashamed to be helped; for it is thy business to do thy duty like a soldier in the assault on a town.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 7.7",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-08",
+      "type": "quote_reel",
+      "ref": "7.8",
+      "excerpt": false,
+      "themes": [
+        "anxiety",
+        "future"
+      ],
+      "text": "Let not future things disturb thee, for thou wilt come to them, if it shall be necessary, having with thee the same reason which now thou usest for present things.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 7.8",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-12",
+      "type": "quote_reel",
+      "ref": "7.12",
+      "excerpt": false,
+      "themes": [
+        "strength"
+      ],
+      "text": "Be thou erect, or be made erect.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 6,
+      "display_credit": "Marcus Aurelius, Meditations 7.12",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-02-01",
+      "type": "passage_reel",
+      "ref": "2.1",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "morning",
+        "anger"
+      ],
+      "text": "Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial. All these things happen to them by reason of their ignorance of what is good and evil. But I who have seen the nature of the good that it is beautiful, and of the bad that it is ugly, and the nature of him who does wrong, that it is akin to me, not only of the same blood or seed, but that it participates in the same intelligence and the same portion of the divinity, I can neither be injured by any of them, for no one can fix on me what is ugly, nor can I be angry with my kinsman, nor hate him. For we are made for cooperation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth. To act against one another then is contrary to nature; and it is acting against one another to be vexed and to turn away.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 77,
+      "display_credit": "Marcus Aurelius, Meditations 2.1",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-02-14a",
+      "type": "passage_reel",
+      "ref": "2.14",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "present moment"
+      ],
+      "text": "Though thou shouldst be going to live three thousand years, and as many times ten thousand years, still remember that no man loses any other life than this which he now lives, nor lives any other than this which he now loses. The longest and shortest are thus brought to the same…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 26,
+      "display_credit": "Marcus Aurelius, Meditations 2.14",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-03-12",
+      "type": "passage_reel",
+      "ref": "3.12",
+      "excerpt": false,
+      "themes": [
+        "focus",
+        "happiness",
+        "work"
+      ],
+      "text": "If thou workest at that which is before thee, following right reason seriously, vigorously, calmly, without allowing anything else to distract thee, but keeping thy divine part pure, as if thou shouldst be bound to give it back immediately; if thou holdest to this, expecting nothing, fearing nothing, but satisfied with thy present activity according to nature, and with heroic truth in every word and sound which thou utterest, thou wilt live happy. And there is no man who is able to prevent this.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 40,
+      "display_credit": "Marcus Aurelius, Meditations 3.12",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-03c",
+      "type": "passage_reel",
+      "ref": "4.3",
+      "excerpt": true,
+      "themes": [
+        "peace",
+        "inner life"
+      ],
+      "text": "Men seek retreats for themselves, houses in the country, seashores, and mountains; and thou too art wont to desire such things very much. But this is altogether a mark of the most common sort of men, for it is in thy power whenever thou shalt choose to retire into thyself. For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul, particularly when he has within him such thoughts that by looking into them he is immediately in perfect tranquility; and I affirm that tranquility is nothing else than the good ordering of the mind. Constantly then give to thyself this retreat, and renew thyself…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 53,
+      "display_credit": "Marcus Aurelius, Meditations 4.3",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-04-49",
+      "type": "passage_reel",
+      "ref": "4.49",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "resilience",
+        "strength"
+      ],
+      "text": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it. Unhappy am I because this has happened to me.—Not so, but happy am I, though this has happened to me, because I continue free from pain, neither crushed by the present nor fearing the future. For such a thing as this might have happened to every man; but every man would not have continued free from pain on such an occasion. Why then is that rather a misfortune than this a good fortune? And dost thou in all cases call that a man’s misfortune, which is not a deviation from man’s nature? And does a thing seem to thee to be a deviation from man’s nature, when it is not contrary to the will of man’s nature? Well, thou knowest the will of nature. Will then this which has happened prevent thee from being just, magnanimous, temperate, prudent, secure against inconsiderate opinions and falsehood; will it prevent thee from having modesty, freedom, and everything else, by the presence of which man’s nature obtains all that is its own? Remember too on every occasion which leads thee to vexation to apply this principle: not that this is a misfortune, but that to bear it nobly is good fortune.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 99,
+      "display_credit": "Marcus Aurelius, Meditations 4.49",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-01b",
+      "type": "passage_reel",
+      "ref": "5.1",
+      "excerpt": true,
+      "themes": [
+        "morning",
+        "discipline",
+        "purpose"
+      ],
+      "text": "In the morning when thou risest unwillingly, let this thought be present—I am rising to the work of a human being. Why then am I dissatisfied if I am going to do the things for which I exist and for which I was brought into the world? Or have I been made for this, to lie in the bedclothes and keep myself warm?—But this is more pleasant.—Dost thou exist then to take thy pleasure, and not at all for action or exertion? Dost thou not see the little plants, the little birds, the ants, the spiders, the bees working together to put in order their several parts of the universe? And art thou unwilling to do the work of a human being, and dost thou not make haste to do that which is according to thy nature?…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 63,
+      "display_credit": "Marcus Aurelius, Meditations 5.1",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-06a",
+      "type": "passage_reel",
+      "ref": "5.6",
+      "excerpt": true,
+      "themes": [
+        "kindness",
+        "humility"
+      ],
+      "text": "One man, when he has done a service to another, is ready to set it down to his account as a favour conferred. Another is not ready to do this, but still in his own mind he thinks of the man as his debtor, and he knows what he has done. A third in a manner does not even know what he has done, but he is like a vine which has produced grapes, and seeks for nothing more after it has once produced its proper fruit. As a horse when he has run, a dog when he has tracked the game, a bee when it has made the honey, so a man when he has done a good act, does not call out for others to come and see, but he goes on to another act, as a vine goes on to produce again the grapes in season…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 68,
+      "display_credit": "Marcus Aurelius, Meditations 5.6",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-05-20",
+      "type": "passage_reel",
+      "ref": "5.20",
+      "excerpt": false,
+      "themes": [
+        "obstacles",
+        "people"
+      ],
+      "text": "In one respect man is the nearest thing to me, so far as I must do good to men and endure them. But so far as some men make themselves obstacles to my proper acts, man becomes to me one of the things which are indifferent, no less than the sun or wind or a wild beast. Now it is true that these may impede my action, but they are no impediments to my affects and disposition, which have the power of acting conditionally and changing: for the mind converts and changes every hindrance to its activity into an aid; and so that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 59,
+      "display_credit": "Marcus Aurelius, Meditations 5.20",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-20",
+      "type": "passage_reel",
+      "ref": "6.20",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "anger",
+        "forgiveness"
+      ],
+      "text": "In the gymnastic exercises suppose that a man has torn thee with his nails, and by dashing against thy head has inflicted a wound. Well, we neither show any signs of vexation, nor are we offended, nor do we suspect him afterwards as a treacherous fellow; and yet we are on our guard against him, not however as an enemy, nor yet with suspicion, but we quietly get out of his way. Something like this let thy behaviour be in all the other parts of life; let us overlook many things in those who are like antagonists in the gymnasium. For it is in our power, as I said, to get out of the way, and to have no suspicion nor hatred.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 56,
+      "display_credit": "Marcus Aurelius, Meditations 6.20",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-06-26",
+      "type": "passage_reel",
+      "ref": "6.26",
+      "excerpt": false,
+      "themes": [
+        "anger",
+        "duty",
+        "calm"
+      ],
+      "text": "If any man should propose to thee the question, how the name Antoninus is written, wouldst thou with a straining of the voice utter each letter? What then if they grow angry, wilt thou be angry too? Wilt thou not go on with composure and number every letter? just so then in this life also remember that every duty is made up of certain parts. These it is thy duty to observe and without being disturbed or showing anger towards those who are angry with thee to go on thy way and finish that which is set before thee.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 1,
+      "est_seconds": 46,
+      "display_credit": "Marcus Aurelius, Meditations 6.26",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-15",
+      "type": "quote_reel",
+      "ref": "7.15",
+      "excerpt": false,
+      "themes": [
+        "character",
+        "consistency"
+      ],
+      "text": "Whatever any one does or says, I must be good, just as if the gold, or the emerald, or the purple were always saying this, Whatever any one does or says, I must be emerald and keep my colour.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 20,
+      "display_credit": "Marcus Aurelius, Meditations 7.15",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-18a",
+      "type": "quote_reel",
+      "ref": "7.18",
+      "excerpt": true,
+      "themes": [
+        "change",
+        "fear"
+      ],
+      "text": "Is any man afraid of change? Why what can take place without change?",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 7.18",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-21",
+      "type": "quote_reel",
+      "ref": "7.21",
+      "excerpt": false,
+      "themes": [
+        "mortality",
+        "fame"
+      ],
+      "text": "Near is thy forgetfulness of all things; and near the forgetfulness of thee by all.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 7.21",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-22a",
+      "type": "quote_reel",
+      "ref": "7.22",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "forgiveness"
+      ],
+      "text": "It is peculiar to man to love even those who do wrong.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 8,
+      "display_credit": "Marcus Aurelius, Meditations 7.22",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-27a",
+      "type": "quote_reel",
+      "ref": "7.27",
+      "excerpt": true,
+      "themes": [
+        "gratitude",
+        "contentment"
+      ],
+      "text": "Think not so much of what thou hast not as of what thou hast: but of the things which thou hast select the best, and then reflect how eagerly they would have been sought, if thou hadst them not.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 20,
+      "display_credit": "Marcus Aurelius, Meditations 7.27",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-29a",
+      "type": "quote_reel",
+      "ref": "7.29",
+      "excerpt": true,
+      "themes": [
+        "present moment",
+        "overthinking"
+      ],
+      "text": "Wipe out the imagination. Stop the pulling of the strings. Confine thyself to the present.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 7.29",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-31a",
+      "type": "quote_reel",
+      "ref": "7.31",
+      "excerpt": true,
+      "themes": [
+        "love",
+        "simplicity"
+      ],
+      "text": "Adorn thyself with simplicity and modesty and with indifference towards the things which lie between virtue and vice. Love mankind. Follow God.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 7.31",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-36",
+      "type": "quote_reel",
+      "ref": "7.36",
+      "excerpt": false,
+      "quoted_from": "Antisthenes",
+      "themes": [
+        "kindness",
+        "criticism"
+      ],
+      "text": "From Antisthenes: It is royal to do good and to be abused.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 8,
+      "display_credit": "Marcus Aurelius, Meditations 7.36",
+      "attribution": "Marcus Aurelius (quoting Antisthenes)"
+    },
+    {
+      "id": "MA-07-56",
+      "type": "quote_reel",
+      "ref": "7.56",
+      "excerpt": false,
+      "themes": [
+        "mortality",
+        "fresh start"
+      ],
+      "text": "Consider thyself to be dead, and to have completed thy life up to the present time; and live according to nature the remainder which is allowed thee.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 15,
+      "display_credit": "Marcus Aurelius, Meditations 7.56",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-59",
+      "type": "quote_reel",
+      "ref": "7.59",
+      "excerpt": false,
+      "themes": [
+        "inner life",
+        "self-awareness"
+      ],
+      "text": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 7.59",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-61",
+      "type": "quote_reel",
+      "ref": "7.61",
+      "excerpt": false,
+      "themes": [
+        "resilience",
+        "readiness"
+      ],
+      "text": "The art of life is more like the wrestler's art than the dancer's, in respect of this, that it should stand ready and firm to meet onsets which are sudden and unexpected.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 17,
+      "display_credit": "Marcus Aurelius, Meditations 7.61",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-67a",
+      "type": "quote_reel",
+      "ref": "7.67",
+      "excerpt": true,
+      "themes": [
+        "happiness",
+        "simplicity"
+      ],
+      "text": "…very little indeed is necessary for living a happy life.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 7,
+      "display_credit": "Marcus Aurelius, Meditations 7.67",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-69",
+      "type": "quote_reel",
+      "ref": "7.69",
+      "excerpt": false,
+      "themes": [
+        "character",
+        "mortality"
+      ],
+      "text": "The perfection of moral character consists in this, in passing every day as the last, and in being neither violently excited nor torpid nor playing the hypocrite.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 15,
+      "display_credit": "Marcus Aurelius, Meditations 7.69",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-71",
+      "type": "quote_reel",
+      "ref": "7.71",
+      "excerpt": false,
+      "themes": [
+        "self-improvement",
+        "people"
+      ],
+      "text": "It is a ridiculous thing for a man not to fly from his own badness, which is indeed possible, but to fly from other men's badness, which is impossible.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 7.71",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-73",
+      "type": "quote_reel",
+      "ref": "7.73",
+      "excerpt": false,
+      "themes": [
+        "kindness",
+        "ego"
+      ],
+      "text": "When thou hast done a good act and another has received it, why dost thou look for a third thing besides these, as fools do, either to have the reputation of having done a good act or to obtain a return?",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 21,
+      "display_credit": "Marcus Aurelius, Meditations 7.73",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-02a",
+      "type": "quote_reel",
+      "ref": "8.2",
+      "excerpt": true,
+      "themes": [
+        "regret",
+        "mortality"
+      ],
+      "text": "On the occasion of every act ask thyself, How is this with respect to me? Shall I repent of it? A little time and I am dead, and all is gone.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 8.2",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-04",
+      "type": "quote_reel",
+      "ref": "8.4",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "control"
+      ],
+      "text": "Consider that men will do the same things nevertheless, even though thou shouldst burst.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 8.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-05a",
+      "type": "quote_reel",
+      "ref": "8.5",
+      "excerpt": true,
+      "themes": [
+        "calm",
+        "mortality"
+      ],
+      "text": "This is the chief thing: Be not perturbed, for all things are according to the nature of the universal; and in a little time thou wilt be nobody and nowhere, like Hadrian and Augustus.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 18,
+      "display_credit": "Marcus Aurelius, Meditations 8.5",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-08",
+      "type": "quote_reel",
+      "ref": "8.8",
+      "excerpt": false,
+      "themes": [
+        "excuses",
+        "discipline"
+      ],
+      "text": "Thou hast not leisure or ability to read. But thou hast leisure or ability to check arrogance: thou hast leisure to be superior to pleasure and pain: thou hast leisure to be superior to love of fame, and not to be vexed at stupid and ungrateful people, nay even to care for them.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 26,
+      "display_credit": "Marcus Aurelius, Meditations 8.8",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-15",
+      "type": "quote_reel",
+      "ref": "8.15",
+      "excerpt": false,
+      "themes": [
+        "expectations",
+        "people"
+      ],
+      "text": "Remember that as it is a shame to be surprised if the fig-tree produces figs, so it is to be surprised if the world produces such and such things of which it is productive; and for the physician and the helmsman it is a shame to be surprised, if a man has a fever, or if the wind is unfavourable.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 29,
+      "display_credit": "Marcus Aurelius, Meditations 8.15",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-16",
+      "type": "quote_reel",
+      "ref": "8.16",
+      "excerpt": true,
+      "themes": [
+        "humility",
+        "truth"
+      ],
+      "text": "Remember that to change thy opinion and to follow him who corrects thy error is as consistent with freedom as it is to persist in thy error.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 15,
+      "display_credit": "Marcus Aurelius, Meditations 8.16",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-22a",
+      "type": "quote_reel",
+      "ref": "8.22",
+      "excerpt": true,
+      "themes": [
+        "procrastination",
+        "discipline"
+      ],
+      "text": "Thou sufferest this justly: for thou choosest rather to become good to-morrow than to be good to-day.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 8.22",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-33",
+      "type": "quote_reel",
+      "ref": "8.33",
+      "excerpt": false,
+      "themes": [
+        "wealth",
+        "detachment"
+      ],
+      "text": "Receive wealth or prosperity without arrogance; and be ready to let it go.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 8.33",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-36a",
+      "type": "quote_reel",
+      "ref": "8.36",
+      "excerpt": true,
+      "themes": [
+        "anxiety",
+        "present moment"
+      ],
+      "text": "…remember that neither the future nor the past pains thee, but only the present.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 8.36",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-47a",
+      "type": "quote_reel",
+      "ref": "8.47",
+      "excerpt": true,
+      "themes": [
+        "perception",
+        "control"
+      ],
+      "text": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgement about it. And it is in thy power to wipe out this judgement now.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 18,
+      "display_credit": "Marcus Aurelius, Meditations 8.47",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-48a",
+      "type": "quote_reel",
+      "ref": "8.48",
+      "excerpt": true,
+      "themes": [
+        "inner citadel",
+        "strength"
+      ],
+      "text": "…the mind which is free from passions is a citadel, for man has nothing more secure to which he can fly for refuge and for the future be inexpugnable.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 8.48",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-49a",
+      "type": "quote_reel",
+      "ref": "8.49",
+      "excerpt": true,
+      "themes": [
+        "perception",
+        "overthinking"
+      ],
+      "text": "Say nothing more to thyself than what the first appearances report. Suppose that it has been reported to thee that a certain person speaks ill of thee. This has been reported; but that thou hast been injured, that has not been reported.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 21,
+      "display_credit": "Marcus Aurelius, Meditations 8.49",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-50a",
+      "type": "quote_reel",
+      "ref": "8.50",
+      "excerpt": true,
+      "themes": [
+        "simplicity",
+        "complaining"
+      ],
+      "text": "A cucumber is bitter.—Throw it away.—There are briars in the road.—Turn aside from them.—This is enough.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 8.50",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-53",
+      "type": "quote_reel",
+      "ref": "8.53",
+      "excerpt": false,
+      "themes": [
+        "approval",
+        "people"
+      ],
+      "text": "Dost thou wish to be praised by a man who curses himself thrice every hour? Wouldst thou wish to please a man who does not please himself? Does a man please himself who repents of nearly everything that he does?",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 20,
+      "display_credit": "Marcus Aurelius, Meditations 8.53",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-59",
+      "type": "quote_reel",
+      "ref": "8.59",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "patience"
+      ],
+      "text": "Men exist for the sake of one another. Teach them then or bear with them.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 8.59",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-04",
+      "type": "quote_reel",
+      "ref": "9.4",
+      "excerpt": false,
+      "themes": [
+        "justice",
+        "character"
+      ],
+      "text": "He who does wrong does wrong against himself. He who acts unjustly acts unjustly to himself, because he makes himself bad.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 12,
+      "display_credit": "Marcus Aurelius, Meditations 9.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-06",
+      "type": "quote_reel",
+      "ref": "9.6",
+      "excerpt": false,
+      "themes": [
+        "contentment",
+        "present moment"
+      ],
+      "text": "Thy present opinion founded on understanding, and thy present conduct directed to social good, and thy present disposition of contentment with everything which happens—that is enough.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 14,
+      "display_credit": "Marcus Aurelius, Meditations 9.6",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-07",
+      "type": "quote_reel",
+      "ref": "9.7",
+      "excerpt": false,
+      "themes": [
+        "discipline",
+        "self-control"
+      ],
+      "text": "Wipe out imagination: check desire: extinguish appetite: keep the ruling faculty in its own power.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 9.7",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-13",
+      "type": "quote_reel",
+      "ref": "9.13",
+      "excerpt": false,
+      "themes": [
+        "perception",
+        "peace"
+      ],
+      "text": "To-day I have got out of all trouble, or rather I have cast out all trouble, for it was not outside, but within and in my opinions.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 15,
+      "display_credit": "Marcus Aurelius, Meditations 9.13",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-20",
+      "type": "quote_reel",
+      "ref": "9.20",
+      "excerpt": false,
+      "themes": [
+        "letting go",
+        "people"
+      ],
+      "text": "It is thy duty to leave another man's wrongful act there where it is.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 9.20",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-29a",
+      "type": "quote_reel",
+      "ref": "9.29",
+      "excerpt": true,
+      "themes": [
+        "progress",
+        "patience"
+      ],
+      "text": "…be content if the smallest thing goes on well, and consider such an event to be no small matter.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 9.29",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-38",
+      "type": "quote_reel",
+      "ref": "9.38",
+      "excerpt": false,
+      "themes": [
+        "people",
+        "judgement"
+      ],
+      "text": "If any man has done wrong, the harm is his own. But perhaps he has not done wrong.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 9.38",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-42a",
+      "type": "quote_reel",
+      "ref": "9.42",
+      "excerpt": true,
+      "themes": [
+        "people",
+        "expectations"
+      ],
+      "text": "When thou art offended with any man's shameless conduct, immediately ask thyself, Is it possible, then, that shameless men should not be in the world? It is not possible. Do not, then, require what is impossible.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 19,
+      "display_credit": "Marcus Aurelius, Meditations 9.42",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-04",
+      "type": "quote_reel",
+      "ref": "10.4",
+      "excerpt": false,
+      "themes": [
+        "teaching",
+        "patience"
+      ],
+      "text": "If a man is mistaken, instruct him kindly and show him his error. But if thou art not able, blame thyself, or blame not even thyself.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 14,
+      "display_credit": "Marcus Aurelius, Meditations 10.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-12a",
+      "type": "quote_reel",
+      "ref": "10.12",
+      "excerpt": true,
+      "themes": [
+        "reason",
+        "calm"
+      ],
+      "text": "He who follows reason in all things is both tranquil and active at the same time, and also cheerful and collected.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 12,
+      "display_credit": "Marcus Aurelius, Meditations 10.12",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-14",
+      "type": "quote_reel",
+      "ref": "10.14",
+      "excerpt": false,
+      "themes": [
+        "acceptance",
+        "letting go"
+      ],
+      "text": "To her who gives and takes back all, to nature, the man who is instructed and modest says, Give what thou wilt; take back what thou wilt. And he says this not proudly, but obediently and well pleased with her.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 20,
+      "display_credit": "Marcus Aurelius, Meditations 10.14",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-15a",
+      "type": "quote_reel",
+      "ref": "10.15",
+      "excerpt": true,
+      "themes": [
+        "time",
+        "integrity"
+      ],
+      "text": "Short is the little which remains to thee of life. Live as on a mountain.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 10.15",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-16",
+      "type": "quote_reel",
+      "ref": "10.16",
+      "excerpt": false,
+      "themes": [
+        "action",
+        "character"
+      ],
+      "text": "No longer talk at all about the kind of man that a good man ought to be, but be such.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 12,
+      "display_credit": "Marcus Aurelius, Meditations 10.16",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-30a",
+      "type": "quote_reel",
+      "ref": "10.30",
+      "excerpt": true,
+      "themes": [
+        "anger",
+        "self-awareness"
+      ],
+      "text": "When thou art offended at any man's fault, forthwith turn to thyself and reflect in what like manner thou dost err thyself…",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 10.30",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-37",
+      "type": "quote_reel",
+      "ref": "10.37",
+      "excerpt": false,
+      "themes": [
+        "self-awareness",
+        "motives"
+      ],
+      "text": "Accustom thyself as much as possible on the occasion of anything being done by any person to inquire with thyself, For what object is this man doing this? But begin with thyself, and examine thyself first.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 19,
+      "display_credit": "Marcus Aurelius, Meditations 10.37",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-04",
+      "type": "quote_reel",
+      "ref": "11.4",
+      "excerpt": false,
+      "themes": [
+        "kindness",
+        "reward"
+      ],
+      "text": "Have I done something for the general interest? Well then I have had my reward. Let this always be present to thy mind, and never stop doing such good.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 11.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-05a",
+      "type": "quote_reel",
+      "ref": "11.5",
+      "excerpt": true,
+      "themes": [
+        "purpose",
+        "virtue"
+      ],
+      "text": "What is thy art? To be good.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 6,
+      "display_credit": "Marcus Aurelius, Meditations 11.5",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-13a",
+      "type": "quote_reel",
+      "ref": "11.13",
+      "excerpt": true,
+      "themes": [
+        "criticism",
+        "character"
+      ],
+      "text": "Suppose any man shall despise me. Let him look to that himself. But I will look to this, that I be not discovered doing or saying anything deserving of contempt.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 11.13",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-18a",
+      "type": "quote_reel",
+      "ref": "11.18",
+      "excerpt": true,
+      "themes": [
+        "kindness",
+        "strength"
+      ],
+      "text": "…a good disposition is invincible, if it be genuine, and not an affected smile and acting a part.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 11.18",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-18b",
+      "type": "quote_reel",
+      "ref": "11.18",
+      "excerpt": true,
+      "themes": [
+        "anger"
+      ],
+      "text": "…how much more pain is brought on us by the anger and vexation caused by such acts than by the acts themselves, at which we are angry and vexed.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 11.18",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-18c",
+      "type": "quote_reel",
+      "ref": "11.18",
+      "excerpt": true,
+      "themes": [
+        "expectations",
+        "people"
+      ],
+      "text": "…to expect bad men not to do wrong is madness, for he who expects this desires an impossibility.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 11.18",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-21a",
+      "type": "quote_reel",
+      "ref": "11.21",
+      "excerpt": true,
+      "themes": [
+        "purpose",
+        "focus"
+      ],
+      "text": "He who has not one and always the same object in life, cannot be one and the same all through his life.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 13,
+      "display_credit": "Marcus Aurelius, Meditations 11.21",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-29",
+      "type": "quote_reel",
+      "ref": "11.29",
+      "excerpt": false,
+      "themes": [
+        "leadership",
+        "discipline"
+      ],
+      "text": "Neither in writing nor in reading wilt thou be able to lay down rules for others before thou shalt have first learned to obey rules thyself. Much more is this so in life.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 17,
+      "display_credit": "Marcus Aurelius, Meditations 11.29",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-36",
+      "type": "quote_reel",
+      "ref": "11.36",
+      "excerpt": true,
+      "quoted_from": "Epictetus",
+      "themes": [
+        "freedom",
+        "control"
+      ],
+      "text": "No man can rob us of our free will.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 7,
+      "display_credit": "Marcus Aurelius, Meditations 11.36",
+      "attribution": "Marcus Aurelius (quoting Epictetus)"
+    },
+    {
+      "id": "MA-12-04a",
+      "type": "quote_reel",
+      "ref": "12.4",
+      "excerpt": true,
+      "themes": [
+        "approval",
+        "self-worth"
+      ],
+      "text": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 19,
+      "display_credit": "Marcus Aurelius, Meditations 12.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-06",
+      "type": "quote_reel",
+      "ref": "12.6",
+      "excerpt": false,
+      "themes": [
+        "practice",
+        "discipline"
+      ],
+      "text": "Practise thyself even in the things which thou despairest of accomplishing. For even the left hand, which is ineffectual for all other things for want of practice, holds the bridle more vigorously than the right hand; for it has been practised in this.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 22,
+      "display_credit": "Marcus Aurelius, Meditations 12.6",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-13",
+      "type": "quote_reel",
+      "ref": "12.13",
+      "excerpt": false,
+      "themes": [
+        "expectations",
+        "acceptance"
+      ],
+      "text": "How ridiculous and what a stranger he is who is surprised at anything which happens in life.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 10,
+      "display_credit": "Marcus Aurelius, Meditations 12.13",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-14a",
+      "type": "quote_reel",
+      "ref": "12.14",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "inner citadel"
+      ],
+      "text": "And even if the tempest carry thee away, let it carry away the poor flesh, the poor breath, everything else; for the intelligence at least it will not carry away.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 16,
+      "display_credit": "Marcus Aurelius, Meditations 12.14",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-15",
+      "type": "quote_reel",
+      "ref": "12.15",
+      "excerpt": false,
+      "themes": [
+        "integrity",
+        "virtue"
+      ],
+      "text": "Does the light of the lamp shine without losing its splendour until it is extinguished; and shall the truth which is in thee and justice and temperance be extinguished before thy death?",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 17,
+      "display_credit": "Marcus Aurelius, Meditations 12.15",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-17a",
+      "type": "quote_reel",
+      "ref": "12.17",
+      "excerpt": true,
+      "themes": [
+        "integrity",
+        "truth"
+      ],
+      "text": "If it is not right, do not do it: if it is not true, do not say it.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 11,
+      "display_credit": "Marcus Aurelius, Meditations 12.17",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-22",
+      "type": "quote_reel",
+      "ref": "12.22",
+      "excerpt": false,
+      "themes": [
+        "perception",
+        "peace"
+      ],
+      "text": "Consider that everything is opinion, and opinion is in thy power. Take away then, when thou choosest, thy opinion, and like a mariner, who has doubled the promontory, thou wilt find calm, everything stable, and a waveless bay.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 20,
+      "display_credit": "Marcus Aurelius, Meditations 12.22",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-25",
+      "type": "quote_reel",
+      "ref": "12.25",
+      "excerpt": false,
+      "themes": [
+        "perception",
+        "freedom"
+      ],
+      "text": "Cast away opinion: thou art saved. Who then hinders thee from casting it away?",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 9,
+      "display_credit": "Marcus Aurelius, Meditations 12.25",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-07-26",
+      "type": "passage_reel",
+      "ref": "7.26",
+      "excerpt": false,
+      "themes": [
+        "forgiveness",
+        "anger",
+        "people"
+      ],
+      "text": "When a man has done thee any wrong, immediately consider with what opinion about good or evil he has done wrong. For when thou hast seen this, thou wilt pity him, and wilt neither wonder nor be angry. For either thou thyself thinkest the same thing to be good that he does or another thing of the same kind. It is thy duty then to pardon him. But if thou dost not think such things to be good or evil, thou wilt more readily be well disposed to him who is in error.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 43,
+      "display_credit": "Marcus Aurelius, Meditations 7.26",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-36",
+      "type": "passage_reel",
+      "ref": "8.36",
+      "excerpt": false,
+      "themes": [
+        "anxiety",
+        "present moment"
+      ],
+      "text": "Do not disturb thyself by thinking of the whole of thy life. Let not thy thoughts at once embrace all the various troubles which thou mayest expect to befall thee: but on every occasion ask thyself, What is there in this which is intolerable and past bearing? For thou wilt be ashamed to confess. In the next place remember that neither the future nor the past pains thee, but only the present. But this is reduced to a very little, if thou only circumscribest it, and chidest thy mind, if it is unable to hold out against even this.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 46,
+      "display_credit": "Marcus Aurelius, Meditations 8.36",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-48",
+      "type": "passage_reel",
+      "ref": "8.48",
+      "excerpt": false,
+      "themes": [
+        "inner citadel",
+        "strength"
+      ],
+      "text": "Remember that the ruling faculty is invincible, when self-collected it is satisfied with itself, if it does nothing which it does not choose to do, even if it resist from mere obstinacy. What then will it be when it forms a judgement about anything aided by reason and deliberately? Therefore the mind which is free from passions is a citadel, for man has nothing more secure to which he can fly for refuge and for the future be inexpugnable. He then who has not seen this is an ignorant man; but he who has seen it and does not fly to this refuge is unhappy.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 49,
+      "display_credit": "Marcus Aurelius, Meditations 8.48",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-08-51a",
+      "type": "passage_reel",
+      "ref": "8.51",
+      "excerpt": true,
+      "themes": [
+        "resilience",
+        "purity",
+        "criticism"
+      ],
+      "text": "Suppose that men kill thee, cut thee in pieces, curse thee. What then can these things do to prevent thy mind from remaining pure, wise, sober, just? For instance, if a man should stand by a limpid pure spring, and curse it, the spring never ceases sending up potable water; and if he should cast clay into it or filth, it will speedily disperse them and wash them out, and will not be at all polluted. How then shalt thou possess a perpetual fountain and not a mere well? By forming thyself hourly to freedom conjoined with contentment, simplicity and modesty.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 47,
+      "display_credit": "Marcus Aurelius, Meditations 8.51",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-09-42b",
+      "type": "passage_reel",
+      "ref": "9.42",
+      "excerpt": true,
+      "themes": [
+        "kindness",
+        "reward"
+      ],
+      "text": "For what more dost thou want when thou hast done a man a service? Art thou not content that thou hast done something conformable to thy nature, and dost thou seek to be paid for it? Just as if the eye demanded a recompense for seeing, or the feet for walking. For as these members are formed for a particular purpose, and by working according to their several constitutions obtain what is their own; so also as man is formed by nature to acts of benevolence, when he has done anything benevolent or in any other way conducive to the common interest, he has acted conformably to his constitution, and he gets what is his own.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 53,
+      "display_credit": "Marcus Aurelius, Meditations 9.42",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-12",
+      "type": "passage_reel",
+      "ref": "10.12",
+      "excerpt": false,
+      "themes": [
+        "decisions",
+        "fear",
+        "reason"
+      ],
+      "text": "What need is there of suspicious fear, since it is in thy power to inquire what ought to be done? And if thou seest clear, go by this way content, without turning back: but if thou dost not see clear, stop and take the best advisers. But if any other things oppose thee, go on according to thy powers with due consideration, keeping to that which appears to be just. For it is best to reach this object, and if thou dost fail, let thy failure be in attempting this. He who follows reason in all things is both tranquil and active at the same time, and also cheerful and collected.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 51,
+      "display_credit": "Marcus Aurelius, Meditations 10.12",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-15",
+      "type": "passage_reel",
+      "ref": "10.15",
+      "excerpt": false,
+      "themes": [
+        "integrity",
+        "time"
+      ],
+      "text": "Short is the little which remains to thee of life. Live as on a mountain. For it makes no difference whether a man lives there or here, if he lives everywhere in the world as in a state (political community). Let men see, let them know a real man who lives according to nature. If they cannot endure him, let them kill him. For that is better than to live thus as men do.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 35,
+      "display_text": "Short is the little which remains to thee of life. Live as on a mountain. For it makes no difference whether a man lives there or here, if he lives everywhere in the world as in a state. Let men see, let them know a real man who lives according to nature. If they cannot endure him, let them kill him. For that is better than to live thus as men do.",
+      "display_edit": "translator's parenthetical glosses removed for on-screen text; 'text' remains verbatim",
+      "display_credit": "Marcus Aurelius, Meditations 10.15",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-10-31a",
+      "type": "passage_reel",
+      "ref": "10.31",
+      "excerpt": true,
+      "themes": [
+        "adversity",
+        "growth"
+      ],
+      "text": "For what else are all these things, except exercises for the reason, when it has viewed carefully and by examination into their nature the things which happen in life? Persevere then until thou shalt have made these things thy own, as the stomach which is strengthened makes all things its own, as the blazing fire makes flame and brightness out of everything that is thrown into it.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 32,
+      "display_credit": "Marcus Aurelius, Meditations 10.31",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-11-18d",
+      "type": "passage_reel",
+      "ref": "11.18",
+      "excerpt": true,
+      "themes": [
+        "anger",
+        "strength",
+        "masculinity"
+      ],
+      "text": "And let this truth be present to thee in the excitement of anger, that to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves and courage, and not the man who is subject to fits of passion and discontent. For in the same degree in which a man's mind is nearer to freedom from all passion, in the same degree also is it nearer to strength: and as the sense of pain is a characteristic of weakness, so also is anger. For he who yields to pain and he who yields to anger, both are wounded and both submit.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 57,
+      "display_credit": "Marcus Aurelius, Meditations 11.18",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-01",
+      "type": "passage_reel",
+      "ref": "12.1",
+      "excerpt": false,
+      "themes": [
+        "present moment",
+        "living fully"
+      ],
+      "text": "All those things at which thou wishest to arrive by a circuitous road, thou canst have now, if thou dost not refuse them to thyself. And this means, if thou wilt take no notice of all the past, and trust the future to providence, and direct the present only conformably to piety and justice. Conformably to piety, that thou mayest be content with the lot which is assigned to thee, for nature designed it for thee and thee for it. Conformably to justice, that thou mayest always speak the truth freely and without disguise, and do the things which are agreeable to law and according to the worth of each. And let neither another man's wickedness hinder thee, nor opinion nor voice, nor yet the sensations of the poor flesh which has grown about thee; for the passive part will look to this. If then, whatever the time may be when thou shalt be near to thy departure, neglecting everything else thou shalt respect only thy ruling faculty and the divinity within thee, and if thou shalt be afraid not because thou must some time cease to live, but if thou shalt fear never to have begun to live according to nature—then thou wilt be a man worthy of the universe which has produced thee, and thou wilt cease to be a stranger in thy native land, and to wonder at things which happen daily as if they were something unexpected, and to be dependent on this or that.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 111,
+      "display_credit": "Marcus Aurelius, Meditations 12.1",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-04",
+      "type": "passage_reel",
+      "ref": "12.4",
+      "excerpt": false,
+      "themes": [
+        "approval",
+        "self-worth"
+      ],
+      "text": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others. If then a god or a wise teacher should present himself to a man and bid him to think of nothing and to design nothing which he would not express as soon as he conceived it, he could not endure it even for a single day. So much more respect have we to what our neighbours shall think of us than to what we shall think of ourselves.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 48,
+      "display_credit": "Marcus Aurelius, Meditations 12.4",
+      "attribution": "Marcus Aurelius"
+    },
+    {
+      "id": "MA-12-14",
+      "type": "passage_reel",
+      "ref": "12.14",
+      "excerpt": false,
+      "themes": [
+        "adversity",
+        "inner citadel"
+      ],
+      "text": "Either there is a fatal necessity and invincible order, or a kind Providence, or a confusion without a purpose and without a director. If then there is an invincible necessity, why dost thou resist? But if there is a Providence which allows itself to be propitiated, make thyself worthy of the help of the divinity. But if there is a confusion without governor, be content that in such a tempest thou hast in thyself a certain ruling intelligence. And even if the tempest carry thee away, let it carry away the poor flesh, the poor breath, everything else; for the intelligence at least it will not carry away.",
+      "author": "Marcus Aurelius",
+      "work": "Meditations",
+      "translator": "George Long (1862)",
+      "verified": true,
+      "audio": {
+        "source": "LibriVox",
+        "status": "pending_forced_alignment"
+      },
+      "source_batch": 2,
+      "est_seconds": 50,
+      "display_credit": "Marcus Aurelius, Meditations 12.14",
+      "attribution": "Marcus Aurelius"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "timezone_note": "Times are US Eastern (America/New_York) and converted to UTC automatically by watchdog.py / run_day.py using Python's zoneinfo, which already knows the DST rules - no manual cron edits, ever.",
+  "slots": [
+    {
+      "id": "morning",
+      "time_et": "07:30",
+      "content": "quote_reel",
+      "prefer_themes_weekday": [
+        "morning",
+        "discipline",
+        "purpose",
+        "procrastination"
+      ],
+      "platforms": {
+        "tiktok": "video",
+        "youtube": "short",
+        "instagram": "reel",
+        "facebook": "reel"
+      }
+    },
+    {
+      "id": "midday",
+      "time_et": "12:30",
+      "content": "story_reel if one is available under the repeat rules, else quote_reel",
+      "platforms": {
+        "tiktok": "video",
+        "youtube": "short",
+        "instagram": "post + story",
+        "facebook": "post + story"
+      }
+    },
+    {
+      "id": "evening",
+      "time_et": "20:30",
+      "content": "passage_reel",
+      "prefer_themes": [
+        "anxiety",
+        "anger",
+        "people",
+        "time",
+        "mortality",
+        "adversity"
+      ],
+      "platforms": {
+        "tiktok": "video",
+        "youtube": "short",
+        "instagram": "reel",
+        "facebook": "reel"
+      }
+    }
+  ],
+  "backup_runs": "Each slot gets 2 backup cron runs (+30 min, +90 min). Skip if a successful post exists for that slot in the last 2h (from the original doc).",
+  "rules": {
+    "same_video_all_platforms_per_slot": true,
+    "no_repeat_item_days": 90,
+    "author_rotation": "never the same philosopher 3 times in a row across slots",
+    "hook_rules": "no same hook twice in a row; no same hook+CTA pair within 7 days",
+    "background_rules": "no same background clip within 14 days",
+    "recycling": {
+      "enabled_after_day": 90,
+      "what": "top 20% of reels by (shares + saves) / views",
+      "how": "re-render with a NEW hook + NEW background + NEW music; never re-upload the identical file",
+      "max_share_of_daily_posts": 0.34
+    }
+  },
+  "platform_limits": {
+    "youtube": "videos.insert costs a large part of the default 10,000-unit daily quota (~1,600 per upload) — 3/day is safe, stay under 6.",
+    "tiktok": "Until the app passes TikTok's API audit, posts are private-only / drafts. Submit for audit as early as possible."
+  }
+}

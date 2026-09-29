@@ -1,0 +1,60 @@
+{
+  "name": "UNSHAKEN",
+  "name_status": "PLACEHOLDER until the owner confirms the final name and handles",
+  "handle": "@unshaken",
+  "colors": {
+    "bg": "#111111",
+    "ivory": "#EDE6D6",
+    "bronze": "#B08D57",
+    "bronze_light": "#D6B87E"
+  },
+  "fonts": {
+    "quote": "Lora-Variable.ttf",
+    "quote_italic": "Lora-Italic-Variable.ttf",
+    "sans_med": "Poppins-Medium.ttf",
+    "sans_light": "Poppins-Light.ttf",
+    "search_dirs": [
+      "./fonts",
+      "/usr/share/fonts/truetype/google-fonts"
+    ],
+    "note": "Lora (serif, quotes) and Poppins (labels) are free OFL fonts. In GitHub Actions download them into ./fonts."
+  },
+  "formats": {
+    "reel": {
+      "w": 1080,
+      "h": 1920,
+      "zone_top": 330,
+      "zone_bottom": 1420,
+      "brand_y": 215,
+      "text_w": 860,
+      "max_size": 92,
+      "min_size": 44
+    },
+    "story": {
+      "w": 1080,
+      "h": 1920,
+      "zone_top": 330,
+      "zone_bottom": 1420,
+      "brand_y": 215,
+      "text_w": 860,
+      "max_size": 92,
+      "min_size": 44
+    },
+    "post": {
+      "w": 1080,
+      "h": 1350,
+      "zone_top": 230,
+      "zone_bottom": 1130,
+      "brand_y": 120,
+      "text_w": 860,
+      "max_size": 88,
+      "min_size": 44
+    }
+  },
+  "safe_zone_note": "Reels/Shorts/TikTok cover the bottom ~450px and right ~130px with UI. All text stays inside zone_top..zone_bottom.",
+  "timing": {
+    "hook_seconds": 2.2,
+    "page_hold_seconds": 0.8,
+    "est_words_per_second": 2.3
+  }
+}
