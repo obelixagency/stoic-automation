@@ -1,0 +1,56 @@
+name: Watchdog (checks every slot went out, retries the late ones)
+on:
+  schedule:
+    # Active window only, to stay well under GitHub's 2,000 Actions-minutes/month free quota for private repos.
+    # 11:00-23:59 UTC + 00:00-04:59 UTC = 18h/day, covering all three post slots (07:30/12:30/20:30 ET) plus
+    # the 2.5h escalation grace period, safely across both EDT and EST (no manual seasonal edits needed).
+    - cron: "*/30 11-23 * * *"
+    - cron: "*/30 0-4 * * *"
+  workflow_dispatch:            # lets you run it manually from the Actions tab to test
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
+      - run: pip install pillow numpy
+
+      - name: Make sure today's posting plan exists
+        env:
+          LAUNCH_DATE: ${{ vars.LAUNCH_DATE }}   # set once in repo Settings -> Variables, e.g. 2026-10-06
+        run: |
+          TODAY=$(TZ=America/New_York date +%F)
+          if [ ! -f "plan_${TODAY}.json" ]; then
+            python run_day.py --launch-date "$LAUNCH_DATE" --date "$TODAY"
+          fi
+
+      - name: Render today's media (skips anything already rendered)
+        run: |
+          TODAY=$(TZ=America/New_York date +%F)
+          python render_day.py --date "$TODAY"
+
+      - name: Run the watchdog for today
+        id: watchdog
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
+        run: |
+          TODAY=$(TZ=America/New_York date +%F)
+          python watchdog.py --date "$TODAY"
+        # a nonzero exit here (escalation) is what makes GitHub email/notify the repo owner - keep this step un-suppressed
+
+      - name: Commit the publish log and today's plan
+        if: always()
+        run: |
+          git config user.name "watchdog-bot"; git config user.email "bot@users.noreply.github.com"
+          git add publish_log.json plan_*.json rendered/
+          git commit -m "watchdog: $(TZ=America/New_York date +%F\ %H:%M)" || echo "nothing to commit"
+          git push
