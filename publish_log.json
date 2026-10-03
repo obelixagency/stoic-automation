@@ -196,12 +196,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "not_connected",
      "message": "missing secrets: YT_CHANNEL_ID"
     },
-    "last_attempt": "2026-10-02T23:11:47.558653+00:00"
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -229,12 +229,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AP_YSNUp2X7xoMqa9ghE8UC'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A4kYFUqppSLVZSCfY_X9Vr6'}"
     },
-    "last_attempt": "2026-10-02T23:11:47.558653+00:00"
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
    }
   },
   "midday": {
@@ -251,12 +251,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "not_connected",
      "message": "missing secrets: YT_CHANNEL_ID"
     },
-    "last_attempt": "2026-10-02T23:11:47.558653+00:00"
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -268,12 +268,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AzTwHc7i456w0V_46JodDjv'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ARi5WRVUj3PrvEQyHSIIqT8'}"
     },
-    "last_attempt": "2026-10-02T23:11:47.558653+00:00"
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
    }
   },
   "midday_static": {
@@ -311,6 +311,63 @@
      }
     },
     "last_attempt": "2026-10-02T19:05:47.943656+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/MA-04-49.mp4"
+     }
+    },
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+   },
+   "youtube_short": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "not_connected",
+     "message": "missing secrets: YT_CHANNEL_ID"
+    },
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+   },
+   "instagram_reel": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18118737838865316 never finished processing"
+    },
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1768435294241354"
+    },
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18118738219865316 never finished processing"
+    },
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AOmMnzzYFbWhwZmckMo0tcr'}"
+    },
+    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
    }
   }
  }
