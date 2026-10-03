@@ -195,13 +195,12 @@
     "last_attempt": "2026-10-02T19:05:47.943656+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 3,
+    "status": "ok",
+    "attempts": 4,
     "detail": {
-     "error": "not_connected",
-     "message": "missing secrets: YT_CHANNEL_ID"
+     "platform_ref": "PtzLTdVQfW8"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -229,12 +228,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A4kYFUqppSLVZSCfY_X9Vr6'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AsoYtt6qgDTXWCZr_klWb1s'}"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    }
   },
   "midday": {
@@ -250,13 +249,12 @@
     "last_attempt": "2026-10-02T19:05:47.943656+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 3,
+    "status": "ok",
+    "attempts": 4,
     "detail": {
-     "error": "not_connected",
-     "message": "missing secrets: YT_CHANNEL_ID"
+     "platform_ref": "DengGslY01w"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -268,12 +266,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ARi5WRVUj3PrvEQyHSIIqT8'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ASiXkhDW4KeW9AsWEs7hNt0'}"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    }
   },
   "midday_static": {
@@ -326,22 +324,21 @@
     "last_attempt": "2026-10-03T02:15:55.293576+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 1,
+    "status": "ok",
+    "attempts": 2,
     "detail": {
-     "error": "not_connected",
-     "message": "missing secrets: YT_CHANNEL_ID"
+     "platform_ref": "BIVMbBdTBl0"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    },
    "instagram_reel": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18118737838865316 never finished processing"
+     "message": "Instagram container 18118750549865316 never finished processing"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    },
    "facebook_reel": {
     "status": "ok",
@@ -353,21 +350,21 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18118738219865316 never finished processing"
+     "message": "Instagram container 18118750708865316 never finished processing"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AOmMnzzYFbWhwZmckMo0tcr'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AlctfRMazIzoiUP-KwOEREM'}"
     },
-    "last_attempt": "2026-10-03T02:15:55.293576+00:00"
+    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
    }
   }
  }
