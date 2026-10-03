@@ -391,12 +391,12 @@
    },
    "instagram_reel": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18118911316865316 never finished processing"
+     "message": "Instagram container 18118980700865316 never finished processing"
     },
-    "last_attempt": "2026-10-03T15:06:16.400640+00:00"
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
    },
    "facebook_reel": {
     "status": "ok",
@@ -416,12 +416,88 @@
    },
    "facebook_story": {
     "status": "failed",
+    "attempts": 2,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AfAbL3T5lPR9InePiiAhYdG'}"
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   }
+  },
+  "midday": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SE-L30-a.mp4"
+     }
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "TA5Q2cWbCIs"
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
     "attempts": 1,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AkwBLXeztjzHh_12XNPOglu'}"
+     "message": "Instagram container 18118980865865316 never finished processing"
     },
-    "last_attempt": "2026-10-03T15:06:16.400640+00:00"
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Ah50freUwEIGSm0re45p4CW'}"
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   }
+  },
+  "midday_static": {
+   "instagram_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18018146561937075"
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18411287353083337"
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   },
+   "facebook_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "122095994625504908"
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "post_id": "1431252039106938"
+     }
+    },
+    "last_attempt": "2026-10-03T18:48:20.922659+00:00"
    }
   }
  }
