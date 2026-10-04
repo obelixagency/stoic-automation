@@ -390,13 +390,12 @@
     "last_attempt": "2026-10-03T15:06:16.400640+00:00"
    },
    "instagram_reel": {
-    "status": "failed",
-    "attempts": 3,
+    "status": "ok",
+    "attempts": 4,
     "detail": {
-     "error": "publish_failed",
-     "message": "Instagram container 18119021920865316 never finished processing"
+     "platform_ref": "18178755190428249"
     },
-    "last_attempt": "2026-10-03T22:04:47.291784+00:00"
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
    },
    "facebook_reel": {
     "status": "ok",
@@ -416,12 +415,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A7as65kFjEP3y6Ie8ZHRG03'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AmaNgP3urSFuTQq0-2LIZj_'}"
     },
-    "last_attempt": "2026-10-03T22:04:47.291784+00:00"
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
    }
   },
   "midday": {
@@ -454,12 +453,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Aaq--hje7cHNzGz3NK_chdu'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ArAf9cbBMWxDrqykHhWtqwM'}"
     },
-    "last_attempt": "2026-10-03T22:04:47.291784+00:00"
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
    }
   },
   "midday_static": {
@@ -497,6 +496,61 @@
      }
     },
     "last_attempt": "2026-10-03T18:48:20.922659+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/MA-06-20.mp4"
+     }
+    },
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "H41mQOP1Mvk"
+    },
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18107549075189823"
+    },
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1148115307643245"
+    },
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18119065834865316 never finished processing"
+    },
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AmmPoo5n4YRQKHdJ0eRf6uN'}"
+    },
+    "last_attempt": "2026-10-04T01:55:52.376693+00:00"
    }
   }
  }
