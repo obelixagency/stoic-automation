@@ -554,5 +554,60 @@
    }
   }
  },
- "2026-10-04": {}
+ "2026-10-04": {
+  "morning": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SE-L13-n.mp4"
+     }
+    },
+    "last_attempt": "2026-10-04T15:43:39.166595+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "lhoL1XDV04I"
+    },
+    "last_attempt": "2026-10-04T15:43:39.166595+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18228494875333566"
+    },
+    "last_attempt": "2026-10-04T15:43:39.166595+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "2877843552578442"
+    },
+    "last_attempt": "2026-10-04T15:43:39.166595+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18122601079957013"
+    },
+    "last_attempt": "2026-10-04T15:43:39.166595+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ANEbdfgFNWFN-OwzVctMuRT'}"
+    },
+    "last_attempt": "2026-10-04T15:43:39.166595+00:00"
+   }
+  }
+ }
 }
