@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-05",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-05-01a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n“In the morning when thou risest unwillingly, let this thought be present—I am rising to the work of a human being.”\n— Marcus Aurelius, Meditations 5.1\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #wisdom #discipline #philosophy"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n— Seneca, Letter 30.3 (on Aufidius Bassus)\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #philosophy #motivation #wisdom"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-03-04a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L24-k",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You have less time than you think.",
+      "caption": "You have less time than you think.\n\n— Seneca, Letter 24\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #selfimprovement #motivation #mindset"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-05",
+      "slot": "morning",
+      "item_id": "MA-05-01a",
+      "group": "MA-05-01b",
+      "author": "Marcus Aurelius",
+      "hook_id": "h14",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-05",
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "group": "SE-L30-b",
+      "author": "Seneca",
+      "hook_id": "h13",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-05",
+      "slot": "midday_static",
+      "item_id": "MA-03-04a",
+      "group": "MA-03-04a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-05",
+      "slot": "evening",
+      "item_id": "SE-L24-k",
+      "group": "SE-L24-m",
+      "author": "Seneca",
+      "hook_id": "h08",
+      "cta_id": "c01",
+      "how": "passage"
+    }
+  ],
+  "phase": "phase1_audio_only",
+  "day_n": 5
+}
