@@ -1114,5 +1114,138 @@
    }
   }
  },
- "2026-10-07": {}
+ "2026-10-07": {
+  "morning": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/MA-02-01a.mp4"
+     }
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "wUaU8vJYvx8"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "instagram_reel": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18120325492865316 never finished processing"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "2179421463457112"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18120325762865316 never finished processing"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AkVxlhMU13uFDTIX-2pvzZm'}"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   }
+  },
+  "midday": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SE-L28-b.mp4"
+     }
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "v23IXwptzpU"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18120326233865316 never finished processing"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A7J1VioTGwx5dfxm4YSibM9'}"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   }
+  },
+  "midday_static": {
+   "instagram_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18130075813809119"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18127303831874606"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "facebook_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "122098733205504908"
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "post_id": "1374278741129367"
+     }
+    },
+    "last_attempt": "2026-10-07T17:44:21.812300+00:00"
+   }
+  }
+ }
 }
