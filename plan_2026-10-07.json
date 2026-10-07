@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-07",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-02-01a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n“Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial…”\n— Marcus Aurelius, Meditations 2.1\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #motivation #mindset #selfimprovement"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Seneca wrote this almost 2,000 years ago. It's about you.",
+      "caption": "Seneca wrote this almost 2,000 years ago. It's about you.\n\n“Socrates made the same remark to one who complained; he said: \"Why do you wonder that globe-trotting does not help you, seeing that you always take yourself with you? The reason which set you wandering is ever at your heels.\"”\n— Seneca, Letter 28.2 (on Socrates)\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #wisdom #motivation #mindset"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "SE-L05-d",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-11-18d",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "The most powerful man in the Roman world, in his private journal:",
+      "caption": "The most powerful man in the Roman world, in his private journal:\n\n— Marcus Aurelius, Meditations 11.18\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #marcusaurelius #wisdom #motivation #mindset"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-07",
+      "slot": "morning",
+      "item_id": "MA-02-01a",
+      "group": "MA-02-01",
+      "author": "Marcus Aurelius",
+      "hook_id": "h13",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-07",
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "group": "SE-L28-c",
+      "author": "Seneca",
+      "hook_id": "h03",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-07",
+      "slot": "midday_static",
+      "item_id": "SE-L05-d",
+      "group": "SE-L05-d",
+      "author": "Seneca",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-07",
+      "slot": "evening",
+      "item_id": "MA-11-18d",
+      "group": "MA-11-18d",
+      "author": "Marcus Aurelius",
+      "hook_id": "h02",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "phase1_audio_only",
+  "day_n": 7
+}
