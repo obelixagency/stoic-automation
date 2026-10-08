@@ -1161,12 +1161,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AiQTEwiy5dkl3EPtjjHpaz9'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AlwJqkiPZzl62ogawY5d4dN'}"
     },
-    "last_attempt": "2026-10-08T02:39:14.646541+00:00"
+    "last_attempt": "2026-10-08T03:56:49.500135+00:00"
    }
   },
   "midday": {
@@ -1199,12 +1199,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AEGgBvs0tDXHz_NwUqx9GEs'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AJM2oZt_lbM-N33xyK5wnqB'}"
     },
-    "last_attempt": "2026-10-08T02:39:14.646541+00:00"
+    "last_attempt": "2026-10-08T03:56:49.500135+00:00"
    }
   },
   "midday_static": {
@@ -1266,12 +1266,12 @@
    },
    "instagram_reel": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18120433858865316 never finished processing"
+     "message": "Instagram container 18120450187865316 never finished processing"
     },
-    "last_attempt": "2026-10-08T02:39:14.646541+00:00"
+    "last_attempt": "2026-10-08T03:56:49.500135+00:00"
    },
    "facebook_reel": {
     "status": "ok",
@@ -1283,21 +1283,21 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18120434059865316 never finished processing"
+     "message": "Instagram container 18120450319865316 never finished processing"
     },
-    "last_attempt": "2026-10-08T02:39:14.646541+00:00"
+    "last_attempt": "2026-10-08T03:56:49.500135+00:00"
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AKV0LH8QpOBLzos4ZGWo84c'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Akgi0fgUeR4pnZ7ZTrhdX_D'}"
     },
-    "last_attempt": "2026-10-08T02:39:14.646541+00:00"
+    "last_attempt": "2026-10-08T03:56:49.500135+00:00"
    }
   }
  }
