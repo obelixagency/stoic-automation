@@ -1348,12 +1348,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ATwdAYoglcV-n9iOAUIH1Oe'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Add6zjMQOrMR8GR6w28RDZy'}"
     },
-    "last_attempt": "2026-10-08T17:48:14.677307+00:00"
+    "last_attempt": "2026-10-08T23:10:29.297044+00:00"
    }
   },
   "midday": {
@@ -1369,13 +1369,12 @@
     "last_attempt": "2026-10-08T17:48:14.677307+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 1,
+    "status": "ok",
+    "attempts": 2,
     "detail": {
-     "error": "publish_failed",
-     "message": "{'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'errors': [{'message': 'Invalid Credentials', 'domain': 'global', 'reason': 'authError', 'location': 'Authorization', 'locationType': 'header'}], 'status': 'UNAUTHENTICATED'}"
+     "platform_ref": "y2ABkI_iCpQ"
     },
-    "last_attempt": "2026-10-08T17:48:14.677307+00:00"
+    "last_attempt": "2026-10-08T23:10:29.297044+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -1387,12 +1386,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ANQSyMHG0AlAvwlbBPSuxD1'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AUYK6IbK9sTfvCC3vz-H-BA'}"
     },
-    "last_attempt": "2026-10-08T17:48:14.677307+00:00"
+    "last_attempt": "2026-10-08T23:10:29.297044+00:00"
    }
   },
   "midday_static": {
