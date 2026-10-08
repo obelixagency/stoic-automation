@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-08",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-02-04a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "A Roman emperor wrote this to himself. It was never meant to be read.",
+      "caption": "A Roman emperor wrote this to himself. It was never meant to be read.\n\n“…a limit of time is fixed for thee, which if thou dost not use for clearing away the clouds from thy mind, it will go and thou wilt go, and it will never return.”\n— Marcus Aurelius, Meditations 2.4\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #mindset #discipline #philosophy"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Seneca wrote this almost 2,000 years ago. It's about you.",
+      "caption": "Seneca wrote this almost 2,000 years ago. It's about you.\n\n— Seneca, Letter 30.3 (on Aufidius Bassus)\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #motivation #wisdom #selfimprovement"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "SE-L07-i",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-04-49",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "The most powerful man in the Roman world, in his private journal:",
+      "caption": "The most powerful man in the Roman world, in his private journal:\n\n— Marcus Aurelius, Meditations 4.49\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #marcusaurelius #selfimprovement #motivation #philosophy"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-08",
+      "slot": "morning",
+      "item_id": "MA-02-04a",
+      "group": "MA-02-04a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h01",
+      "cta_id": "c04",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-08",
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "group": "SE-L30-b",
+      "author": "Seneca",
+      "hook_id": "h03",
+      "cta_id": "c03",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-08",
+      "slot": "midday_static",
+      "item_id": "SE-L07-i",
+      "group": "SE-L07-i",
+      "author": "Seneca",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-08",
+      "slot": "evening",
+      "item_id": "MA-04-49",
+      "group": "MA-04-49",
+      "author": "Marcus Aurelius",
+      "hook_id": "h02",
+      "cta_id": "c01",
+      "how": "passage"
+    }
+  ],
+  "phase": "phase1_audio_only",
+  "day_n": 8
+}
