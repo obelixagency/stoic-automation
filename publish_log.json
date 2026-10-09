@@ -1348,12 +1348,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Add6zjMQOrMR8GR6w28RDZy'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AofHiImMEls40JmswOqBlOP'}"
     },
-    "last_attempt": "2026-10-08T23:10:29.297044+00:00"
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
    }
   },
   "midday": {
@@ -1386,12 +1386,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AUYK6IbK9sTfvCC3vz-H-BA'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ACwIctr82eAi1u32qQBTAm3'}"
     },
-    "last_attempt": "2026-10-08T23:10:29.297044+00:00"
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
    }
   },
   "midday_static": {
@@ -1429,6 +1429,62 @@
      }
     },
     "last_attempt": "2026-10-08T17:48:14.677307+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/MA-04-49.mp4"
+     }
+    },
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "_mtZFxTV_Bw"
+    },
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
+   },
+   "instagram_reel": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18120760450865316 never finished processing"
+    },
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "2688533161564010"
+    },
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18120760657865316 never finished processing"
+    },
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ADu3qtc7SMYkHLMuiKaZPK9'}"
+    },
+    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
    }
   }
  }
