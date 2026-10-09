@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-09",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L18-d",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n“If you would not have a man flinch when the crisis comes, train him before it comes.”\n— Seneca, Letter 18.6\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #motivation #wisdom #selfimprovement"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n— Seneca, Letter 30.3 (on Aufidius Bassus)\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #motivation #wisdom #mindset"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-05-06a",
+      "type": "passage_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_carousel",
+        "facebook_carousel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-05-20",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n— Marcus Aurelius, Meditations 5.20\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #mindset #selfimprovement #wisdom"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-09",
+      "slot": "morning",
+      "item_id": "SE-L18-d",
+      "group": "SE-L18-e",
+      "author": "Seneca",
+      "hook_id": "h09",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-09",
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "group": "SE-L30-b",
+      "author": "Seneca",
+      "hook_id": "h13",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-09",
+      "slot": "midday_static",
+      "item_id": "MA-05-06a",
+      "group": "MA-05-06a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-09",
+      "slot": "evening",
+      "item_id": "MA-05-20",
+      "group": "MA-05-20",
+      "author": "Marcus Aurelius",
+      "hook_id": "h12",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "phase1_audio_only",
+  "day_n": 9
+}
