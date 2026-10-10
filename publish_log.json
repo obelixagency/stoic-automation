@@ -1697,12 +1697,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -1721,22 +1721,97 @@
     "last_attempt": "2026-10-10T16:09:31.622088+00:00"
    },
    "instagram_story": {
+    "status": "ok",
+    "attempts": 2,
+    "detail": {
+     "platform_ref": "18068086667757846"
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 2,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Azp09jZF0k6AFYZXs-7pc82'}"
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   }
+  },
+  "midday": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SE-L28-b.mp4"
+     }
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   },
+   "youtube_short": {
     "status": "failed",
     "attempts": 1,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18121156618865316 never finished processing"
+     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18385144255230921"
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
    },
    "facebook_story": {
     "status": "failed",
     "attempts": 1,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A4K-xrg7gUTPsFMWJLVJmBT'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AtMcx_QQ5Z8VRBkc_vuYJ0S'}"
     },
-    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   }
+  },
+  "midday_static": {
+   "instagram_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18016900298953230"
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "17868499215659326"
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   },
+   "facebook_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "122101434291504908"
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "post_id": "1694440435368279"
+     }
+    },
+    "last_attempt": "2026-10-10T20:16:08.356512+00:00"
    }
   }
  }
