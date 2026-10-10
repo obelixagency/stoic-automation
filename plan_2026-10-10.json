@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-10",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-12-06",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n“Practise thyself even in the things which thou despairest of accomplishing. For even the left hand, which is ineffectual for all other things for want of practice, holds the bridle more vigorously than the right hand; for it has been practised in this.”\n— Marcus Aurelius, Meditations 12.6\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #marcusaurelius #discipline #selfimprovement #philosophy"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n“Socrates made the same remark to one who complained; he said: \"Why do you wonder that globe-trotting does not help you, seeing that you always take yourself with you? The reason which set you wandering is ever at your heels.\"”\n— Seneca, Letter 28.2 (on Socrates)\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #motivation #wisdom #mindset"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-05-25a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L05-f",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Seneca, Letter 5.8-5.9\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #mindset #motivation #philosophy"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-10",
+      "slot": "morning",
+      "item_id": "MA-12-06",
+      "group": "MA-12-06",
+      "author": "Marcus Aurelius",
+      "hook_id": "h13",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-10",
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "group": "SE-L28-c",
+      "author": "Seneca",
+      "hook_id": "h12",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-10",
+      "slot": "midday_static",
+      "item_id": "MA-05-25a",
+      "group": "MA-05-25a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-10",
+      "slot": "evening",
+      "item_id": "SE-L05-f",
+      "group": "SE-L05-g",
+      "author": "Seneca",
+      "hook_id": "h10",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "phase1_audio_only",
+  "day_n": 10
+}
