@@ -1682,5 +1682,62 @@
    }
   }
  },
- "2026-10-10": {}
+ "2026-10-10": {
+  "morning": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/MA-12-06.mp4"
+     }
+    },
+    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+   },
+   "youtube_short": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
+    },
+    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18111796697587127"
+    },
+    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1398503199147124"
+    },
+    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18121156618865316 never finished processing"
+    },
+    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A4K-xrg7gUTPsFMWJLVJmBT'}"
+    },
+    "last_attempt": "2026-10-10T16:09:31.622088+00:00"
+   }
+  }
+ }
 }
