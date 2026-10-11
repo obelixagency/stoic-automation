@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-11",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-11-05a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n“What is thy art? To be good.”\n— Marcus Aurelius, Meditations 11.5\n\nSave this. You'll need it.\n\n#stoicism #stoic #marcusaurelius #selfimprovement #motivation #philosophy"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n“Socrates made the same remark to one who complained; he said: \"Why do you wonder that globe-trotting does not help you, seeing that you always take yourself with you? The reason which set you wandering is ever at your heels.\"”\n— Seneca, Letter 28.2 (on Socrates)\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #selfimprovement #discipline #philosophy"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-09-13",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L07-f",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n— Seneca, Letter 7.9\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #philosophy #mindset #motivation"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-11",
+      "slot": "morning",
+      "item_id": "MA-11-05a",
+      "group": "MA-11-05a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h11",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-11",
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "group": "SE-L28-c",
+      "author": "Seneca",
+      "hook_id": "h12",
+      "cta_id": "c03",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-11",
+      "slot": "midday_static",
+      "item_id": "MA-09-13",
+      "group": "MA-09-13",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-11",
+      "slot": "evening",
+      "item_id": "SE-L07-f",
+      "group": "SE-L07-g",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "phase1_audio_only",
+  "day_n": 11
+}
