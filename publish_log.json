@@ -1886,21 +1886,20 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-12T00:22:52.442593+00:00"
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
    },
    "instagram_reel": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed",
-     "message": "Instagram container 18121505683865316 never finished processing"
+     "platform_ref": "18212723428362309"
     },
-    "last_attempt": "2026-10-12T00:22:52.442593+00:00"
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
    },
    "facebook_reel": {
     "status": "ok",
@@ -1920,12 +1919,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AInkCRMwCKdkknK3bxBt_Hc'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A7LgJxyBXmfzK4kSEFaBHp4'}"
     },
-    "last_attempt": "2026-10-12T00:22:52.442593+00:00"
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
    }
   },
   "midday": {
@@ -1942,12 +1941,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-12T00:22:52.442593+00:00"
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -1959,12 +1958,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ATZoQDYlMAbCkqkUjw99Z0E'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AhJ1lcvNql8ut-WbUuM3Bs4'}"
     },
-    "last_attempt": "2026-10-12T00:22:52.442593+00:00"
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
    }
   },
   "midday_static": {
@@ -2002,6 +2001,61 @@
      }
     },
     "last_attempt": "2026-10-11T20:53:19.668316+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SE-L07-f.mp4"
+     }
+    },
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
+   },
+   "youtube_short": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
+    },
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18125702272907571"
+    },
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1098599926359183"
+    },
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18127392584501019"
+    },
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AipX7dSgRmjBbGEGbcMUI9n'}"
+    },
+    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
    }
   }
  }
