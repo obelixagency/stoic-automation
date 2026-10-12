@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-12",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-08-08",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n— Marcus Aurelius, Meditations 8.8\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #marcusaurelius #motivation #wisdom #mindset"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n“Socrates made the same remark to one who complained; he said: \"Why do you wonder that globe-trotting does not help you, seeing that you always take yourself with you? The reason which set you wandering is ever at your heels.\"”\n— Seneca, Letter 28.2 (on Socrates)\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #motivation #philosophy #wisdom"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-07-31a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L63-k",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You have less time than you think.",
+      "caption": "You have less time than you think.\n\n— Seneca, Letter 63.15\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #wisdom #selfimprovement #discipline"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-12",
+      "slot": "morning",
+      "item_id": "MA-08-08",
+      "group": "MA-08-08",
+      "author": "Marcus Aurelius",
+      "hook_id": "h13",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-12",
+      "slot": "midday",
+      "item_id": "SE-L28-b",
+      "group": "SE-L28-c",
+      "author": "Seneca",
+      "hook_id": "h09",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-12",
+      "slot": "midday_static",
+      "item_id": "MA-07-31a",
+      "group": "MA-07-31a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-12",
+      "slot": "evening",
+      "item_id": "SE-L63-k",
+      "group": "SE-L63-l",
+      "author": "Seneca",
+      "hook_id": "h08",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "phase1_audio_only",
+  "day_n": 12
+}
