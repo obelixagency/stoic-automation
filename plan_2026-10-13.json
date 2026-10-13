@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-13",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-11-21a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n“He who has not one and always the same object in life, cannot be one and the same all through his life.”\n— Marcus Aurelius, Meditations 11.21\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #marcusaurelius #motivation #philosophy #selfimprovement"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SD-PM-29",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Seneca, On Peace of Mind 8 (on Diogenes)\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #philosophy #motivation #selfimprovement"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "EP-FR-142",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "EP-DI-1.24b",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n— Epictetus, Discourses 1.24\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #epictetus #selfimprovement #discipline #motivation"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-13",
+      "slot": "morning",
+      "item_id": "MA-11-21a",
+      "group": "MA-11-21a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h09",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-13",
+      "slot": "midday",
+      "item_id": "SD-PM-29",
+      "group": "SD-PM-29",
+      "author": "Seneca",
+      "hook_id": "h10",
+      "cta_id": "c03",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-13",
+      "slot": "midday_static",
+      "item_id": "EP-FR-142",
+      "group": "EP-FR-142",
+      "author": "Epictetus",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-13",
+      "slot": "evening",
+      "item_id": "EP-DI-1.24b",
+      "group": "EP-DI-1.24b",
+      "author": "Epictetus",
+      "hook_id": "h12",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 13
+}
