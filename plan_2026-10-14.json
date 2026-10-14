@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-14",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L18-d",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n“If you would not have a man flinch when the crisis comes, train him before it comes.”\n— Seneca, Letter 18.6\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #discipline #wisdom #mindset"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-2.13b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Epictetus, Discourses 2.13\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #motivation #discipline #selfimprovement"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-04-03c",
+      "type": "passage_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_carousel",
+        "facebook_carousel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L07-f",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n— Seneca, Letter 7.9\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #selfimprovement #discipline #philosophy"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-14",
+      "slot": "morning",
+      "item_id": "SE-L18-d",
+      "group": "SE-L18-e",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-14",
+      "slot": "midday",
+      "item_id": "EP-DI-2.13b",
+      "group": "EP-DI-2.13b",
+      "author": "Epictetus",
+      "hook_id": "h10",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-14",
+      "slot": "midday_static",
+      "item_id": "MA-04-03c",
+      "group": "MA-04-03c",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-14",
+      "slot": "evening",
+      "item_id": "SE-L07-f",
+      "group": "SE-L07-g",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 14
+}
