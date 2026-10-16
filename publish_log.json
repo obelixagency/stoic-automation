@@ -2453,12 +2453,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-16T18:57:26.893787+00:00"
+    "last_attempt": "2026-10-16T21:59:31.720537+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -2486,12 +2486,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'At8ItAs1our-ganYbm8m7qg'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AhDQX22D7BzctF4F-a7_BK_'}"
     },
-    "last_attempt": "2026-10-16T18:57:26.893787+00:00"
+    "last_attempt": "2026-10-16T21:59:31.720537+00:00"
    }
   },
   "midday": {
@@ -2508,30 +2508,29 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-16T18:57:26.893787+00:00"
+    "last_attempt": "2026-10-16T21:59:31.720537+00:00"
    },
    "instagram_story": {
-    "status": "failed",
-    "attempts": 1,
+    "status": "ok",
+    "attempts": 2,
     "detail": {
-     "error": "publish_failed",
-     "message": "Instagram container 18122696068865316 never finished processing"
+     "platform_ref": "17883700350526509"
     },
-    "last_attempt": "2026-10-16T18:57:26.893787+00:00"
+    "last_attempt": "2026-10-16T21:59:31.720537+00:00"
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AisQQIl7ZGTNZKVXhw5mKDD'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AcrZMNLPfmqaWTFNeWZc5nY'}"
     },
-    "last_attempt": "2026-10-16T18:57:26.893787+00:00"
+    "last_attempt": "2026-10-16T21:59:31.720537+00:00"
    }
   },
   "midday_static": {
