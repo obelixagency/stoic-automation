@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-16",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-02-04a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "A Roman emperor wrote this to himself. It was never meant to be read.",
+      "caption": "A Roman emperor wrote this to himself. It was never meant to be read.\n\n“…a limit of time is fixed for thee, which if thou dost not use for clearing away the clouds from thy mind, it will go and thou wilt go, and it will never return.”\n— Marcus Aurelius, Meditations 2.4\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #wisdom #discipline #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L72-l",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n— Seneca, Letter 72.8 (quoting Attalus)\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #selfimprovement #discipline #philosophy"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "EP-DI-1.29b",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "EP-EN-17",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Epictetus was a slave. This is what he taught.",
+      "caption": "Epictetus was a slave. This is what he taught.\n\n— Epictetus, Enchiridion 17\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #epictetus #motivation #mindset #wisdom"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-16",
+      "slot": "morning",
+      "item_id": "MA-02-04a",
+      "group": "MA-02-04a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h01",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-16",
+      "slot": "midday",
+      "item_id": "SE-L72-l",
+      "group": "SE-L72-l",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-16",
+      "slot": "midday_static",
+      "item_id": "EP-DI-1.29b",
+      "group": "EP-DI-1.29b",
+      "author": "Epictetus",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-16",
+      "slot": "evening",
+      "item_id": "EP-EN-17",
+      "group": "EP-EN-17a",
+      "author": "Epictetus",
+      "hook_id": "h04",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 16
+}
