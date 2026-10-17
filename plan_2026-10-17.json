@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-17",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L13-n",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n“And what is baser than getting ready to live when you are already old?”\n— Seneca, Letter 13.17\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #mindset #wisdom #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-FR-109",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Epictetus, Fragment 109 (attrib.)\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #epictetus #mindset #philosophy #discipline"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-11-36",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "EP-DI-2.5b",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n— Epictetus, Discourses 2.5\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #epictetus #discipline #mindset #philosophy"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-17",
+      "slot": "morning",
+      "item_id": "SE-L13-n",
+      "group": "SE-L13-n",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-17",
+      "slot": "midday",
+      "item_id": "EP-FR-109",
+      "group": "EP-FR-109",
+      "author": "Epictetus",
+      "hook_id": "h10",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-17",
+      "slot": "midday_static",
+      "item_id": "MA-11-36",
+      "group": "MA-11-36",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-17",
+      "slot": "evening",
+      "item_id": "EP-DI-2.5b",
+      "group": "EP-DI-2.5b",
+      "author": "Epictetus",
+      "hook_id": "h13",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 17
+}
