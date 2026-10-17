@@ -2453,12 +2453,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 4,
+    "attempts": 5,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-17T00:21:14.880718+00:00"
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -2486,12 +2486,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 4,
+    "attempts": 5,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Aw93ix4B_pRr8OaVcZe1_rj'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AeB6F-dMEPtjywnFnD71JuP'}"
     },
-    "last_attempt": "2026-10-17T00:21:14.880718+00:00"
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
    }
   },
   "midday": {
@@ -2508,12 +2508,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-17T00:21:14.880718+00:00"
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -2525,12 +2525,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ANUD04EOJ3hO_xmyRl1YDMJ'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ADCN5IB3MEvUODXF8d-eaWv'}"
     },
-    "last_attempt": "2026-10-17T00:21:14.880718+00:00"
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
    }
   },
   "midday_static": {
@@ -2568,6 +2568,62 @@
      }
     },
     "last_attempt": "2026-10-16T18:57:26.893787+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/EP-EN-17.mp4"
+     }
+    },
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
+   },
+   "youtube_short": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
+    },
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18097203236417167"
+    },
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1859523238368164"
+    },
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18122763820865316 never finished processing"
+    },
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AuA0ti84VMAXaMp_sRBU7Gv'}"
+    },
+    "last_attempt": "2026-10-17T02:31:09.726987+00:00"
    }
   }
  }
