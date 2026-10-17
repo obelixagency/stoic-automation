@@ -2642,12 +2642,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-17T14:07:48.796845+00:00"
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -2675,12 +2675,88 @@
    },
    "facebook_story": {
     "status": "failed",
+    "attempts": 2,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Ayw43UEZPeZanvxz467_d6l'}"
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   }
+  },
+  "midday": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/EP-FR-109.mp4"
+     }
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   },
+   "youtube_short": {
+    "status": "failed",
     "attempts": 1,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AZ_VsV4GhvYcCNqKfIKUmgC'}"
+     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-17T14:07:48.796845+00:00"
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18116919617101309"
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ABh4ITrPbFq8n1MXg9WXTsq'}"
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   }
+  },
+  "midday_static": {
+   "instagram_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "17903958687668447"
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18105706841176905"
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   },
+   "facebook_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "122108236731504908"
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "post_id": "2187252848856150"
+     }
+    },
+    "last_attempt": "2026-10-17T17:28:58.615815+00:00"
    }
   }
  }
