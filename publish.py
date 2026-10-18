@@ -82,20 +82,29 @@ def publish_facebook_reel(path, caption):
     return _check(r)["id"]
 
 
+def _fb_video_story(path, page_id, token):
+    """Facebook video stories use the 3-phase upload: start -> send the file to upload_url -> finish.
+    (The generic /videos + video_stories(video_id) route fails with "upload_phase is required".)"""
+    r = requests.post(f"{GRAPH}/{page_id}/video_stories", data={"upload_phase": "start", "access_token": token})
+    d = _check(r)
+    video_id, upload_url = d["video_id"], d["upload_url"]
+    size = os.path.getsize(path)
+    with open(path, "rb") as f:
+        u = requests.post(upload_url, headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(size)}, data=f)
+    _check(u)
+    r3 = requests.post(f"{GRAPH}/{page_id}/video_stories",
+                       data={"upload_phase": "finish", "video_id": video_id, "access_token": token})
+    return _check(r3)
+
 def publish_facebook_story(path, caption):
     page_id, token = _fb_page()
-    is_video = str(path).endswith(".mp4")
-    data = {"published": "false", "access_token": token}
-    if is_video:
-        offset = _cover_offset_ms(path)
-        if offset is not None: data["thumb_offset"] = offset
+    if str(path).endswith(".mp4"):
+        return _fb_video_story(path, page_id, token)
     with open(path, "rb") as f:
-        r = requests.post(f"{GRAPH}/{page_id}/{'videos' if is_video else 'photos'}", data=data, files={"source": f})
+        r = requests.post(f"{GRAPH}/{page_id}/photos", data={"published": "false", "access_token": token}, files={"source": f})
     media_id = _check(r)["id"]
-    r2 = requests.post(f"{GRAPH}/{page_id}/{'video_stories' if is_video else 'photo_stories'}",
-                        data={("video_id" if is_video else "photo_id"): media_id, "access_token": token})
+    r2 = requests.post(f"{GRAPH}/{page_id}/photo_stories", data={"photo_id": media_id, "access_token": token})
     return _check(r2)
-
 
 def publish_facebook_carousel(paths, caption):
     """Facebook Pages have no native multi-image carousel post; publish each image as its own post,
