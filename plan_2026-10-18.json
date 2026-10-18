@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-18",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-04-18a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n“How much trouble he avoids who does not look to see what his neighbour says or does or thinks, but only to what he does himself, that it may be just and pure…”\n— Marcus Aurelius, Meditations 4.18\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #marcusaurelius #philosophy #mindset #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n— Epictetus, Discourses 1.18\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #epictetus #selfimprovement #motivation #discipline"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "SD-PR-22",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SD-PR-05",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Seneca, On Providence 2\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #wisdom #philosophy #selfimprovement"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-18",
+      "slot": "morning",
+      "item_id": "MA-04-18a",
+      "group": "MA-04-18a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h09",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-18",
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "group": "EP-DI-1.18b",
+      "author": "Epictetus",
+      "hook_id": "h14",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-18",
+      "slot": "midday_static",
+      "item_id": "SD-PR-22",
+      "group": "SD-PR-22",
+      "author": "Seneca",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-18",
+      "slot": "evening",
+      "item_id": "SD-PR-05",
+      "group": "SD-PR-05",
+      "author": "Seneca",
+      "hook_id": "h10",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 18
+}
