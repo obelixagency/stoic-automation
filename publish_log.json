@@ -2642,12 +2642,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 4,
+    "attempts": 5,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-17T22:06:18.772164+00:00"
+    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -2675,12 +2675,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 4,
+    "attempts": 5,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AiTaXL_uS7aaUX9mF2ojfdc'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A1wfaUa0aKU8yhv2Kdqt6Xd'}"
     },
-    "last_attempt": "2026-10-17T22:06:18.772164+00:00"
+    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
    }
   },
   "midday": {
@@ -2697,12 +2697,12 @@
    },
    "youtube_short": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
      "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
     },
-    "last_attempt": "2026-10-17T22:06:18.772164+00:00"
+    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -2714,12 +2714,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ArxiJpcUxwYztaQbarV_zhD'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AeSVuedLF0aPqayjmrp9FK6'}"
     },
-    "last_attempt": "2026-10-17T22:06:18.772164+00:00"
+    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
    }
   },
   "midday_static": {
