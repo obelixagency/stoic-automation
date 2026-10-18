@@ -2641,13 +2641,12 @@
     "last_attempt": "2026-10-17T14:07:48.796845+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 5,
+    "status": "ok",
+    "attempts": 6,
     "detail": {
-     "error": "publish_failed",
-     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
+     "platform_ref": "6v8ugPN48so"
     },
-    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -2675,12 +2674,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 5,
+    "attempts": 6,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A1wfaUa0aKU8yhv2Kdqt6Xd'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A1gal-Y9dPb5mT1rxyM7XSM'}"
     },
-    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
    }
   },
   "midday": {
@@ -2696,13 +2695,12 @@
     "last_attempt": "2026-10-17T17:28:58.615815+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 4,
+    "status": "ok",
+    "attempts": 5,
     "detail": {
-     "error": "publish_failed",
-     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
+     "platform_ref": "x6v5cWBVp9k"
     },
-    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -2714,12 +2712,12 @@
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 4,
+    "attempts": 5,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AeSVuedLF0aPqayjmrp9FK6'}"
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AujxOpyvuLV_DSNO7ZgbiSL'}"
     },
-    "last_attempt": "2026-10-18T00:12:49.739124+00:00"
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
    }
   },
   "midday_static": {
@@ -2757,6 +2755,62 @@
      }
     },
     "last_attempt": "2026-10-17T17:28:58.615815+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/EP-DI-2.5b.mp4"
+     }
+    },
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "YcWCTfOHCG0"
+    },
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
+   },
+   "instagram_reel": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18123008359865316 never finished processing"
+    },
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1636382278148580"
+    },
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18123008500865316 never finished processing"
+    },
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AmkJc3Agx-aAjQRgNqM7BYg'}"
+    },
+    "last_attempt": "2026-10-18T01:11:41.698381+00:00"
    }
   }
  }
