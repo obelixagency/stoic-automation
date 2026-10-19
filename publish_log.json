@@ -3018,5 +3018,146 @@
    }
   }
  },
- "2026-10-19": {}
+ "2026-10-19": {
+  "morning": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SD-PM-34.mp4"
+     }
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "UwL1nexvLNw"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "17961762498231876"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1422097270136628"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18093719612678401"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/page-stories-api.",
+      "post_id": "2138979884170669"
+     }
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   }
+  },
+  "midday": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/EP-FR-068.mp4"
+     }
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "_OqCWmA8u7o"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18131884618688986"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/page-stories-api.",
+      "post_id": "1658672802586734"
+     }
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   }
+  },
+  "midday_static": {
+   "instagram_carousel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18220534594346795"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "facebook_carousel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": [
+      "122110114443504908",
+      "122110114491504908",
+      "122110114671504908",
+      "122110114797504908"
+     ]
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "18057461117571384"
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "post_id": "29109102258727789"
+     }
+    },
+    "last_attempt": "2026-10-19T17:23:59.749444+00:00"
+   }
+  }
+ }
 }
