@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-20",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "EP-FR-144",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n“Choose the best life, for custom will make it pleasant.”\n— Epictetus, Fragment 144 (attrib.)\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #discipline #mindset #selfimprovement"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SD-PM-57",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Save this for the day everything goes wrong.",
+      "caption": "Save this for the day everything goes wrong.\n\n“Zeno, the chief of our school, when he heard the news of a shipwreck, in which all his property had been lost, remarked, “Fortune bids me follow philosophy in lighter marching order.””\n— Seneca, On Peace of Mind 14 (on Zeno)\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #mindset #philosophy #wisdom"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-02-11a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-02-01",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "A Roman emperor wrote this to himself. It was never meant to be read.",
+      "caption": "A Roman emperor wrote this to himself. It was never meant to be read.\n\n— Marcus Aurelius, Meditations 2.1\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #motivation #philosophy #mindset"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-20",
+      "slot": "morning",
+      "item_id": "EP-FR-144",
+      "group": "EP-FR-144",
+      "author": "Epictetus",
+      "hook_id": "h11",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "midday",
+      "item_id": "SD-PM-57",
+      "group": "SD-PM-57",
+      "author": "Seneca",
+      "hook_id": "h06",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "midday_static",
+      "item_id": "MA-02-11a",
+      "group": "MA-02-11a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "evening",
+      "item_id": "MA-02-01",
+      "group": "MA-02-01",
+      "author": "Marcus Aurelius",
+      "hook_id": "h01",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 20
+}
