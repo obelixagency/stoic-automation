@@ -3256,13 +3256,12 @@
     "last_attempt": "2026-10-20T15:37:01.449483+00:00"
    },
    "instagram_story": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed",
-     "message": "Instagram container 18123694456865316 never finished processing"
+     "platform_ref": "18117636536101148"
     },
-    "last_attempt": "2026-10-20T19:56:51.226749+00:00"
+    "last_attempt": "2026-10-20T23:06:36.734743+00:00"
    },
    "facebook_story": {
     "status": "ok",
