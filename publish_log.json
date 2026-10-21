@@ -3493,12 +3493,12 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False, 'error_user_title': 'Cannot Create Media', 'error_user_msg': 'Create media fail, please try to re-create media', 'fbtrace_id': 'A1IigWg41GsvrUigYQcEj3C'}"
+     "message": "Instagram container 18123941809865316 never finished processing"
     },
-    "last_attempt": "2026-10-21T19:59:48.418945+00:00"
+    "last_attempt": "2026-10-21T23:12:58.550028+00:00"
    },
    "facebook_story": {
     "status": "ok",
