@@ -3611,5 +3611,65 @@
    }
   }
  },
- "2026-10-22": {}
+ "2026-10-22": {
+  "morning": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SE-L72-f.mp4"
+     }
+    },
+    "last_attempt": "2026-10-22T16:21:38.845115+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "SEiaHlAnfA0"
+    },
+    "last_attempt": "2026-10-22T16:21:38.845115+00:00"
+   },
+   "instagram_reel": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18124094491865316 never finished processing"
+    },
+    "last_attempt": "2026-10-22T16:21:38.845115+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "2168050003827899"
+    },
+    "last_attempt": "2026-10-22T16:21:38.845115+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18124094638865316 never finished processing"
+    },
+    "last_attempt": "2026-10-22T16:21:38.845115+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/page-stories-api.",
+      "post_id": "1111313374931527"
+     }
+    },
+    "last_attempt": "2026-10-22T16:21:38.845115+00:00"
+   }
+  }
+ }
 }
