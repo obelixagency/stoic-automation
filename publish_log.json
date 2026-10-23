@@ -3770,12 +3770,12 @@
    },
    "instagram_reel": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18124175788865316 never finished processing"
+     "message": "Instagram container 18124189048865316 never finished processing"
     },
-    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
+    "last_attempt": "2026-10-23T03:28:29.239032+00:00"
    },
    "facebook_reel": {
     "status": "ok",
@@ -3787,12 +3787,12 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18124176013865316 never finished processing"
+     "message": "Instagram container 18124189174865316 never finished processing"
     },
-    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
+    "last_attempt": "2026-10-23T03:28:29.239032+00:00"
    },
    "facebook_story": {
     "status": "ok",
