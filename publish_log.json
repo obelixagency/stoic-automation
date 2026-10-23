@@ -3847,12 +3847,12 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A6-a4MVfIPbkefnaXkThNF0'}"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AiKzGebmPKSQcBVpssCjhIM'}"
     },
-    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+    "last_attempt": "2026-10-23T22:59:20.747242+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -3889,59 +3889,59 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A7Uq_Pq_BuCs1FxY3CZ8y6a'}"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ACX7f7jyrv012SkeiTaPeUF'}"
     },
-    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+    "last_attempt": "2026-10-23T22:59:20.747242+00:00"
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AXO3DAMHPmo9CpG38k78JZI'}"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AJVWHgEN4N5nJKceAZforXo'}"
     },
-    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+    "last_attempt": "2026-10-23T22:59:20.747242+00:00"
    }
   },
   "midday_static": {
    "instagram_post": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ANRVskV4ovzys_HafE9TjKZ'}"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AqrDl9kI4pcDp6HrTH444cR'}"
     },
-    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+    "last_attempt": "2026-10-23T22:59:20.747242+00:00"
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AGHxHDr_NVGrI6NHayLASUk'}"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AyV03TxyaV2GZ7QT_d-5md7'}"
     },
-    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+    "last_attempt": "2026-10-23T22:59:20.747242+00:00"
    },
    "facebook_post": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AB-6OYmaG7rXEOxTadq2l0S'}"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A-5FitcwoLT8ImjKTFXXue3'}"
     },
-    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+    "last_attempt": "2026-10-23T22:59:20.747242+00:00"
    },
    "facebook_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AY85vSrZibBn5l5EFFYsEtO'}"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AOtWW1RX9mkmC_7SetvpGkX'}"
     },
-    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+    "last_attempt": "2026-10-23T22:59:20.747242+00:00"
    }
   }
  }
