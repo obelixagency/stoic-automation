@@ -3690,13 +3690,12 @@
     "last_attempt": "2026-10-22T19:53:17.023158+00:00"
    },
    "instagram_story": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed",
-     "message": "Instagram container 18124154677865316 never finished processing"
+     "platform_ref": "17974966926171977"
     },
-    "last_attempt": "2026-10-22T23:08:15.889109+00:00"
+    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -3747,6 +3746,65 @@
      }
     },
     "last_attempt": "2026-10-22T19:53:17.023158+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/SE-SL-01c.mp4"
+     }
+    },
+    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "8ItEyF5N0kY"
+    },
+    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
+   },
+   "instagram_reel": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18124175788865316 never finished processing"
+    },
+    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "1601116508368313"
+    },
+    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "Instagram container 18124176013865316 never finished processing"
+    },
+    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "success": true,
+      "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/page-stories-api.",
+      "post_id": "1152958437414026"
+     }
+    },
+    "last_attempt": "2026-10-23T01:58:56.014057+00:00"
    }
   }
  }
