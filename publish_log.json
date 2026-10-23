@@ -3847,12 +3847,12 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 1,
+    "attempts": 2,
     "detail": {
      "error": "publish_failed",
-     "message": "Instagram container 18124306942865316 never finished processing"
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A6-a4MVfIPbkefnaXkThNF0'}"
     },
-    "last_attempt": "2026-10-23T15:41:39.906907+00:00"
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -3865,6 +3865,83 @@
      }
     },
     "last_attempt": "2026-10-23T15:41:39.906907+00:00"
+   }
+  },
+  "midday": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": {
+      "ntfy_topic": "unshaken-tiktok-7k2m9x",
+      "media_url": "https://obelixagency.github.io/stoic-media/EP-DI-1.18b.mp4"
+     }
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "platform_ref": "jCF5uZwMtEY"
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A7Uq_Pq_BuCs1FxY3CZ8y6a'}"
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AXO3DAMHPmo9CpG38k78JZI'}"
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+   }
+  },
+  "midday_static": {
+   "instagram_post": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ANRVskV4ovzys_HafE9TjKZ'}"
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+   },
+   "instagram_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AGHxHDr_NVGrI6NHayLASUk'}"
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+   },
+   "facebook_post": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AB-6OYmaG7rXEOxTadq2l0S'}"
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
+   },
+   "facebook_story": {
+    "status": "failed",
+    "attempts": 1,
+    "detail": {
+     "error": "publish_failed",
+     "message": "{'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AY85vSrZibBn5l5EFFYsEtO'}"
+    },
+    "last_attempt": "2026-10-23T20:01:48.837702+00:00"
    }
   }
  }
