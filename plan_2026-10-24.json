@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-24",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-02-05a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "The most powerful man in the Roman world, in his private journal:",
+      "caption": "The most powerful man in the Roman world, in his private journal:\n\n“…thou wilt give thyself relief, if thou doest every act of thy life as if it were the last…”\n— Marcus Aurelius, Meditations 2.5\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #discipline #mindset #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this if people are testing your patience today.",
+      "caption": "Read this if people are testing your patience today.\n\n— Epictetus, Discourses 1.18\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #philosophy #discipline #selfimprovement"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "SE-L72-f",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "EP-DI-2.5b",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n— Epictetus, Discourses 2.5\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #epictetus #motivation #selfimprovement #mindset"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-24",
+      "slot": "morning",
+      "item_id": "MA-02-05a",
+      "group": "MA-02-05a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h02",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-24",
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "group": "EP-DI-1.18b",
+      "author": "Epictetus",
+      "hook_id": "h05",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-24",
+      "slot": "midday_static",
+      "item_id": "SE-L72-f",
+      "group": "SE-L72-f",
+      "author": "Seneca",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-24",
+      "slot": "evening",
+      "item_id": "EP-DI-2.5b",
+      "group": "EP-DI-2.5b",
+      "author": "Epictetus",
+      "hook_id": "h09",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 24
+}
