@@ -128,12 +128,12 @@
     "last_attempt": "2026-10-02T03:43:43.839662+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "not_connected"
+     "published": true
     },
-    "last_attempt": "2026-10-02T03:43:43.839662+00:00"
+    "last_attempt": "2026-10-25T21:09:03.252776+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -160,12 +160,12 @@
     "last_attempt": "2026-10-02T01:19:19.613173+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-02T03:43:43.839662+00:00"
+    "last_attempt": "2026-10-25T21:09:03.252776+00:00"
    }
   }
  },
