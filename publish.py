@@ -113,13 +113,19 @@ def publish_facebook_carousel(paths, caption):
 
 
 # ---------------- Instagram (needs a public URL - see _public_url) ----------------
-def _ig_wait_ready(creation_id, token, tries=10, wait_s=3):
+def _ig_wait_ready(creation_id, token, tries=40, wait_s=5):
+    """Instagram processes videos asynchronously; reels/stories can take well over 30s, so wait up to ~200s
+    and fail fast with Instagram's own error if the container reports ERROR/EXPIRED."""
+    last = None
     for _ in range(tries):
-        status = _check(requests.get(f"{GRAPH}/{creation_id}", params={"fields": "status_code", "access_token": token}))
-        if status.get("status_code") == "FINISHED": return
+        status = _check(requests.get(f"{GRAPH}/{creation_id}", params={"fields": "status_code,status", "access_token": token}))
+        last = status
+        code = status.get("status_code")
+        if code == "FINISHED": return
+        if code in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"Instagram container {creation_id} failed: {status}")
         time.sleep(wait_s)
-    raise RuntimeError(f"Instagram container {creation_id} never finished processing")
-
+    raise RuntimeError(f"Instagram container {creation_id} never finished processing (last status: {last})")
 
 def _ig_create_and_publish(media_params):
     ig_id, token = _ig()
