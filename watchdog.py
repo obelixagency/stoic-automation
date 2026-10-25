@@ -20,7 +20,30 @@ STALE_HOURS = 2.5          # matches the doc: "makes sure nothing has posted suc
 RETRY_COOLDOWN_MIN = 25    # don't hammer a broken platform every single 30-min tick
 
 def load_json(p, default): return json.load(open(p)) if os.path.exists(p) else default
-def save_json(p, d): json.dump(d, open(p, "w"), indent=1, ensure_ascii=False)
+def sanitize_publish_log(log):
+    """Keep retry/dedup state, but never retain provider responses or exception bodies.
+
+    Historical details are removed too, since this file is committed publicly.
+    This does not remove information already present in Git history or old logs.
+    """
+    for slots in log.values():
+        for platforms in slots.values():
+            for state in platforms.values():
+                detail = state.get("detail", {})
+                if state.get("status") == "ok":
+                    state["detail"] = {"published": True}
+                elif "detail" in state:
+                    error = detail.get("error") if isinstance(detail, dict) else None
+                    state["detail"] = {"error": error if error in
+                                       ("not_connected", "publish_failed") else "publish_failed"}
+    return log
+
+
+def save_json(p, d):
+    if p == LOG:
+        d = sanitize_publish_log(d)
+    with open(p, "w") as f:
+        json.dump(d, f, indent=1, ensure_ascii=False)
 
 def slot_time_utc(date_str, time_et):
     h, m = map(int, time_et.split(":"))
@@ -137,5 +160,6 @@ if __name__ == "__main__":
     a = ap.parse_args()
     rc = run(a.date)
     try: catchup(a.date)
-    except Exception as e: print("catch-up skipped:", e)
+    except Exception: print("catch-up skipped: internal error (details withheld)")
     sys.exit(rc)
+

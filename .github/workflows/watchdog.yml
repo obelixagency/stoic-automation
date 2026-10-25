@@ -42,10 +42,11 @@ jobs:
 
       - name: Publish today's media there (Instagram needs a public URL to fetch)
         run: |
-          cp -n rendered/* media-repo/ 2>/dev/null || true
+          # Only final media belongs in the public media repository.
+          find rendered -maxdepth 1 -type f \( -name '*.mp4' -o -name '*.jpg' \) -exec cp -n {} media-repo/ \;
           cd media-repo
           git config user.name "watchdog-bot"; git config user.email "bot@users.noreply.github.com"
-          git add -A
+          find . -maxdepth 1 -type f \( -name '*.mp4' -o -name '*.jpg' \) -exec git add -- {} +
           git commit -m "media: $(TZ=America/New_York date +%F)" || echo "nothing new to publish"
           git push
 
@@ -72,6 +73,13 @@ jobs:
         if: always()
         run: |
           git config user.name "watchdog-bot"; git config user.email "bot@users.noreply.github.com"
-          git add publish_log.json plan_*.json rendered/
+          # Also sanitize historical details if publishing failed before saving state.
+          python - <<'PYLOG'
+          import watchdog
+          watchdog.save_json(watchdog.LOG, watchdog.load_json(watchdog.LOG, {}))
+          PYLOG
+          git add publish_log.json plan_*.json
+          find rendered -maxdepth 1 -type f \( -name '*.mp4' -o -name '*.jpg' \) -exec git add -- {} +
           git commit -m "watchdog: $(TZ=America/New_York date +%F\ %H:%M)" || echo "nothing to commit"
           git push
+
