@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-25",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L18-b",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n“Set aside a certain number of days, during which you shall be content with the scantiest and cheapest fare, with coarse and rough dress, saying to yourself the while: \"Is this the condition that I feared?\"”\n— Seneca, Letter 18.5\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #selfimprovement #discipline #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-FR-109",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n— Epictetus, Fragment 109 (attrib.)\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #mindset #motivation #selfimprovement"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-06-39",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SD-PR-01",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n— Seneca, On Providence 1\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #motivation #discipline #selfimprovement"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-25",
+      "slot": "morning",
+      "item_id": "SE-L18-b",
+      "group": "SE-L18-e",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-25",
+      "slot": "midday",
+      "item_id": "EP-FR-109",
+      "group": "EP-FR-109",
+      "author": "Epictetus",
+      "hook_id": "h09",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-25",
+      "slot": "midday_static",
+      "item_id": "MA-06-39",
+      "group": "MA-06-39",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-25",
+      "slot": "evening",
+      "item_id": "SD-PR-01",
+      "group": "SD-PR-02",
+      "author": "Seneca",
+      "hook_id": "h12",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 25
+}
