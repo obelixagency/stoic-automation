@@ -94,6 +94,48 @@ def run(date_str, now=None):
         return 1
     return 0
 
+CATCHUP_LOOKBACK_DAYS = 14   # how far back to look for items that never went out
+CATCHUP_MAX_PER_RUN = 2      # trickle old items out a couple per run instead of dumping a backlog at once
+CATCHUP_SKIP = {"tiktok"}    # TikTok is just an ntfy ping; don't re-send stale pings
+
+def catchup(today_str, now=None, max_items=CATCHUP_MAX_PER_RUN):
+    """Re-publish items from EARLIER days that never went out (e.g. expired token, Instagram timeout).
+    run() only looks at today, so without this they would stay missed forever. Oldest first, at most
+    max_items per run, same cooldown as run(); never escalates (it is a best-effort backlog drain)."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    log = load_json(LOG, {})
+    today = dt.date.fromisoformat(today_str)
+    done = 0
+    for date_str in sorted(log):
+        d = dt.date.fromisoformat(date_str)
+        if d >= today or (today - d).days > CATCHUP_LOOKBACK_DAYS: continue
+        plan_path = os.path.join(HERE, f"plan_{date_str}.json")
+        if not os.path.exists(plan_path): continue
+        plan = json.load(open(plan_path))
+        for post in plan["posts"]:
+            slot_id = post["slot"]
+            row = log[date_str].setdefault(slot_id, {})
+            for platform in post["formats"]:
+                if done >= max_items: break
+                if platform in CATCHUP_SKIP: continue
+                st = row.get(platform, {"status": "pending", "attempts": 0})
+                if st["status"] == "ok": continue
+                last = st.get("last_attempt")
+                if last and (now - dt.datetime.fromisoformat(last)).total_seconds() < RETRY_COOLDOWN_MIN * 60: continue
+                path = platform_file(post["item_id"], platform)
+                if not path: continue
+                ok, detail = PUB.publish(platform, path, post.get("caption") or "")
+                st.update(status="ok" if ok else "failed", detail=detail, attempts=st["attempts"] + 1, last_attempt=now.isoformat())
+                row[platform] = st
+                done += 1
+                print(f'catch-up {date_str} {slot_id} {platform}: {st["status"]}' + ("" if ok else f' ({detail.get("error")})'))
+    save_json(LOG, log)
+    return done
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("--date", default=str(dt.date.today()))
-    a = ap.parse_args(); sys.exit(run(a.date))
+    a = ap.parse_args()
+    rc = run(a.date)
+    try: catchup(a.date)
+    except Exception as e: print("catch-up skipped:", e)
+    sys.exit(rc)
