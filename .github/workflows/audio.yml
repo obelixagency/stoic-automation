@@ -35,7 +35,11 @@ jobs:
         with: { path: ~/.cache/huggingface, key: whisper-small-en }
       - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
       - run: pip install faster-whisper
-      - run: python audio/prepare_audio.py transcribe --source ${{ matrix.source }} --chapter ${{ matrix.chapter }}
+      - name: Transcribe chapter
+        env:
+          AUDIO_SOURCE: ${{ matrix.source }}
+          AUDIO_CHAPTER: ${{ matrix.chapter }}
+        run: python audio/prepare_audio.py transcribe --source "$AUDIO_SOURCE" --chapter "$AUDIO_CHAPTER"
       - uses: actions/upload-artifact@v4
         with: { name: "asr-${{ matrix.source }}-${{ matrix.chapter }}", path: audio/work/asr/ }
   align:
@@ -68,3 +72,4 @@ jobs:
           git add audio/clips audio/timings audio/audio_index.json
           git commit -m "audio: clips + word timings" || echo "nothing to commit"
           git push
+

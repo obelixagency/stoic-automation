@@ -6,7 +6,7 @@ Facebook: uses direct file upload (multipart), so no public hosting is needed.
 Instagram: the Graph API only accepts a public image_url/video_url (it fetches the file itself), so
 rendered media is also mirrored to the public `stoic-media` repo (GitHub Pages, enabled on its main
 branch) and _public_url() points there - see the "Publish today's media" step in
-.github/workflows/watchdog.yml. stoic-automation itself stays private; only rendered files ever leave it.
+.github/workflows/watchdog.yml. Both repositories may be public; never persist credentials or raw provider responses.
 """
 import os, time, json, subprocess
 import requests
@@ -52,9 +52,9 @@ def _check(resp):
     try:
         data = resp.json()
     except ValueError:
-        resp.raise_for_status(); raise RuntimeError(f"non-JSON response: {resp.text[:200]}")
+        raise RuntimeError("Provider returned a non-JSON response") from None
     if resp.status_code >= 400 or "error" in data:
-        raise RuntimeError(data.get("error", data))
+        raise RuntimeError("Provider request failed")
     return data
 
 
@@ -118,14 +118,14 @@ def _ig_wait_ready(creation_id, token, tries=40, wait_s=5):
     and fail fast with Instagram's own error if the container reports ERROR/EXPIRED."""
     last = None
     for _ in range(tries):
-        status = _check(requests.get(f"{GRAPH}/{creation_id}", params={"fields": "status_code,status", "access_token": token}))
+        status = _check(requests.get(f"{GRAPH}/{creation_id}", params={"fields": "status_code,status"}, headers={"Authorization": f"Bearer {token}"}))
         last = status
         code = status.get("status_code")
         if code == "FINISHED": return
         if code in ("ERROR", "EXPIRED"):
-            raise RuntimeError(f"Instagram container {creation_id} failed: {status}")
+            raise RuntimeError("Instagram container processing failed")
         time.sleep(wait_s)
-    raise RuntimeError(f"Instagram container {creation_id} never finished processing (last status: {last})")
+    raise RuntimeError("Instagram container processing timed out")
 
 def _ig_create_and_publish(media_params):
     ig_id, token = _ig()
@@ -177,7 +177,7 @@ def _tiktok_access_token():
         "refresh_token": os.environ["TIKTOK_REFRESH_TOKEN"],
     }, headers={"Content-Type": "application/x-www-form-urlencoded"})
     data = r.json()
-    if "access_token" not in data: raise RuntimeError(data)
+    if "access_token" not in data: raise RuntimeError("Provider request failed")
     return data["access_token"]
 
 
@@ -191,7 +191,7 @@ def _publish_tiktok_real(path, caption):
                        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=UTF-8"},
                        json={"source_info": {"source": "PULL_FROM_URL", "video_url": _public_url(path)}})
     data = r.json()
-    if data.get("error", {}).get("code") not in (None, "ok"): raise RuntimeError(data)
+    if data.get("error", {}).get("code") not in (None, "ok"): raise RuntimeError("Provider request failed")
     return data.get("data", {}).get("publish_id")
 
 
@@ -205,8 +205,8 @@ def _notify_ntfy_tiktok(path, caption):
         "Title": "Unshaken: post this on TikTok".encode("utf-8"),
         "Click": url, "Attach": url, "Tags": "tiktok,memo",
     })
-    r.raise_for_status()
-    return {"ntfy_topic": topic, "media_url": url}
+    if r.status_code >= 400: raise RuntimeError("Notification request failed")
+    return {"notification_sent": True}
 
 
 def publish_tiktok(path, caption):
@@ -227,7 +227,7 @@ def _yt_access_token():
         "refresh_token": os.environ["YT_REFRESH_TOKEN"],
     })
     data = r.json()
-    if "access_token" not in data: raise RuntimeError(data)
+    if "access_token" not in data: raise RuntimeError("Provider request failed")
     return data["access_token"]
 
 
@@ -269,8 +269,9 @@ def publish(platform, path_or_paths, caption):
     Returns (ok, detail)."""
     try:
         ref = DISPATCH[platform](path_or_paths, caption)
-        return True, {"platform_ref": ref}
+        return True, {"published": True}
     except NotConnected as e:
-        return False, {"error": "not_connected", "message": str(e)}
+        return False, {"error": "not_connected"}
     except Exception as e:
-        return False, {"error": "publish_failed", "message": str(e)}
+        return False, {"error": "publish_failed"}
+
