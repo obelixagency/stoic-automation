@@ -1885,13 +1885,12 @@
     "last_attempt": "2026-10-11T20:53:19.668316+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 3,
+    "status": "ok",
+    "attempts": 4,
     "detail": {
-     "error": "publish_failed",
-     "message": "{'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}"
+     "platform_ref": "LrSx-aeml6Q"
     },
-    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
+    "last_attempt": "2026-10-25T09:28:25.709421+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -1918,13 +1917,16 @@
     "last_attempt": "2026-10-12T00:22:52.442593+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 3,
+    "status": "ok",
+    "attempts": 4,
     "detail": {
-     "error": "publish_failed",
-     "message": "{'message': '(#100) The parameter upload_phase is required.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A7LgJxyBXmfzK4kSEFaBHp4'}"
+     "platform_ref": {
+      "success": true,
+      "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/page-stories-api.",
+      "post_id": "1451347690310174"
+     }
     },
-    "last_attempt": "2026-10-12T03:43:45.801498+00:00"
+    "last_attempt": "2026-10-25T09:28:25.709421+00:00"
    }
   },
   "midday": {
@@ -2437,7 +2439,12 @@
    }
   }
  },
- "2026-10-14": {},
+ "2026-10-14": {
+  "morning": {},
+  "midday": {},
+  "midday_static": {},
+  "evening": {}
+ },
  "2026-10-16": {
   "morning": {
    "tiktok": {
