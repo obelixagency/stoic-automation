@@ -94,7 +94,7 @@ def run(date_str, now=None):
         return 1
     return 0
 
-CATCHUP_LOOKBACK_DAYS = 14   # how far back to look for items that never went out
+CATCHUP_LOOKBACK_DAYS = 30   # how far back to look for items that never went out
 CATCHUP_MAX_PER_RUN = 2      # trickle old items out a couple per run instead of dumping a backlog at once
 CATCHUP_SKIP = {"tiktok"}    # TikTok is just an ntfy ping; don't re-send stale pings
 
