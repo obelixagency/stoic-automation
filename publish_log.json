@@ -323,19 +323,19 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-10-26T01:39:43.741799+00:00"
+    "last_attempt": "2026-10-26T02:40:22.778724+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-03T03:16:33.192570+00:00"
+    "last_attempt": "2026-10-26T02:40:22.778724+00:00"
    }
   }
  },
