@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-26",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-SL-09a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Seneca wrote this almost 2,000 years ago. It's about you.",
+      "caption": "Seneca wrote this almost 2,000 years ago. It's about you.\n\n“…postponement is the greatest waste of life: it wrings day after day from us, and takes away the present by promising something hereafter: there is no such obstacle to true living as waiting, which loses today while it is depending on the morrow.”\n— Seneca, On the Shortness of Life 9\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #motivation #selfimprovement #philosophy"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-FR-174a",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Epictetus, Fragment 174 (attrib.)\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #philosophy #motivation #mindset"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-10-12",
+      "type": "passage_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_carousel",
+        "facebook_carousel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-02-01",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n— Marcus Aurelius, Meditations 2.1\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #mindset #discipline #philosophy"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-26",
+      "slot": "morning",
+      "item_id": "SE-SL-09a",
+      "group": "SE-SL-09c",
+      "author": "Seneca",
+      "hook_id": "h03",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-26",
+      "slot": "midday",
+      "item_id": "EP-FR-174a",
+      "group": "EP-FR-174a",
+      "author": "Epictetus",
+      "hook_id": "h10",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-26",
+      "slot": "midday_static",
+      "item_id": "MA-10-12",
+      "group": "MA-10-12",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-26",
+      "slot": "evening",
+      "item_id": "MA-02-01",
+      "group": "MA-02-01",
+      "author": "Marcus Aurelius",
+      "hook_id": "h13",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 26
+}
