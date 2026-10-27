@@ -323,11 +323,11 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 10,
+    "attempts": 11,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-10-27T09:14:58.658700+00:00"
+    "last_attempt": "2026-10-27T16:22:42.441093+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -493,11 +493,11 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 6,
+    "attempts": 7,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-10-27T09:14:58.658700+00:00"
+    "last_attempt": "2026-10-27T16:22:42.441093+00:00"
    },
    "facebook_story": {
     "status": "failed",
@@ -4085,5 +4085,56 @@
    }
   }
  },
- "2026-10-27": {}
+ "2026-10-27": {
+  "morning": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-10-27T16:21:08.841834+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-10-27T16:21:08.841834+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-10-27T16:21:08.841834+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-10-27T16:21:08.841834+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-10-27T16:21:08.841834+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-10-27T16:21:08.841834+00:00"
+   }
+  }
+ }
 }
