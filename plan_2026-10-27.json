@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-27",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SD-PM-68",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n“…none of these is strong enough to enable us to retain so fleeting a blessing, unless we watch over our vacillating mind with intense and unremitting care.”\n— Seneca, On Peace of Mind 17\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #philosophy #selfimprovement #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-2.2a",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Epictetus, Discourses 2.2\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #epictetus #philosophy #discipline #motivation"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-11-18a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L63-k",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n— Seneca, Letter 63.15\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #mindset #selfimprovement #wisdom"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-27",
+      "slot": "morning",
+      "item_id": "SD-PM-68",
+      "group": "SD-PM-68",
+      "author": "Seneca",
+      "hook_id": "h12",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-27",
+      "slot": "midday",
+      "item_id": "EP-DI-2.2a",
+      "group": "EP-DI-2.2a",
+      "author": "Epictetus",
+      "hook_id": "h10",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-27",
+      "slot": "midday_static",
+      "item_id": "MA-11-18a",
+      "group": "MA-11-18a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-27",
+      "slot": "evening",
+      "item_id": "SE-L63-k",
+      "group": "SE-L63-l",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 27
+}
