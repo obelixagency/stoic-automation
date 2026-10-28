@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-28",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SD-PM-24",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n“Neither should you engage in anything from which you are not free to retreat: apply yourself to something which you can finish, or at any rate can hope to finish…”\n— Seneca, On Peace of Mind 6\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #selfimprovement #discipline #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-2.13b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n— Epictetus, Discourses 2.13\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #epictetus #selfimprovement #motivation #discipline"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-02-11a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SD-PM-69",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n— Seneca, On Peace of Mind 17\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #motivation #philosophy #selfimprovement"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-28",
+      "slot": "morning",
+      "item_id": "SD-PM-24",
+      "group": "SD-PM-24",
+      "author": "Seneca",
+      "hook_id": "h09",
+      "cta_id": "c04",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-28",
+      "slot": "midday",
+      "item_id": "EP-DI-2.13b",
+      "group": "EP-DI-2.13b",
+      "author": "Epictetus",
+      "hook_id": "h12",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-28",
+      "slot": "midday_static",
+      "item_id": "MA-02-11a",
+      "group": "MA-02-11a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-28",
+      "slot": "evening",
+      "item_id": "SD-PM-69",
+      "group": "SD-PM-69",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c01",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 28
+}
