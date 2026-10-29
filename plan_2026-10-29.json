@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-29",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-11-21a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "A Roman emperor wrote this to himself. It was never meant to be read.",
+      "caption": "A Roman emperor wrote this to himself. It was never meant to be read.\n\n“He who has not one and always the same object in life, cannot be one and the same all through his life.”\n— Marcus Aurelius, Meditations 11.21\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #philosophy #wisdom #mindset"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this if people are testing your patience today.",
+      "caption": "Read this if people are testing your patience today.\n\n— Epictetus, Discourses 1.18\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #discipline #wisdom #philosophy"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "SD-PM-30",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SD-PR-25",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n— Seneca, On Providence 4\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #discipline #philosophy #wisdom"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-29",
+      "slot": "morning",
+      "item_id": "MA-11-21a",
+      "group": "MA-11-21a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h01",
+      "cta_id": "c04",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-29",
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "group": "EP-DI-1.18b",
+      "author": "Epictetus",
+      "hook_id": "h05",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-29",
+      "slot": "midday_static",
+      "item_id": "SD-PM-30",
+      "group": "SD-PM-30",
+      "author": "Seneca",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-29",
+      "slot": "evening",
+      "item_id": "SD-PR-25",
+      "group": "SD-PR-25",
+      "author": "Seneca",
+      "hook_id": "h12",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 29
+}
