@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-30",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SD-PM-51",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n“They move uselessly and without any plan, just like ants crawling over bushes, which creep up to the top and then down to the bottom again without gaining anything.”\n— Seneca, On Peace of Mind 12\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #philosophy #discipline #selfimprovement"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-1.1c",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n— Epictetus, Discourses 1.1\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #epictetus #philosophy #motivation #wisdom"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-08-05a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-05-20",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Marcus Aurelius, Meditations 5.20\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #philosophy #motivation #discipline"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-10-30",
+      "slot": "morning",
+      "item_id": "SD-PM-51",
+      "group": "SD-PM-53",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-10-30",
+      "slot": "midday",
+      "item_id": "EP-DI-1.1c",
+      "group": "EP-DI-1.1c",
+      "author": "Epictetus",
+      "hook_id": "h12",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-10-30",
+      "slot": "midday_static",
+      "item_id": "MA-08-05a",
+      "group": "MA-08-05a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-10-30",
+      "slot": "evening",
+      "item_id": "MA-05-20",
+      "group": "MA-05-20",
+      "author": "Marcus Aurelius",
+      "hook_id": "h10",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 30
+}
