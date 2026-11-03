@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-03",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SD-PM-24",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n“Neither should you engage in anything from which you are not free to retreat: apply yourself to something which you can finish, or at any rate can hope to finish…”\n— Seneca, On Peace of Mind 6\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #wisdom #motivation #mindset"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n— Epictetus, Discourses 1.18\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #wisdom #motivation #discipline"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-07-59",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L07-f",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n— Seneca, Letter 7.9\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #motivation #mindset #selfimprovement"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-03",
+      "slot": "morning",
+      "item_id": "SD-PM-24",
+      "group": "SD-PM-24",
+      "author": "Seneca",
+      "hook_id": "h09",
+      "cta_id": "c04",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-03",
+      "slot": "midday",
+      "item_id": "EP-DI-1.18b",
+      "group": "EP-DI-1.18b",
+      "author": "Epictetus",
+      "hook_id": "h12",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-03",
+      "slot": "midday_static",
+      "item_id": "MA-07-59",
+      "group": "MA-07-59",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-03",
+      "slot": "evening",
+      "item_id": "SE-L07-f",
+      "group": "SE-L07-g",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 34
+}
