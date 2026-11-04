@@ -892,12 +892,12 @@
     "last_attempt": "2026-10-07T01:20:27.738138+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 4,
+    "status": "ok",
+    "attempts": 5,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-07T03:42:59.326414+00:00"
+    "last_attempt": "2026-11-04T12:24:27.437559+00:00"
    }
   },
   "midday": {
@@ -926,12 +926,12 @@
     "last_attempt": "2026-10-06T17:07:02.107204+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 4,
+    "status": "ok",
+    "attempts": 5,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-07T03:42:59.326414+00:00"
+    "last_attempt": "2026-11-04T12:24:27.437559+00:00"
    }
   },
   "midday_static": {
@@ -5444,5 +5444,6 @@
     "last_attempt": "2026-11-04T04:21:22.698103+00:00"
    }
   }
- }
+ },
+ "2026-11-04": {}
 }
