@@ -1173,11 +1173,11 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 4,
+    "attempts": 5,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-11-06T18:00:59.370022+00:00"
+    "last_attempt": "2026-11-06T23:26:23.468965+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -1232,12 +1232,12 @@
     "last_attempt": "2026-10-08T17:48:14.677307+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 3,
+    "status": "ok",
+    "attempts": 4,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-09T03:03:10.185599+00:00"
+    "last_attempt": "2026-11-06T23:26:23.468965+00:00"
    }
   },
   "midday": {
@@ -5788,12 +5788,12 @@
  "2026-11-06": {
   "morning": {
    "tiktok": {
-    "status": "failed",
-    "attempts": 1,
+    "status": "ok",
+    "attempts": 2,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-11-06T17:53:56.001877+00:00"
+    "last_attempt": "2026-11-06T23:26:02.310943+00:00"
    },
    "youtube_short": {
     "status": "ok",
@@ -5838,12 +5838,12 @@
   },
   "midday": {
    "tiktok": {
-    "status": "failed",
-    "attempts": 1,
+    "status": "ok",
+    "attempts": 2,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-11-06T17:53:56.001877+00:00"
+    "last_attempt": "2026-11-06T23:26:02.310943+00:00"
    },
    "youtube_short": {
     "status": "ok",
@@ -5872,20 +5872,20 @@
   },
   "midday_static": {
    "instagram_post": {
-    "status": "failed",
-    "attempts": 1,
+    "status": "ok",
+    "attempts": 2,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-11-06T17:53:56.001877+00:00"
+    "last_attempt": "2026-11-06T23:26:02.310943+00:00"
    },
    "instagram_story": {
-    "status": "failed",
-    "attempts": 1,
+    "status": "ok",
+    "attempts": 2,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-11-06T17:53:56.001877+00:00"
+    "last_attempt": "2026-11-06T23:26:02.310943+00:00"
    },
    "facebook_post": {
     "status": "ok",
