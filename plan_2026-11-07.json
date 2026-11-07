@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-07",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-11-29",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n“Neither in writing nor in reading wilt thou be able to lay down rules for others before thou shalt have first learned to obey rules thyself. Much more is this so in life.”\n— Marcus Aurelius, Meditations 11.29\n\nSave this. You'll need it.\n\n#stoicism #stoic #marcusaurelius #mindset #selfimprovement #wisdom"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SD-PM-59",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Seneca wrote this almost 2,000 years ago. It's about you.",
+      "caption": "Seneca wrote this almost 2,000 years ago. It's about you.\n\n— Seneca, On Peace of Mind 14 (on Theodorus)\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #motivation #selfimprovement #mindset"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "EP-EN-50a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-04-49",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n— Marcus Aurelius, Meditations 4.49\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #marcusaurelius #selfimprovement #mindset #wisdom"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-07",
+      "slot": "morning",
+      "item_id": "MA-11-29",
+      "group": "MA-11-29",
+      "author": "Marcus Aurelius",
+      "hook_id": "h11",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-07",
+      "slot": "midday",
+      "item_id": "SD-PM-59",
+      "group": "SD-PM-59",
+      "author": "Seneca",
+      "hook_id": "h03",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-07",
+      "slot": "midday_static",
+      "item_id": "EP-EN-50a",
+      "group": "EP-EN-50a",
+      "author": "Epictetus",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-07",
+      "slot": "evening",
+      "item_id": "MA-04-49",
+      "group": "MA-04-49",
+      "author": "Marcus Aurelius",
+      "hook_id": "h13",
+      "cta_id": "c01",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 38
+}
