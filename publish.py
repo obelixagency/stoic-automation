@@ -273,5 +273,5 @@ def publish(platform, path_or_paths, caption):
     except NotConnected as e:
         return False, {"error": "not_connected"}
     except Exception as e:
-        return False, {"error": "publish_failed"}
+        return False, {"error": "publish_failed", "type": type(e).__name__}  # type only: messages can contain tokens
 
