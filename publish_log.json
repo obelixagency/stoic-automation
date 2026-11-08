@@ -1513,19 +1513,19 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-11-08T09:43:48.966595+00:00"
+    "last_attempt": "2026-11-08T10:58:14.166442+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-10T03:47:24.930378+00:00"
+    "last_attempt": "2026-11-08T10:58:14.166442+00:00"
    }
   }
  },
