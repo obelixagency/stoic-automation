@@ -119,6 +119,7 @@ def run(date_str, now=None):
 
 CATCHUP_LOOKBACK_DAYS = 30   # how far back to look for items that never went out
 CATCHUP_MAX_PER_RUN = 2      # trickle old items out a couple per run instead of dumping a backlog at once
+CATCHUP_MAX_ATTEMPTS = 5     # stop retrying an old item after this many failed attempts
 CATCHUP_SKIP = {"tiktok"}    # TikTok is just an ntfy ping; don't re-send stale pings
 
 def catchup(today_str, now=None, max_items=CATCHUP_MAX_PER_RUN):
@@ -143,6 +144,7 @@ def catchup(today_str, now=None, max_items=CATCHUP_MAX_PER_RUN):
                 if platform in CATCHUP_SKIP: continue
                 st = row.get(platform, {"status": "pending", "attempts": 0})
                 if st["status"] == "ok": continue
+                if st.get("attempts", 0) >= CATCHUP_MAX_ATTEMPTS: continue   # give up on permanent failures so they stop blocking the queue
                 last = st.get("last_attempt")
                 if last and (now - dt.datetime.fromisoformat(last)).total_seconds() < RETRY_COOLDOWN_MIN * 60: continue
                 path = platform_file(post["item_id"], platform)
