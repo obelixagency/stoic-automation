@@ -1930,12 +1930,12 @@
     "last_attempt": "2026-10-12T20:12:26.531697+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-13T02:12:55.191201+00:00"
+    "last_attempt": "2026-11-10T05:34:38.216400+00:00"
    },
    "instagram_story": {
     "status": "ok",
@@ -1946,12 +1946,12 @@
     "last_attempt": "2026-10-12T20:12:26.531697+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-13T02:12:55.191201+00:00"
+    "last_attempt": "2026-11-10T05:34:38.216400+00:00"
    }
   },
   "midday_static": {
@@ -6464,5 +6464,6 @@
     "last_attempt": "2026-11-10T03:51:02.424997+00:00"
    }
   }
- }
+ },
+ "2026-11-10": {}
 }
