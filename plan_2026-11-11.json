@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-11",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-06-02a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "Stop scrolling for ten seconds.\n\n“Let it make no difference to thee whether thou art cold or warm, if thou art doing thy duty…”\n— Marcus Aurelius, Meditations 6.2\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #marcusaurelius #discipline #wisdom #motivation"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You have less time than you think.",
+      "caption": "You have less time than you think.\n\n— Seneca, Letter 30.3 (on Aufidius Bassus)\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #philosophy #discipline #mindset"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "EP-EN-05a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SD-PR-06",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n— Seneca, On Providence 2\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #philosophy #motivation #discipline"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-11",
+      "slot": "morning",
+      "item_id": "MA-06-02a",
+      "group": "MA-06-02a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h13",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-11",
+      "slot": "midday",
+      "item_id": "SE-L30-a",
+      "group": "SE-L30-b",
+      "author": "Seneca",
+      "hook_id": "h08",
+      "cta_id": "c03",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-11",
+      "slot": "midday_static",
+      "item_id": "EP-EN-05a",
+      "group": "EP-EN-05b",
+      "author": "Epictetus",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-11",
+      "slot": "evening",
+      "item_id": "SD-PR-06",
+      "group": "SD-PR-06",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 42
+}
