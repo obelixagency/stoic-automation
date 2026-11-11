@@ -2050,12 +2050,12 @@
     "last_attempt": "2026-10-13T18:04:40.456791+00:00"
    },
    "youtube_short": {
-    "status": "failed",
-    "attempts": 4,
+    "status": "ok",
+    "attempts": 5,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-14T03:03:10.304700+00:00"
+    "last_attempt": "2026-11-11T04:07:44.466771+00:00"
    },
    "instagram_reel": {
     "status": "ok",
@@ -2082,12 +2082,12 @@
     "last_attempt": "2026-10-13T18:04:40.456791+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 4,
+    "status": "ok",
+    "attempts": 5,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-14T03:03:10.304700+00:00"
+    "last_attempt": "2026-11-11T04:07:44.466771+00:00"
    }
   },
   "midday": {
@@ -6582,6 +6582,56 @@
      "published": true
     },
     "last_attempt": "2026-11-10T18:33:46.515952+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-11T04:05:58.025295+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-11T04:05:58.025295+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-11T04:05:58.025295+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-11T04:05:58.025295+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-11T04:05:58.025295+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-11T04:05:58.025295+00:00"
    }
   }
  }
