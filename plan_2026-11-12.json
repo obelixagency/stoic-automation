@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-12",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L01-d",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Nearly 2,000 years old. Still true.\n\n“Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's. While we are postponing, life speeds by.”\n— Seneca, Letter 1.3\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #philosophy #wisdom #mindset"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-FR-174a",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Most people will scroll past this. Don't.\n\n— Epictetus, Fragment 174 (attrib.)\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #epictetus #mindset #wisdom #discipline"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-04-49",
+      "type": "passage_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_carousel",
+        "facebook_carousel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-10-12",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "If your mind is racing right now, read this.",
+      "caption": "If your mind is racing right now, read this.\n\n— Marcus Aurelius, Meditations 10.12\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #motivation #wisdom #philosophy"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-12",
+      "slot": "morning",
+      "item_id": "SE-L01-d",
+      "group": "SE-L01-d",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-12",
+      "slot": "midday",
+      "item_id": "EP-FR-174a",
+      "group": "EP-FR-174a",
+      "author": "Epictetus",
+      "hook_id": "h09",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-12",
+      "slot": "midday_static",
+      "item_id": "MA-04-49",
+      "group": "MA-04-49",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-12",
+      "slot": "evening",
+      "item_id": "MA-10-12",
+      "group": "MA-10-12",
+      "author": "Marcus Aurelius",
+      "hook_id": "h07",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 43
+}
