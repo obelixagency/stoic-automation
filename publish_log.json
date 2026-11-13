@@ -2278,7 +2278,24 @@
     "last_attempt": "2026-11-13T00:03:30.687234+00:00"
    }
   },
-  "midday_static": {},
+  "midday_static": {
+   "instagram_carousel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:36:09.085848+00:00"
+   },
+   "facebook_carousel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:36:09.085848+00:00"
+   }
+  },
   "evening": {}
  },
  "2026-10-16": {
@@ -6926,11 +6943,11 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-11-13T00:02:23.400182+00:00"
+    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -6939,6 +6956,56 @@
      "published": true
     },
     "last_attempt": "2026-11-12T18:46:37.417150+00:00"
+   }
+  },
+  "evening": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
    }
   }
  }
