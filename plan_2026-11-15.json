@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-15",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L18-d",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "This is what real Stoicism sounds like.\n\n“If you would not have a man flinch when the crisis comes, train him before it comes.”\n— Seneca, Letter 18.6\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #philosophy #wisdom #mindset"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-1.24c",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Read this slowly.\n\n— Epictetus, Discourses 1.24\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #motivation #wisdom #philosophy"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-08-08",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_carousel",
+        "facebook_carousel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-11-18d",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "You needed to hear this today.\n\n— Marcus Aurelius, Meditations 11.18\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #selfimprovement #motivation #philosophy"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-15",
+      "slot": "morning",
+      "item_id": "SE-L18-d",
+      "group": "SE-L18-e",
+      "author": "Seneca",
+      "hook_id": "h12",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-15",
+      "slot": "midday",
+      "item_id": "EP-DI-1.24c",
+      "group": "EP-DI-1.24c",
+      "author": "Epictetus",
+      "hook_id": "h10",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-15",
+      "slot": "midday_static",
+      "item_id": "MA-08-08",
+      "group": "MA-08-08",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-15",
+      "slot": "evening",
+      "item_id": "MA-11-18d",
+      "group": "MA-11-18d",
+      "author": "Marcus Aurelius",
+      "hook_id": "h14",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 46
+}
