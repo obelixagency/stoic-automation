@@ -3521,11 +3521,11 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-11-16T13:02:57.199123+00:00"
+    "last_attempt": "2026-11-16T20:54:28.492165+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -3606,12 +3606,12 @@
     "last_attempt": "2026-10-23T20:01:48.837702+00:00"
    },
    "instagram_story": {
-    "status": "failed",
-    "attempts": 4,
+    "status": "ok",
+    "attempts": 5,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-24T02:50:29.271325+00:00"
+    "last_attempt": "2026-11-16T20:54:28.492165+00:00"
    },
    "facebook_story": {
     "status": "failed",
@@ -7617,6 +7617,74 @@
      "published": true
     },
     "last_attempt": "2026-11-16T13:01:20.684880+00:00"
+   }
+  },
+  "midday": {
+   "tiktok": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
+   },
+   "youtube_short": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
+   }
+  },
+  "midday_static": {
+   "instagram_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
+   },
+   "facebook_post": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-16T20:53:13.188524+00:00"
    }
   }
  }
