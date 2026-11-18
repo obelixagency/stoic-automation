@@ -3691,19 +3691,19 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-10-24T02:50:29.271325+00:00"
+    "last_attempt": "2026-11-18T05:30:40.610837+00:00"
    },
    "facebook_story": {
-    "status": "failed",
-    "attempts": 2,
+    "status": "ok",
+    "attempts": 3,
     "detail": {
-     "error": "publish_failed"
+     "published": true
     },
-    "last_attempt": "2026-10-24T02:50:29.271325+00:00"
+    "last_attempt": "2026-11-18T05:30:40.610837+00:00"
    }
   }
  },
@@ -7907,5 +7907,6 @@
     "last_attempt": "2026-11-18T02:31:17.799716+00:00"
    }
   }
- }
+ },
+ "2026-11-18": {}
 }
