@@ -50,9 +50,18 @@ jobs:
           git commit -m "media: $(TZ=America/New_York date +%F)" || echo "nothing new to publish"
           git push
 
+      - name: Collect reach numbers per platform and slot (read-only, never fails the run)
+        continue-on-error: true
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          META_SYSTEM_TOKEN: ${{ secrets.META_SYSTEM_TOKEN }}
+        run: python analytics.py
+
       - name: Run the watchdog for today
         id: watchdog
         env:
+          META_SYSTEM_TOKEN: ${{ secrets.META_SYSTEM_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -78,7 +87,7 @@ jobs:
           import watchdog
           watchdog.save_json(watchdog.LOG, watchdog.load_json(watchdog.LOG, {}))
           PYLOG
-          git add publish_log.json plan_*.json
+          git add publish_log.json plan_*.json insights_log.json INSIGHTS_REPORT.md 2>/dev/null || git add publish_log.json plan_*.json
           find rendered -maxdepth 1 -type f \( -name '*.mp4' -o -name '*.jpg' \) -exec git add -- {} +
           git commit -m "watchdog: $(TZ=America/New_York date +%F\ %H:%M)" || echo "nothing to commit"
           git push
