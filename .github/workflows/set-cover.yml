@@ -1,0 +1,17 @@
+name: Set Facebook cover (one-off)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install requests
+      - env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          META_SYSTEM_TOKEN: ${{ secrets.META_SYSTEM_TOKEN }}
+        run: python set_fb_cover.py
