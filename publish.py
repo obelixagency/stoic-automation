@@ -10,6 +10,7 @@ branch) and _public_url() points there - see the "Publish today's media" step in
 """
 import os, time, json, subprocess
 import requests
+import meta_api
 
 GRAPH = "https://graph.facebook.com/v21.0"
 MEDIA_REPO_OWNER = "obelixagency"
@@ -26,6 +27,7 @@ def _cover_offset_ms(path):
                               capture_output=True, text=True, timeout=15)
         return max(int(float(out.stdout.strip()) * 1000) - 300, 0)
     except Exception:
+        print("note: cover frame unavailable (ffprobe failed); platform default cover used")
         return None
 
 
@@ -38,14 +40,35 @@ def _need(*names):
     if missing: raise NotConnected(f"missing secrets: {', '.join(missing)}")
 
 
+_PAGE_TOKEN = {}
+
+
+def _page_token():
+    """Prefer the never-expiring system-user token (META_SYSTEM_TOKEN) exchanged for a Page token at runtime;
+    fall back to the stored FB_PAGE_TOKEN. The token is cached in memory only and never printed or logged."""
+    if "t" not in _PAGE_TOKEN:
+        tok = None
+        if os.environ.get("META_SYSTEM_TOKEN") and os.environ.get("FB_PAGE_ID"):
+            try:
+                tok = meta_api.page_token()
+            except Exception:
+                tok = None
+            if not tok:
+                print("note: could not derive Page token from META_SYSTEM_TOKEN; using FB_PAGE_TOKEN")
+        _PAGE_TOKEN["t"] = tok or os.environ.get("FB_PAGE_TOKEN")
+    if not _PAGE_TOKEN["t"]:
+        raise NotConnected("missing token")
+    return _PAGE_TOKEN["t"]
+
+
 def _fb_page():
-    _need("FB_PAGE_ID", "FB_PAGE_TOKEN")
-    return os.environ["FB_PAGE_ID"], os.environ["FB_PAGE_TOKEN"]
+    _need("FB_PAGE_ID")
+    return os.environ["FB_PAGE_ID"], _page_token()
 
 
 def _ig():
-    _need("IG_USER_ID", "FB_PAGE_TOKEN")   # Instagram Graph API calls are authenticated with the linked Page's token
-    return os.environ["IG_USER_ID"], os.environ["FB_PAGE_TOKEN"]
+    _need("IG_USER_ID")   # Instagram Graph API calls are authenticated with the linked Page's token
+    return os.environ["IG_USER_ID"], _page_token()
 
 
 def _check(resp):
