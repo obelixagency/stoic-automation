@@ -101,7 +101,7 @@ def run(date_str, now=None):
                 st.update(status="waiting_on_render", attempts=st["attempts"] + 1, last_attempt=now.isoformat())
                 row[platform] = st; continue
             caption = post.get("caption") or ""
-            ok, detail = PUB.publish(platform, path, caption)
+            ok, detail = PUB.publish(platform, path, caption, post.get("first_comment"))
             st.update(status="ok" if ok else "failed", detail=detail, attempts=st["attempts"] + 1, last_attempt=now.isoformat())
             row[platform] = st
             print(f'{date_str} {slot_id} {platform}: {st["status"]}' + ("" if ok else f' ({detail.get("error")})'))
@@ -149,7 +149,7 @@ def catchup(today_str, now=None, max_items=CATCHUP_MAX_PER_RUN):
                 if last and (now - dt.datetime.fromisoformat(last)).total_seconds() < RETRY_COOLDOWN_MIN * 60: continue
                 path = platform_file(post["item_id"], platform)
                 if not path: continue
-                ok, detail = PUB.publish(platform, path, post.get("caption") or "")
+                ok, detail = PUB.publish(platform, path, post.get("caption") or "", post.get("first_comment"))
                 st.update(status="ok" if ok else "failed", detail=detail, attempts=st["attempts"] + 1, last_attempt=now.isoformat())
                 row[platform] = st
                 done += 1

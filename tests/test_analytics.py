@@ -90,7 +90,8 @@ class Collect(unittest.TestCase):
 
 class Report(unittest.TestCase):
     def test_median_total_per_platform_and_slot(self):
-        store = {"entries": {f"d{i}": {"platform": "instagram_reel", "slot": "morning", "type": "quote_reel", "views": v}
+        store = {"entries": {f"d{i}": {"platform": "instagram_reel", "slot": "morning", "type": "quote_reel", "views": v,
+                                  "slot_utc": "2026-11-10T12:30:00+00:00", "scored_on": "2026-11-14T00:00:00+00:00"}
                              for i, v in enumerate([100, 300, 200])}}
         r = analytics.build_report(store)
         self.assertIn("| instagram_reel | morning | 3 | 200 | 200 | 600 |", r)
@@ -119,3 +120,45 @@ class TokenDerivation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Engagement(unittest.TestCase):
+    def setUp(self): publish._PAGE_TOKEN.clear()
+
+    def test_caption_first_line_is_an_ask_then_a_tag_share_save_call(self):
+        import random, selector
+        sel = selector.Selector(selector.load_library("library/library_*.json"))
+        plan = sel.pick_day("2026-12-01", [])
+        for p in plan["posts"]:
+            if not p["caption"]:
+                continue
+            lines = p["caption"].split("\n")
+            self.assertTrue(lines[0].endswith(("?", ".")) and ("one" in lines[0].lower() or "type" in lines[0].lower()
+                            or "rate" in lines[0].lower() or "number" in lines[0].lower() or "word" in lines[0].lower()), lines[0])
+            self.assertTrue(any(w in lines[1].lower() for w in ("tag", "save", "share")), lines[1])
+            self.assertTrue(p["first_comment"] and "{" not in p["first_comment"])
+
+    def test_first_comment_posted_after_reel_and_failure_never_breaks_publish(self):
+        env = {"FB_PAGE_ID": "P", "IG_USER_ID": "I", "FB_PAGE_TOKEN": "T"}
+        resp_ok = Mock(status_code=200, json=Mock(return_value={"id": "c1"}))
+        with patch.dict(os.environ, env), patch.dict(publish.DISPATCH, instagram_reel=Mock(return_value="MEDIA1")), \
+             patch.object(publish.requests, "post", return_value=resp_ok) as post:
+            self.assertEqual(publish.publish("instagram_reel", "f", "cap", "Q?"), (True, {"published": True}))
+        self.assertTrue(post.call_args[0][0].endswith("/MEDIA1/comments"))
+        self.assertEqual(post.call_args[1]["data"]["message"], "Q?")
+        resp_bad = Mock(status_code=400, json=Mock(return_value={"error": {"message": CANARY}}))
+        with patch.dict(os.environ, env), patch.dict(publish.DISPATCH, facebook_reel=Mock(return_value="V1")), \
+             patch.object(publish.requests, "post", return_value=resp_bad):
+            self.assertEqual(publish.publish("facebook_reel", "f", "cap", "Q?"), (True, {"published": True}))
+
+    def test_stories_get_no_comment(self):
+        with patch.dict(publish.DISPATCH, instagram_story=Mock(return_value="S1")), \
+             patch.object(publish.requests, "post") as post:
+            publish.publish("instagram_story", "f", "cap", "Q?")
+        post.assert_not_called()
+
+
+    def test_young_videos_are_left_out_of_the_report(self):
+        store = {"entries": {"a": {"platform": "instagram_reel", "slot": "morning", "type": "q", "views": 5,
+                                   "slot_utc": "2026-11-10T12:30:00+00:00", "scored_on": "2026-11-11T00:00:00+00:00"}}}
+        self.assertNotIn("| instagram_reel | morning", analytics.build_report(store))
