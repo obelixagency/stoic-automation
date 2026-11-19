@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-19",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-02-05a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "One number: how many days do you think you have left to waste?\nSave it for when you need it.\n\nRead this slowly.\n\n“…thou wilt give thyself relief, if thou doest every act of thy life as if it were the last…”\n— Marcus Aurelius, Meditations 2.5\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #selfimprovement #motivation #wisdom",
+      "first_comment": "Marcus Aurelius on time: what's one thing you'll stop putting off this week?"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SD-PM-21",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "One word to sum up your day so far?\nShare it with someone who's going through it.\n\nYou needed to hear this today.\n\n— Seneca, On Peace of Mind 5 (on Socrates)\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #mindset #discipline #philosophy",
+      "first_comment": "Which line from Seneca hit hardest? Quote it below."
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "EP-FR-161",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-L63-f",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "How many hours did you waste today? One number, be honest.\nTag someone who needs this today.\n\nStop scrolling for ten seconds.\n\n— Seneca, Letter 63.8\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #philosophy #motivation #selfimprovement",
+      "first_comment": "Seneca on time: what's one thing you'll stop putting off this week?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-19",
+      "slot": "morning",
+      "item_id": "MA-02-05a",
+      "group": "MA-02-05a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h10",
+      "cta_id": "c04",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "midday",
+      "item_id": "SD-PM-21",
+      "group": "SD-PM-21",
+      "author": "Seneca",
+      "hook_id": "h14",
+      "cta_id": "c03",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "midday_static",
+      "item_id": "EP-FR-161",
+      "group": "EP-FR-161",
+      "author": "Epictetus",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "evening",
+      "item_id": "SE-L63-f",
+      "group": "SE-L63-g",
+      "author": "Seneca",
+      "hook_id": "h13",
+      "cta_id": "c02",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 50
+}
