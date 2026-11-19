@@ -1,154 +1,277 @@
 {
-  "hooks": [
-    {
-      "id": "h01",
-      "text": "A Roman emperor wrote this to himself. It was never meant to be read.",
-      "authors": [
-        "Marcus Aurelius"
-      ]
-    },
-    {
-      "id": "h02",
-      "text": "The most powerful man in the Roman world, in his private journal:",
-      "authors": [
-        "Marcus Aurelius"
-      ]
-    },
-    {
-      "id": "h03",
-      "text": "Seneca wrote this almost 2,000 years ago. It's about you.",
-      "authors": [
-        "Seneca"
-      ]
-    },
-    {
-      "id": "h04",
-      "text": "Epictetus was a slave. This is what he taught.",
-      "authors": [
-        "Epictetus"
-      ]
-    },
-    {
-      "id": "h05",
-      "text": "Read this if people are testing your patience today.",
-      "themes": [
-        "people",
-        "anger",
-        "patience",
-        "insults",
-        "criticism",
-        "expectations"
-      ]
-    },
-    {
-      "id": "h06",
-      "text": "Save this for the day everything goes wrong.",
-      "themes": [
-        "adversity",
-        "resilience",
-        "strength",
-        "obstacles",
-        "acceptance"
-      ]
-    },
-    {
-      "id": "h07",
-      "text": "If your mind is racing right now, read this.",
-      "themes": [
-        "anxiety",
-        "fear",
-        "overthinking",
-        "future",
-        "uncertainty"
-      ]
-    },
-    {
-      "id": "h08",
-      "text": "You have less time than you think.",
-      "themes": [
-        "time",
-        "mortality",
-        "urgency",
-        "procrastination"
-      ]
-    },
-    {
-      "id": "h09",
-      "text": "Most people will scroll past this. Don't."
-    },
-    {
-      "id": "h10",
-      "text": "Read this slowly."
-    },
-    {
-      "id": "h11",
-      "text": "Nearly 2,000 years old. Still true."
-    },
-    {
-      "id": "h12",
-      "text": "This is what real Stoicism sounds like."
-    },
-    {
-      "id": "h13",
-      "text": "Stop scrolling for ten seconds."
-    },
-    {
-      "id": "h14",
-      "text": "You needed to hear this today."
-    }
-  ],
-  "ctas": [
-    {
-      "id": "c01",
-      "text": "Send this to someone who needs it today.",
-      "goal": "share"
-    },
-    {
-      "id": "c02",
-      "text": "Save this. You'll need it.",
-      "goal": "save"
-    },
-    {
-      "id": "c03",
-      "text": "Which line hit hardest? Comment below.",
-      "goal": "comment"
-    },
-    {
-      "id": "c04",
-      "text": "Follow for real Stoic wisdom, daily.",
-      "goal": "follow"
-    }
-  ],
-  "hashtags": {
-    "core": [
-      "#stoicism",
-      "#stoic",
-      "#dailystoic"
-    ],
-    "by_author": {
-      "Marcus Aurelius": [
-        "#marcusaurelius"
-      ],
-      "Seneca": [
-        "#seneca"
-      ],
-      "Epictetus": [
-        "#epictetus"
-      ]
-    },
-    "broad": [
-      "#mindset",
-      "#selfimprovement",
-      "#philosophy",
-      "#discipline",
-      "#wisdom",
-      "#motivation"
-    ],
-    "per_post": "3 core/author + 2-3 broad (5-6 total)"
+ "hooks": [
+  {
+   "id": "h01",
+   "text": "A Roman emperor wrote this to himself. It was never meant to be read.",
+   "authors": [
+    "Marcus Aurelius"
+   ]
   },
-  "caption_template": "{hook}\n\n“{text}”\n— {credit}\n\n{cta}\n\n{hashtags}",
-  "rules": {
-    "hook_rules": "hook must match the item's author/themes if it has constraints; never the same hook twice in a row; same hook+CTA pair not within 7 days",
-    "honesty": "hooks make no claims the item cannot back up (e.g. 'Roman emperor' only on Marcus Aurelius items)"
+  {
+   "id": "h02",
+   "text": "The most powerful man in the Roman world, in his private journal:",
+   "authors": [
+    "Marcus Aurelius"
+   ]
+  },
+  {
+   "id": "h03",
+   "text": "Seneca wrote this almost 2,000 years ago. It's about you.",
+   "authors": [
+    "Seneca"
+   ]
+  },
+  {
+   "id": "h04",
+   "text": "Epictetus was a slave. This is what he taught.",
+   "authors": [
+    "Epictetus"
+   ]
+  },
+  {
+   "id": "h05",
+   "text": "Read this if people are testing your patience today.",
+   "themes": [
+    "people",
+    "anger",
+    "patience",
+    "insults",
+    "criticism",
+    "expectations"
+   ]
+  },
+  {
+   "id": "h06",
+   "text": "Save this for the day everything goes wrong.",
+   "themes": [
+    "adversity",
+    "resilience",
+    "strength",
+    "obstacles",
+    "acceptance"
+   ]
+  },
+  {
+   "id": "h07",
+   "text": "If your mind is racing right now, read this.",
+   "themes": [
+    "anxiety",
+    "fear",
+    "overthinking",
+    "future",
+    "uncertainty"
+   ]
+  },
+  {
+   "id": "h08",
+   "text": "You have less time than you think.",
+   "themes": [
+    "time",
+    "mortality",
+    "urgency",
+    "procrastination"
+   ]
+  },
+  {
+   "id": "h09",
+   "text": "Most people will scroll past this. Don't."
+  },
+  {
+   "id": "h10",
+   "text": "Read this slowly."
+  },
+  {
+   "id": "h11",
+   "text": "Nearly 2,000 years old. Still true."
+  },
+  {
+   "id": "h12",
+   "text": "This is what real Stoicism sounds like."
+  },
+  {
+   "id": "h13",
+   "text": "Stop scrolling for ten seconds."
+  },
+  {
+   "id": "h14",
+   "text": "You needed to hear this today."
   }
+ ],
+ "ctas": [
+  {
+   "id": "c01",
+   "text": "Send this to someone who needs it today.",
+   "goal": "share"
+  },
+  {
+   "id": "c02",
+   "text": "Save this. You'll need it.",
+   "goal": "save"
+  },
+  {
+   "id": "c03",
+   "text": "Which line hit hardest? Comment below.",
+   "goal": "comment"
+  },
+  {
+   "id": "c04",
+   "text": "Follow for real Stoic wisdom, daily.",
+   "goal": "follow"
+  }
+ ],
+ "hashtags": {
+  "core": [
+   "#stoicism",
+   "#stoic",
+   "#dailystoic"
+  ],
+  "by_author": {
+   "Marcus Aurelius": [
+    "#marcusaurelius"
+   ],
+   "Seneca": [
+    "#seneca"
+   ],
+   "Epictetus": [
+    "#epictetus"
+   ]
+  },
+  "broad": [
+   "#mindset",
+   "#selfimprovement",
+   "#philosophy",
+   "#discipline",
+   "#wisdom",
+   "#motivation"
+  ],
+  "per_post": "3 core/author + 2-3 broad (5-6 total)"
+ },
+ "caption_template": "{hook}\n\n“{text}”\n— {credit}\n\n{cta}\n\n{hashtags}",
+ "rules": {
+  "hook_rules": "hook must match the item's author/themes if it has constraints; never the same hook twice in a row; same hook+CTA pair not within 7 days",
+  "honesty": "hooks make no claims the item cannot back up (e.g. 'Roman emperor' only on Marcus Aurelius items)"
+ },
+ "asks": {
+  "by_theme": [
+   {
+    "themes": [
+     "time",
+     "mortality",
+     "urgency",
+     "procrastination"
+    ],
+    "text": [
+     "How many hours did you waste today? One number, be honest.",
+     "One number: how many days do you think you have left to waste?"
+    ]
+   },
+   {
+    "themes": [
+     "anxiety",
+     "fear",
+     "overthinking",
+     "future",
+     "uncertainty"
+    ],
+    "text": [
+     "One word for what's on your mind right now?",
+     "Calm or loud: how is your mind today? One word."
+    ]
+   },
+   {
+    "themes": [
+     "people",
+     "anger",
+     "patience",
+     "insults",
+     "criticism",
+     "expectations"
+    ],
+    "text": [
+     "Rate your patience today, 1 to 10.",
+     "Who tested your patience today? One word."
+    ]
+   },
+   {
+    "themes": [
+     "adversity",
+     "resilience",
+     "strength",
+     "obstacles",
+     "acceptance"
+    ],
+    "text": [
+     "What's the one thing you can't control today? One word.",
+     "Rate how your week is going, 1 to 10."
+    ]
+   }
+  ],
+  "generic": [
+   "Type YES if you needed this today.",
+   "One word to sum up your day so far?",
+   "Rate your day so far, 1 to 10.",
+   "Seneca or Marcus: who do you read more? One word."
+  ]
+ },
+ "calls": [
+  "Tag someone who needs this today.",
+  "Save it for when you need it.",
+  "Share it with someone who's going through it."
+ ],
+ "comment_questions": {
+  "by_theme": [
+   {
+    "themes": [
+     "time",
+     "mortality",
+     "urgency",
+     "procrastination"
+    ],
+    "text": [
+     "{author} on time: what's one thing you'll stop putting off this week?"
+    ]
+   },
+   {
+    "themes": [
+     "anxiety",
+     "fear",
+     "overthinking",
+     "future",
+     "uncertainty"
+    ],
+    "text": [
+     "{author} on worry: what's one thing you're overthinking today?"
+    ]
+   },
+   {
+    "themes": [
+     "people",
+     "anger",
+     "patience",
+     "insults",
+     "criticism",
+     "expectations"
+    ],
+    "text": [
+     "{author} on other people: who is the hardest person to stay calm around?"
+    ]
+   },
+   {
+    "themes": [
+     "adversity",
+     "resilience",
+     "strength",
+     "obstacles",
+     "acceptance"
+    ],
+    "text": [
+     "{author} on hardship: what's the toughest thing you've gotten through?"
+    ]
+   }
+  ],
+  "generic": [
+   "Which line from {author} hit hardest? Quote it below.",
+   "{author} wrote this ~2,000 years ago. Does it still hold up for you? One word."
+  ]
+ }
 }

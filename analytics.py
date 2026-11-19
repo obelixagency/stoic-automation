@@ -148,14 +148,26 @@ def collect(now=None, token=None, page_id=None, ig_id=None):
     return notes
 
 
+MIN_AGE_DAYS = 3   # numbers younger than this are still growing; slots are compared at maturity only
+
+
+def _mature(e):
+    try:
+        age = (dt.datetime.fromisoformat(e["scored_on"]) - dt.datetime.fromisoformat(e["slot_utc"])).total_seconds() / 86400
+    except Exception:
+        return False
+    return age >= MIN_AGE_DAYS
+
+
 def build_report(store):
     rows = {}
+    store = {"entries": {k: e for k, e in store.get("entries", {}).items() if _mature(e)}}
     for e in store.get("entries", {}).values():
         if e.get("views") is None:
             continue
         rows.setdefault((e["platform"], e["slot"]), []).append(e)
     lines = ["# Reach by platform and slot", "",
-             "Auto-generated every watchdog run. Views = IG `views` / FB `blue_reels_play_count`. Slot times are US Eastern (audience time).", "",
+             "Auto-generated every watchdog run. Only videos at least 3 days old are counted. Views = IG `views` / FB `blue_reels_play_count`. Slot times are US Eastern (audience time).", "",
              "| Platform | Slot | Videos | Median views | Mean views | Total views |", "|---|---|---|---|---|---|"]
     for (platform, slot), es in sorted(rows.items()):
         v = [x["views"] for x in es]
@@ -163,10 +175,10 @@ def build_report(store):
     types = {}
     for e in store.get("entries", {}).values():
         if e.get("views") is not None:
-            types.setdefault(e.get("type"), []).append(e["views"])
-    lines += ["", "## By content type (median views)", ""]
-    for t, v in sorted(types.items(), key=lambda kv: -statistics.median(kv[1])):
-        lines.append(f"- {t}: {statistics.median(v):.0f} ({len(v)} videos)")
+            types.setdefault((e["platform"], e.get("type")), []).append(e["views"])
+    lines += ["", "## By content type (median views, per platform)", ""]
+    for (pl, t), v in sorted(types.items(), key=lambda kv: -statistics.median(kv[1])):
+        lines.append(f"- {pl} / {t}: {statistics.median(v):.0f} ({len(v)} videos)")
     return "\n".join(lines) + "\n"
 
 

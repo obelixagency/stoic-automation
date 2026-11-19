@@ -287,11 +287,31 @@ DISPATCH = {
 }
 
 
-def publish(platform, path_or_paths, caption):
+COMMENT_PLATFORMS = {"instagram_reel", "facebook_reel", "instagram_post", "facebook_post"}
+
+
+def _first_comment(platform, ref, text):
+    """Best-effort first comment right after publishing. Never raises, never fails the publish; prints a
+    one-line note (platform + short fixed code, no IDs or provider text) so a silent failure is visible."""
+    try:
+        if platform.startswith("instagram"):
+            _need("IG_USER_ID"); token = _page_token()
+        else:
+            _need("FB_PAGE_ID"); token = _page_token()
+        r = requests.post(f"{GRAPH}/{ref}/comments", data={"message": text, "access_token": token})
+        _check(r)
+        print(f"note: {platform} first comment posted")
+    except Exception as e:
+        print(f"note: {platform} first comment failed ({type(e).__name__})")
+
+
+def publish(platform, path_or_paths, caption, first_comment=None):
     """path_or_paths: the file (or, for *_carousel platforms, the ordered list of files) render_day.py made.
     Returns (ok, detail)."""
     try:
         ref = DISPATCH[platform](path_or_paths, caption)
+        if first_comment and platform in COMMENT_PLATFORMS and isinstance(ref, str):
+            _first_comment(platform, ref, first_comment)
         return True, {"published": True}
     except NotConnected as e:
         return False, {"error": "not_connected"}

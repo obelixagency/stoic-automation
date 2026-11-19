@@ -131,13 +131,27 @@ class Selector:
             if x.get("cta_id") in lu: lu[x["cta_id"]] = n
         ok.sort(key=lambda c: (lu[c["id"]], rng.random())); return ok[0]
 
+    @staticmethod
+    def _pick_text(block, item, rng, **fmt):
+        """Theme-matched text from a kit block ({"by_theme": [...], "generic": [...]}), else generic."""
+        themes = set(item.get("themes", []))
+        pool = [t for g in block["by_theme"] if set(g["themes"]) & themes for t in g["text"]] or block["generic"]
+        return rng.choice(pool).format(author=item["author"], **fmt)
+
+    def _first_comment(self, item, rng):
+        """A specific question about this video, posted as the first comment right after publishing."""
+        return self._pick_text(KIT["comment_questions"], item, rng)
+
     def _caption(self, item, hook, cta, rng):
         tags = KIT["hashtags"]; a = tags["by_author"].get(item["author"], [])
         chosen = tags["core"][:2] + a + rng.sample(tags["broad"], 3)
         credit = item.get("display_credit") or f'{item["author"]}, {item["ref"]}'
         words = (item.get("display_text") or item["text"]).split()
         body = f"\u201c{item.get('display_text') or item['text']}\u201d\n\u2014 {credit}" if len(words) <= 45 else f"\u2014 {credit}\nFull passage in the video."
-        return f'{hook["text"]}\n\n{body}\n\n{cta["text"]}\n\n{" ".join(chosen)}'
+        ask = self._pick_text(KIT["asks"], item, rng)
+        call = rng.choice(KIT["calls"])
+        # First line = an easy ask answerable with a word or a number, then a tag/share/save call (engagement).
+        return f'{ask}\n{call}\n\n{hook["text"]}\n\n{body}\n\n{cta["text"]}\n\n{" ".join(chosen)}'
 
     # ---------- the day ----------
     def phase_active(self):
@@ -153,7 +167,8 @@ class Selector:
                        hook_id=hk["id"] if hk else None, cta_id=ct["id"] if ct else None, how=how)
             picks.append(dict(slot=slot, item_id=item["id"], type=item["type"], how=how, formats=fmts,
                               recycled=(how == "recycled"), hook=hk["text"] if hk else None,
-                              caption=self._caption(item, hk, ct, rng) if video else None, row=row))
+                              caption=self._caption(item, hk, ct, rng) if video else None,
+                              first_comment=self._first_comment(item, rng) if video else None, row=row))
             used_today.add(self.group[item["id"]]); seq.append(item["author"])
         H = lambda: history + [p["row"] for p in picks]
         it, how = self._choose([("quote", self.quotes)], "morning", today, H(), used_today, seq, rng, lambda i: i["est_seconds"] <= 30)
