@@ -16,4 +16,4 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           META_SYSTEM_TOKEN: ${{ secrets.META_SYSTEM_TOKEN }}
-        run: python check_meta.py
+        run: python check_meta.py; python probe_fb.py || true
