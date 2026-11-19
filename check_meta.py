@@ -16,9 +16,9 @@ def run():
     ptok = M.page_token(sys_tok, page_id)
     rec("page_token_from_system_token", bool(ptok), "cannot_derive")
     if not ptok: return 1
-    ok, d = M.get(f"{page_id}", ptok, fields="id,name,tasks")
-    tasks = d.get("tasks", []) if ok else []
-    rec("fb_publish_permission(CREATE_CONTENT)", ok and "CREATE_CONTENT" in tasks, "no_task" if ok else d)
+    ok, d = M.get("me/permissions", sys_tok)
+    granted = {x.get("permission") for x in d.get("data", []) if x.get("status") == "granted"} if ok else set()
+    rec("fb_publish_permission(pages_manage_posts granted)", "pages_manage_posts" in granted, "not_granted" if ok else d)
     ok, d = M.get(f"{ig_id}/content_publishing_limit", ptok, fields="quota_usage")
     rec("ig_publish_access", ok, d)
     ok, d = M.get(f"{page_id}/insights", ptok, metric=M.PAGE_REACH_METRIC, period="day")
@@ -40,7 +40,10 @@ def run():
         rec("fb_reel_insights(blue_reels_play_count)", ok, s)
         ok, d = M.get(f"{fr[0]['id']}/comments", ptok, limit=1)
         rec("fb_comments_read", ok, d)
-        ok, d = M.get(f"{fr[0]['id']}/insights", ptok, metric=M.POST_REACH_METRIC)
+    ok, d = M.get(f"{page_id}/posts", ptok, fields="id", limit=1)
+    posts = d.get("data", []) if ok else []
+    if posts:
+        ok, d = M.get(f"{posts[0]['id']}/insights", ptok, metric=M.POST_REACH_METRIC)
         rec("fb_post_reach(post_total_media_view_unique)", ok, d)
     return 0 if all(ok for _, ok in results) else 1
 
