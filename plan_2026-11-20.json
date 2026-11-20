@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-20",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L72-d",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Rate your day so far, 1 to 10.\nSave it for when you need it.\n\nNearly 2,000 years old. Still true.\n\n— Seneca, Letter 72.3\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #discipline #motivation #mindset",
+      "first_comment": "Which line from Seneca hit hardest? Quote it below."
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-FR-068",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Type YES if you needed this today.\nTag someone who needs this today.\n\nRead this slowly.\n\n“Pittacus after being wronged by a certain person and having the power of punishing him let him go, saying, Forgiveness is better than revenge: for forgiveness is the sign of a gentle nature, but revenge the sign of a savage nature.”\n— Epictetus, Fragment 68 (attrib.)\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #epictetus #discipline #philosophy #motivation",
+      "first_comment": "Which line from Epictetus hit hardest? Quote it below."
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-07-36",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-10-15",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "A Roman emperor wrote this to himself. It was never meant to be read.",
+      "caption": "How many hours did you waste today? One number, be honest.\nShare it with someone who's going through it.\n\nA Roman emperor wrote this to himself. It was never meant to be read.\n\n— Marcus Aurelius, Meditations 10.15\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #wisdom #philosophy #motivation",
+      "first_comment": "Marcus Aurelius on time: what's one thing you'll stop putting off this week?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-20",
+      "slot": "morning",
+      "item_id": "SE-L72-d",
+      "group": "SE-L72-d",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c03",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "midday",
+      "item_id": "EP-FR-068",
+      "group": "EP-FR-068",
+      "author": "Epictetus",
+      "hook_id": "h10",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "midday_static",
+      "item_id": "MA-07-36",
+      "group": "MA-07-36",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "evening",
+      "item_id": "MA-10-15",
+      "group": "MA-10-15",
+      "author": "Marcus Aurelius",
+      "hook_id": "h01",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 51
+}
