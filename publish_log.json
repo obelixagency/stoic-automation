@@ -6581,11 +6581,11 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 2,
+    "attempts": 3,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-11-20T19:04:59.798121+00:00"
+    "last_attempt": "2026-11-21T00:55:40.624217+00:00"
    },
    "facebook_story": {
     "status": "ok",
@@ -6894,6 +6894,14 @@
      "published": true
     },
     "last_attempt": "2026-11-20T19:04:59.798121+00:00"
+   },
+   "instagram_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-21T00:55:40.624217+00:00"
    }
   }
  },
