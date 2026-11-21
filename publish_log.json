@@ -6918,6 +6918,14 @@
      "published": true
     },
     "last_attempt": "2026-11-21T17:59:25.671184+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-21T22:58:06.710003+00:00"
    }
   }
  },
@@ -7025,11 +7033,11 @@
    },
    "instagram_story": {
     "status": "failed",
-    "attempts": 3,
+    "attempts": 4,
     "detail": {
      "error": "publish_failed"
     },
-    "last_attempt": "2026-11-13T04:32:31.376371+00:00"
+    "last_attempt": "2026-11-21T22:58:06.710003+00:00"
    },
    "facebook_story": {
     "status": "ok",
