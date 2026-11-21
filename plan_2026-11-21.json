@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-21",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-06-22",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Rate your day so far, 1 to 10.\nSave it for when you need it.\n\nMost people will scroll past this. Don't.\n\n“I do my duty: other things trouble me not; for they are either things without life, or things without reason, or things that have rambled and know not the way.”\n— Marcus Aurelius, Meditations 6.22\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #marcusaurelius #mindset #philosophy #wisdom",
+      "first_comment": "Marcus Aurelius wrote this ~2,000 years ago. Does it still hold up for you? One word."
+    },
+    {
+      "slot": "midday",
+      "item_id": "SD-PM-21",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Seneca or Marcus: who do you read more? One word.\nSave it for when you need it.\n\nRead this slowly.\n\n— Seneca, On Peace of Mind 5 (on Socrates)\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #mindset #discipline #wisdom",
+      "first_comment": "Seneca wrote this ~2,000 years ago. Does it still hold up for you? One word."
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "EP-FR-154",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-02-01",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "You needed to hear this today.",
+      "caption": "Who tested your patience today? One word.\nTag someone who needs this today.\n\nYou needed to hear this today.\n\n— Marcus Aurelius, Meditations 2.1\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #selfimprovement #mindset #philosophy",
+      "first_comment": "Marcus Aurelius on other people: who is the hardest person to stay calm around?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-21",
+      "slot": "morning",
+      "item_id": "MA-06-22",
+      "group": "MA-06-22",
+      "author": "Marcus Aurelius",
+      "hook_id": "h09",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-21",
+      "slot": "midday",
+      "item_id": "SD-PM-21",
+      "group": "SD-PM-21",
+      "author": "Seneca",
+      "hook_id": "h10",
+      "cta_id": "c03",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-21",
+      "slot": "midday_static",
+      "item_id": "EP-FR-154",
+      "group": "EP-FR-154",
+      "author": "Epictetus",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-21",
+      "slot": "evening",
+      "item_id": "MA-02-01",
+      "group": "MA-02-01",
+      "author": "Marcus Aurelius",
+      "hook_id": "h14",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 52
+}
