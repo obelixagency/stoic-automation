@@ -5,13 +5,13 @@ Auto-generated every watchdog run. Only videos at least 3 days old are counted. 
 | Platform | Slot | Videos | Median views | Mean views | Total views |
 |---|---|---|---|---|---|
 | facebook_reel | evening | 48 | 0 | 0 | 0 |
-| facebook_reel | morning | 47 | 0 | 0 | 1 |
+| facebook_reel | morning | 48 | 0 | 0 | 3 |
 | instagram_reel | evening | 38 | 75 | 74 | 2815 |
-| instagram_reel | morning | 27 | 103 | 92 | 2487 |
+| instagram_reel | morning | 28 | 87 | 91 | 2551 |
 
 ## By content type (median views, per platform)
 
-- instagram_reel / quote_reel: 103 (27 videos)
+- instagram_reel / quote_reel: 87 (28 videos)
 - instagram_reel / passage_reel: 75 (38 videos)
-- facebook_reel / quote_reel: 0 (47 videos)
+- facebook_reel / quote_reel: 0 (48 videos)
 - facebook_reel / passage_reel: 0 (48 videos)

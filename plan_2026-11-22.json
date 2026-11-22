@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-22",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "MA-11-05a",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "The most powerful man in the Roman world, in his private journal:",
+      "caption": "Rate your day so far, 1 to 10.\nShare it with someone who's going through it.\n\nThe most powerful man in the Roman world, in his private journal:\n\n“What is thy art? To be good.”\n— Marcus Aurelius, Meditations 11.5\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #marcusaurelius #wisdom #discipline #motivation",
+      "first_comment": "Marcus Aurelius wrote this ~2,000 years ago. Does it still hold up for you? One word."
+    },
+    {
+      "slot": "midday",
+      "item_id": "SD-PM-59",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "One word for what's on your mind right now?\nShare it with someone who's going through it.\n\nThis is what real Stoicism sounds like.\n\n— Seneca, On Peace of Mind 14 (on Theodorus)\nFull passage in the video.\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #philosophy #discipline #mindset",
+      "first_comment": "Seneca on worry: what's one thing you're overthinking today?"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "EP-FR-004",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-12-14",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "What's the one thing you can't control today? One word.\nTag someone who needs this today.\n\nNearly 2,000 years old. Still true.\n\n— Marcus Aurelius, Meditations 12.14\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #mindset #wisdom #motivation",
+      "first_comment": "Marcus Aurelius on hardship: what's the toughest thing you've gotten through?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-22",
+      "slot": "morning",
+      "item_id": "MA-11-05a",
+      "group": "MA-11-05a",
+      "author": "Marcus Aurelius",
+      "hook_id": "h02",
+      "cta_id": "c04",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-22",
+      "slot": "midday",
+      "item_id": "SD-PM-59",
+      "group": "SD-PM-59",
+      "author": "Seneca",
+      "hook_id": "h12",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-22",
+      "slot": "midday_static",
+      "item_id": "EP-FR-004",
+      "group": "EP-FR-004",
+      "author": "Epictetus",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-22",
+      "slot": "evening",
+      "item_id": "MA-12-14",
+      "group": "MA-12-14",
+      "author": "Marcus Aurelius",
+      "hook_id": "h11",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 53
+}
