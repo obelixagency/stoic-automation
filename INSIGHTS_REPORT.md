@@ -7,7 +7,7 @@ Auto-generated every watchdog run. Only videos at least 3 days old are counted. 
 | facebook_reel | evening | 48 | 0 | 0 | 0 |
 | facebook_reel | morning | 48 | 0 | 0 | 3 |
 | instagram_reel | evening | 38 | 75 | 74 | 2815 |
-| instagram_reel | morning | 28 | 87 | 91 | 2551 |
+| instagram_reel | morning | 28 | 87 | 91 | 2552 |
 
 ## By content type (median views, per platform)
 
