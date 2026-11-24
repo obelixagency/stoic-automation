@@ -8262,6 +8262,22 @@
      "published": true
     },
     "last_attempt": "2026-11-24T06:21:16.927586+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-24T07:54:31.840848+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-24T07:54:31.840848+00:00"
    }
   }
  },
