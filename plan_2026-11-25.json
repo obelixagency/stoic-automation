@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-25",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-SL-09b",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "One number: how many days do you think you have left to waste?\nShare it with someone who's going through it.\n\nMost people will scroll past this. Don't.\n\n“You dispose of that which is in the hand of Fortune, and you let go that which is in your own. Whither are you looking, whither are you stretching forward? everything future is uncertain: live now straightaway.”\n— Seneca, On the Shortness of Life 9\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #selfimprovement #wisdom #philosophy",
+      "first_comment": "Seneca on time: what's one thing you'll stop putting off this week?"
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-FR-067",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "This is what real Stoicism sounds like.",
+      "caption": "Seneca or Marcus: who do you read more? One word.\nSave it for when you need it.\n\nThis is what real Stoicism sounds like.\n\n— Epictetus, Fragment 67 (attrib.)\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #epictetus #wisdom #mindset #selfimprovement",
+      "first_comment": "Which line from Epictetus hit hardest? Quote it below."
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-08-47a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SD-PR-05",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Seneca wrote this almost 2,000 years ago. It's about you.",
+      "caption": "Rate how your week is going, 1 to 10.\nTag someone who needs this today.\n\nSeneca wrote this almost 2,000 years ago. It's about you.\n\n— Seneca, On Providence 2\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #seneca #wisdom #selfimprovement #discipline",
+      "first_comment": "Seneca on hardship: what's the toughest thing you've gotten through?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-25",
+      "slot": "morning",
+      "item_id": "SE-SL-09b",
+      "group": "SE-SL-09c",
+      "author": "Seneca",
+      "hook_id": "h09",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-25",
+      "slot": "midday",
+      "item_id": "EP-FR-067",
+      "group": "EP-FR-067",
+      "author": "Epictetus",
+      "hook_id": "h12",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-25",
+      "slot": "midday_static",
+      "item_id": "MA-08-47a",
+      "group": "MA-08-47a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-25",
+      "slot": "evening",
+      "item_id": "SD-PR-05",
+      "group": "SD-PR-05",
+      "author": "Seneca",
+      "hook_id": "h03",
+      "cta_id": "c04",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 56
+}
