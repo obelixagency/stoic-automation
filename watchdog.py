@@ -19,6 +19,13 @@ LOG = os.path.join(HERE, "publish_log.json")
 STALE_HOURS = 2.5          # matches the doc: "makes sure nothing has posted successfully in the last 2h" (+ margin)
 RETRY_COOLDOWN_MIN = 25    # don't hammer a broken platform every single 30-min tick
 
+def paused_platforms():
+    """Platforms the owner paused in schedule.json: never attempted, retried, caught up or escalated."""
+    try:
+        return set(json.load(open(os.path.join(HERE, "schedule.json"))).get("paused_platforms", []))
+    except Exception:
+        return set()
+
 def load_json(p, default): return json.load(open(p)) if os.path.exists(p) else default
 def sanitize_publish_log(log):
     """Keep retry/dedup state, but never retain provider responses or exception bodies.
@@ -85,6 +92,7 @@ def run(date_str, now=None):
         return 0
     plan = json.load(open(plan_path))
     escalations = []
+    paused = paused_platforms()
     for post in plan["posts"]:
         slot_id = post["slot"]; cfg = next((s for s in schedule["slots"] if s["id"] == slot_id.replace("_static", "")), None)
         if not cfg: continue
@@ -92,6 +100,7 @@ def run(date_str, now=None):
         if now < due: continue                                       # not time yet
         row = log[date_str].setdefault(slot_id, {})
         for platform in post["formats"]:
+            if platform in paused: continue
             st = row.get(platform, {"status": "pending", "attempts": 0})
             if st["status"] == "ok": continue
             last = st.get("last_attempt")
@@ -107,7 +116,7 @@ def run(date_str, now=None):
             print(f'{date_str} {slot_id} {platform}: {st["status"]}' + ("" if ok else f' ({detail.get("error")})'))
         log[date_str][slot_id] = row
         late_hours = (now - due).total_seconds() / 3600
-        unresolved = [p for p, st in row.items() if st["status"] not in ("ok",)]
+        unresolved = [p for p, st in row.items() if st["status"] not in ("ok",) and p not in paused]
         if late_hours >= STALE_HOURS and unresolved:
             escalations.append({"slot": slot_id, "item": post["item_id"], "late_hours": round(late_hours, 1), "platforms": unresolved})
     save_json(LOG, log)
@@ -141,7 +150,7 @@ def catchup(today_str, now=None, max_items=CATCHUP_MAX_PER_RUN):
             row = log[date_str].setdefault(slot_id, {})
             for platform in post["formats"]:
                 if done >= max_items: break
-                if platform in CATCHUP_SKIP: continue
+                if platform in CATCHUP_SKIP or platform in paused_platforms(): continue
                 st = row.get(platform, {"status": "pending", "attempts": 0})
                 if st["status"] == "ok": continue
                 if st.get("attempts", 0) >= CATCHUP_MAX_ATTEMPTS: continue   # give up on permanent failures so they stop blocking the queue

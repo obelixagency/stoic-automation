@@ -76,5 +76,9 @@
   },
   "tuning_notes": [
     "2026-11-19: NO slot change. IG reels at >=3 days old: morning n=24 mean 92 / median 87; evening n=34 mean 79 / median 88 (Nov only: morning mean 103, evening mean 93). Gap is within noise, so no weakest slot yet. FB reels: all slots 0 views (Business Suite confirms Page total = 2 views in 28 days), so FB cannot rank slots. Revisit when each slot has >=10 new videos after the caption/comment changes; one change at a time."
-  ]
+  ],
+  "paused_platforms": [
+    "tiktok"
+  ],
+  "paused_note": "2026-11-27: TikTok paused by the owner (temporary). Remove 'tiktok' from this list to resume; skipped items are not retried or escalated."
 }

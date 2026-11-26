@@ -162,3 +162,18 @@ class Engagement(unittest.TestCase):
         store = {"entries": {"a": {"platform": "instagram_reel", "slot": "morning", "type": "q", "views": 5,
                                    "slot_utc": "2026-11-10T12:30:00+00:00", "scored_on": "2026-11-11T00:00:00+00:00"}}}
         self.assertNotIn("| instagram_reel | morning", analytics.build_report(store))
+
+
+class TikTokPaused(unittest.TestCase):
+    def test_paused_platform_is_never_published_or_escalated(self):
+        d = tempfile.mkdtemp()
+        plan = {"date": "2026-11-20", "posts": [{"slot": "morning", "item_id": "A", "formats": ["tiktok", "youtube_short"], "caption": "c"}]}
+        json.dump(plan, open(os.path.join(d, "plan_2026-11-20.json"), "w"))
+        calls = []
+        with patch.object(watchdog, "HERE", d), patch.object(watchdog, "LOG", os.path.join(d, "log.json")), \
+             patch.object(watchdog, "paused_platforms", return_value={"tiktok"}), \
+             patch.object(watchdog, "platform_file", return_value="f.mp4"), \
+             patch.object(watchdog.PUB, "publish", side_effect=lambda p, *a, **k: calls.append(p) or (True, {"published": True})):
+            json.dump({"slots": [{"id": "morning", "time_et": "07:30"}]}, open(os.path.join(d, "schedule.json"), "w"))
+            rc = watchdog.run("2026-11-20", now=utc("2026-11-20T23:00:00"))
+        self.assertEqual(calls, ["youtube_short"]); self.assertEqual(rc, 0)
