@@ -17,7 +17,13 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
-      - run: pip install pillow numpy requests
+      - run: pip install pillow numpy requests boto3
+      - run: echo "TODAY=$(TZ=America/New_York date +%F)" >> "$GITHUB_ENV"
+      - name: Cache today's rendered media (it is no longer committed to git)
+        uses: actions/cache@v4
+        with:
+          path: rendered
+          key: rendered-${{ env.TODAY }}
 
       - name: Make sure today's posting plan exists
         env:
@@ -33,23 +39,6 @@ jobs:
           TODAY=$(TZ=America/New_York date +%F)
           python render_day.py --date "$TODAY"
 
-      - name: Checkout the public media repo (obelixagency/stoic-media)
-        uses: actions/checkout@v4
-        with:
-          repository: obelixagency/stoic-media
-          token: ${{ secrets.MEDIA_REPO_TOKEN }}
-          path: media-repo
-
-      - name: Publish today's media there (Instagram needs a public URL to fetch)
-        run: |
-          # Only final media belongs in the public media repository.
-          find rendered -maxdepth 1 -type f \( -name '*.mp4' -o -name '*.jpg' \) -exec cp -n {} media-repo/ \;
-          cd media-repo
-          git config user.name "watchdog-bot"; git config user.email "bot@users.noreply.github.com"
-          find . -maxdepth 1 -type f \( -name '*.mp4' -o -name '*.jpg' \) -exec git add -- {} +
-          git commit -m "media: $(TZ=America/New_York date +%F)" || echo "nothing new to publish"
-          git push
-
       - name: Collect reach numbers per platform and slot (read-only, never fails the run)
         continue-on-error: true
         env:
@@ -62,6 +51,8 @@ jobs:
         id: watchdog
         env:
           META_SYSTEM_TOKEN: ${{ secrets.META_SYSTEM_TOKEN }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -88,7 +79,6 @@ jobs:
           watchdog.save_json(watchdog.LOG, watchdog.load_json(watchdog.LOG, {}))
           PYLOG
           git add publish_log.json plan_*.json insights_log.json INSIGHTS_REPORT.md 2>/dev/null || git add publish_log.json plan_*.json
-          find rendered -maxdepth 1 -type f \( -name '*.mp4' -o -name '*.jpg' \) -exec git add -- {} +
           git commit -m "watchdog: $(TZ=America/New_York date +%F\ %H:%M)" || echo "nothing to commit"
           git push
 

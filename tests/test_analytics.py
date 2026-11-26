@@ -177,3 +177,31 @@ class TikTokPaused(unittest.TestCase):
             json.dump({"slots": [{"id": "morning", "time_et": "07:30"}]}, open(os.path.join(d, "schedule.json"), "w"))
             rc = watchdog.run("2026-11-20", now=utc("2026-11-20T23:00:00"))
         self.assertEqual(calls, ["youtube_short"]); self.assertEqual(rc, 0)
+
+
+class R2Hosting(unittest.TestCase):
+    def setUp(self):
+        import r2
+        self.r2 = r2
+
+    def test_ensure_uploads_when_missing_with_content_type_and_returns_public_url(self):
+        c = Mock(); c.head_object.side_effect = Exception("404")
+        url = self.r2.ensure("/x/rendered/A.mp4", client=c)
+        self.assertTrue(url.endswith("/A.mp4") and url.startswith("https://"))
+        c.upload_file.assert_called_once()
+        self.assertEqual(c.upload_file.call_args[1]["ExtraArgs"]["ContentType"], "video/mp4")
+
+    def test_ensure_skips_upload_when_already_there(self):
+        c = Mock()
+        self.r2.ensure("/x/B.jpg", client=c)
+        c.upload_file.assert_not_called()
+
+    def test_public_url_uses_r2_when_configured_and_falls_back_on_failure(self):
+        env = {"R2_ACCESS_KEY_ID": "a", "R2_SECRET_ACCESS_KEY": "b"}
+        with patch.dict(os.environ, env), patch.object(self.r2, "ensure", return_value="https://r2.example/A.mp4"):
+            self.assertEqual(publish._public_url("/x/A.mp4"), "https://r2.example/A.mp4")
+        with patch.dict(os.environ, env), patch.object(self.r2, "ensure", side_effect=RuntimeError(CANARY)):
+            self.assertIn("github.io", publish._public_url("/x/A.mp4"))
+        with patch.dict(os.environ, {}, clear=False):
+            os.environ.pop("R2_ACCESS_KEY_ID", None)
+            self.assertIn("github.io", publish._public_url("/x/A.mp4"))

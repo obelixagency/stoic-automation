@@ -4,9 +4,8 @@ each function checks its own secrets, nothing else in the pipeline needs to chan
 
 Facebook: uses direct file upload (multipart), so no public hosting is needed.
 Instagram: the Graph API only accepts a public image_url/video_url (it fetches the file itself), so
-rendered media is also mirrored to the public `stoic-media` repo (GitHub Pages, enabled on its main
-branch) and _public_url() points there - see the "Publish today's media" step in
-.github/workflows/watchdog.yml. Both repositories may be public; never persist credentials or raw provider responses.
+rendered media is uploaded to Cloudflare R2 (r2.py) right before posting and _public_url() points there.
+(The old public `stoic-media` GitHub Pages mirror is legacy and no longer written to.) Both repositories may be public; never persist credentials or raw provider responses.
 """
 import os, time, json, subprocess
 import requests
@@ -82,6 +81,14 @@ def _check(resp):
 
 
 def _public_url(path):
+    """Public URL Instagram fetches the file from: Cloudflare R2 (uploaded now if missing). If R2 is not
+    configured/reachable, fall back to the legacy GitHub Pages mirror (old files only) and say so."""
+    if os.environ.get("R2_ACCESS_KEY_ID") and os.environ.get("R2_SECRET_ACCESS_KEY"):
+        try:
+            import r2
+            return r2.ensure(path)
+        except Exception as e:
+            print(f"note: R2 upload failed ({type(e).__name__}); using legacy media URL")
     return f"https://{MEDIA_REPO_OWNER}.github.io/{MEDIA_REPO_NAME}/{os.path.basename(path)}"
 
 
