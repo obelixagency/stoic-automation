@@ -8748,6 +8748,22 @@
      "published": true
     },
     "last_attempt": "2026-11-26T03:03:21.163429+00:00"
+   },
+   "facebook_reel": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-26T06:28:35.748580+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-26T06:28:35.748580+00:00"
    }
   }
  },
@@ -9211,5 +9227,6 @@
     "last_attempt": "2026-11-26T03:00:23.453515+00:00"
    }
   }
- }
+ },
+ "2026-11-26": {}
 }

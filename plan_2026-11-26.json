@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-26",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SE-L72-f",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Type YES if you needed this today.\nShare it with someone who's going through it.\n\nNearly 2,000 years old. Still true.\n\n“Indeed, there is no time that is unsuitable for helpful studies; and yet many a man fails to study amid the very circumstances which make study necessary.”\n— Seneca, Letter 72.3\n\nSave this. You'll need it.\n\n#stoicism #stoic #seneca #wisdom #motivation #philosophy",
+      "first_comment": "Seneca wrote this ~2,000 years ago. Does it still hold up for you? One word."
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-FR-109",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "One word to sum up your day so far?\nTag someone who needs this today.\n\nMost people will scroll past this. Don't.\n\n— Epictetus, Fragment 109 (attrib.)\nFull passage in the video.\n\nFollow for real Stoic wisdom, daily.\n\n#stoicism #stoic #epictetus #wisdom #philosophy #selfimprovement",
+      "first_comment": "Which line from Epictetus hit hardest? Quote it below."
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-08-04",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "SE-SL-09d",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "How many hours did you waste today? One number, be honest.\nSave it for when you need it.\n\nStop scrolling for ten seconds.\n\n— Seneca, On the Shortness of Life 9\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #seneca #selfimprovement #discipline #philosophy",
+      "first_comment": "Seneca on time: what's one thing you'll stop putting off this week?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-26",
+      "slot": "morning",
+      "item_id": "SE-L72-f",
+      "group": "SE-L72-f",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-26",
+      "slot": "midday",
+      "item_id": "EP-FR-109",
+      "group": "EP-FR-109",
+      "author": "Epictetus",
+      "hook_id": "h09",
+      "cta_id": "c04",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-26",
+      "slot": "midday_static",
+      "item_id": "MA-08-04",
+      "group": "MA-08-04",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-26",
+      "slot": "evening",
+      "item_id": "SE-SL-09d",
+      "group": "SE-SL-09d",
+      "author": "Seneca",
+      "hook_id": "h13",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 57
+}
