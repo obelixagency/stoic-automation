@@ -166,9 +166,49 @@ def catchup(today_str, now=None, max_items=CATCHUP_MAX_PER_RUN):
     save_json(LOG, log)
     return done
 
+def needs_work(date_str, now=None):
+    """True when a full run is worthwhile: today's plan is missing, a due slot still has an unresolved
+    (non-paused) platform whose retry cooldown has passed, or an old item is eligible for catch-up.
+    Lets scheduled runs exit in seconds on quiet half-hours (keeps private-repo Actions minutes low)."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    paused = paused_platforms()
+    log = load_json(LOG, {})
+    def ready(st):
+        last = st.get("last_attempt")
+        return not last or (now - dt.datetime.fromisoformat(last)).total_seconds() >= RETRY_COOLDOWN_MIN * 60
+    plan_path = os.path.join(HERE, f"plan_{date_str}.json")
+    if not os.path.exists(plan_path):
+        return True
+    schedule = json.load(open(os.path.join(HERE, "schedule.json")))
+    plan = json.load(open(plan_path))
+    for post in plan["posts"]:
+        cfg = next((s for s in schedule["slots"] if s["id"] == post["slot"].replace("_static", "")), None)
+        if not cfg or now < slot_time_utc(date_str, cfg["time_et"]): continue
+        row = log.get(date_str, {}).get(post["slot"], {})
+        for platform in post["formats"]:
+            st = row.get(platform, {"status": "pending", "attempts": 0})
+            if platform not in paused and st["status"] != "ok" and ready(st): return True
+    today = dt.date.fromisoformat(date_str)
+    for d, slots in log.items():
+        age = (today - dt.date.fromisoformat(d)).days
+        if age < 1 or age > CATCHUP_LOOKBACK_DAYS: continue
+        for platforms in slots.values():
+            for platform, st in platforms.items():
+                if (platform not in CATCHUP_SKIP and platform not in paused and st.get("status") != "ok"
+                        and st.get("attempts", 0) < CATCHUP_MAX_ATTEMPTS and ready(st)): return True
+    return False
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("--date", default=str(dt.date.today()))
+    ap.add_argument("--needs-work", action="store_true", help="print true/false (and set the GitHub step output) then exit")
     a = ap.parse_args()
+    if a.needs_work:
+        flag = "true" if needs_work(a.date) else "false"
+        print("needs_work =", flag)
+        if os.environ.get("GITHUB_OUTPUT"):
+            open(os.environ["GITHUB_OUTPUT"], "a").write(f"work={flag}\n")
+        sys.exit(0)
     rc = run(a.date)
     try: catchup(a.date)
     except Exception: print("catch-up skipped: internal error (details withheld)")

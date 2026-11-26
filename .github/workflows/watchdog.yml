@@ -4,11 +4,14 @@ on:
     # Active window only, to stay well under GitHub's 2,000 Actions-minutes/month free quota for private repos.
     # 11:00-23:59 UTC + 00:00-04:59 UTC = 18h/day, covering all three post slots (07:30/12:30/20:30 ET) plus
     # the 2.5h escalation grace period, safely across both EDT and EST (no manual seasonal edits needed).
-    - cron: "*/30 11-23 * * *"
-    - cron: "*/30 0-4 * * *"
+    - cron: "0 11-23 * * *"
+    - cron: "0 0-4 * * *"
   workflow_dispatch:            # lets you run it manually from the Actions tab to test
 permissions:
   contents: write
+concurrency:
+  group: watchdog
+  cancel-in-progress: false   # never cancel a run that may be mid-publish; a new one queues instead
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -16,16 +19,25 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
-      - run: pip install pillow numpy requests boto3
+      - run: pip install requests
       - run: echo "TODAY=$(TZ=America/New_York date +%F)" >> "$GITHUB_ENV"
+      - name: Is anything due? (quiet half-hours exit here to save Actions minutes)
+        id: gate
+        run: python watchdog.py --needs-work --date "$TODAY"
+      - name: Install render/publish tools
+        if: steps.gate.outputs.work == 'true'
+        run: |
+          sudo apt-get update -y && sudo apt-get install -y ffmpeg
+          pip install pillow numpy boto3
       - name: Cache today's rendered media (it is no longer committed to git)
+        if: steps.gate.outputs.work == 'true'
         uses: actions/cache@v4
         with:
           path: rendered
           key: rendered-${{ env.TODAY }}
 
       - name: Make sure today's posting plan exists
+        if: steps.gate.outputs.work == 'true'
         env:
           LAUNCH_DATE: ${{ vars.LAUNCH_DATE }}   # set once in repo Settings -> Variables, e.g. 2026-10-06
         run: |
@@ -35,6 +47,7 @@ jobs:
           fi
 
       - name: Render today's media (skips anything already rendered)
+        if: steps.gate.outputs.work == 'true'
         run: |
           TODAY=$(TZ=America/New_York date +%F)
           python render_day.py --date "$TODAY"
@@ -48,6 +61,7 @@ jobs:
         run: python analytics.py
 
       - name: Run the watchdog for today
+        if: steps.gate.outputs.work == 'true'
         id: watchdog
         env:
           META_SYSTEM_TOKEN: ${{ secrets.META_SYSTEM_TOKEN }}

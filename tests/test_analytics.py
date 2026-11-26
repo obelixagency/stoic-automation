@@ -205,3 +205,33 @@ class R2Hosting(unittest.TestCase):
         with patch.dict(os.environ, {}, clear=False):
             os.environ.pop("R2_ACCESS_KEY_ID", None)
             self.assertIn("github.io", publish._public_url("/x/A.mp4"))
+
+
+class NeedsWork(unittest.TestCase):
+    def setUp(self):
+        self.d = tempfile.mkdtemp()
+        json.dump({"slots": [{"id": "morning", "time_et": "07:30"}]}, open(os.path.join(self.d, "schedule.json"), "w"))
+        json.dump({"posts": [{"slot": "morning", "item_id": "A", "formats": ["tiktok", "youtube_short"]}]},
+                  open(os.path.join(self.d, "plan_2026-11-20.json"), "w"))
+        self.patches = [patch.object(watchdog, "HERE", self.d), patch.object(watchdog, "paused_platforms", return_value={"tiktok"})]
+        for p in self.patches: p.start()
+        self.addCleanup(lambda: [p.stop() for p in self.patches])
+
+    def log(self, status, last="2026-11-20T12:00:00+00:00", attempts=1):
+        lg = {"2026-11-20": {"morning": {"youtube_short": {"status": status, "attempts": attempts, "last_attempt": last}}}}
+        p = os.path.join(self.d, "log.json"); json.dump(lg, open(p, "w")); return patch.object(watchdog, "LOG", p)
+
+    def test_quiet_when_not_due_or_all_ok(self):
+        with self.log("ok"):
+            self.assertFalse(watchdog.needs_work("2026-11-20", utc("2026-11-20T13:00:00")))
+        with self.log("failed"):   # slot not due yet (07:30 ET = 12:30Z)
+            self.assertFalse(watchdog.needs_work("2026-11-20", utc("2026-11-20T11:00:00")))
+
+    def test_work_when_due_failed_and_cooldown_passed(self):
+        with self.log("failed"):
+            self.assertTrue(watchdog.needs_work("2026-11-20", utc("2026-11-20T13:30:00")))
+            self.assertFalse(watchdog.needs_work("2026-11-20", utc("2026-11-20T12:10:00")))  # cooldown
+
+    def test_work_when_plan_missing(self):
+        with self.log("ok"):
+            self.assertTrue(watchdog.needs_work("2026-11-21", utc("2026-11-21T13:00:00")))
