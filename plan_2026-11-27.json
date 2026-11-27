@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-27",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "SD-PM-68",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Nearly 2,000 years old. Still true.",
+      "caption": "Rate your day so far, 1 to 10.\nShare it with someone who's going through it.\n\nNearly 2,000 years old. Still true.\n\n“…none of these is strong enough to enable us to retain so fleeting a blessing, unless we watch over our vacillating mind with intense and unremitting care.”\n— Seneca, On Peace of Mind 17\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #wisdom #selfimprovement #philosophy",
+      "first_comment": "Seneca wrote this ~2,000 years ago. Does it still hold up for you? One word."
+    },
+    {
+      "slot": "midday",
+      "item_id": "EP-DI-1.1c",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Epictetus was a slave. This is what he taught.",
+      "caption": "Rate how your week is going, 1 to 10.\nSave it for when you need it.\n\nEpictetus was a slave. This is what he taught.\n\n— Epictetus, Discourses 1.1\nFull passage in the video.\n\nSave this. You'll need it.\n\n#stoicism #stoic #epictetus #motivation #wisdom #discipline",
+      "first_comment": "Epictetus on hardship: what's the toughest thing you've gotten through?"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-02-11a",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "MA-07-26",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "A Roman emperor wrote this to himself. It was never meant to be read.",
+      "caption": "Who tested your patience today? One word.\nSave it for when you need it.\n\nA Roman emperor wrote this to himself. It was never meant to be read.\n\n— Marcus Aurelius, Meditations 7.26\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #marcusaurelius #selfimprovement #philosophy #motivation",
+      "first_comment": "Marcus Aurelius on other people: who is the hardest person to stay calm around?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-27",
+      "slot": "morning",
+      "item_id": "SD-PM-68",
+      "group": "SD-PM-68",
+      "author": "Seneca",
+      "hook_id": "h11",
+      "cta_id": "c01",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-27",
+      "slot": "midday",
+      "item_id": "EP-DI-1.1c",
+      "group": "EP-DI-1.1c",
+      "author": "Epictetus",
+      "hook_id": "h04",
+      "cta_id": "c02",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-27",
+      "slot": "midday_static",
+      "item_id": "MA-02-11a",
+      "group": "MA-02-11a",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-27",
+      "slot": "evening",
+      "item_id": "MA-07-26",
+      "group": "MA-07-26",
+      "author": "Marcus Aurelius",
+      "hook_id": "h01",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 58
+}

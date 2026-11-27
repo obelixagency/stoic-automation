@@ -8918,6 +8918,22 @@
      "published": true
     },
     "last_attempt": "2026-11-27T01:32:41.853420+00:00"
+   },
+   "instagram_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-27T06:54:52.883774+00:00"
+   },
+   "facebook_story": {
+    "status": "ok",
+    "attempts": 1,
+    "detail": {
+     "published": true
+    },
+    "last_attempt": "2026-11-27T06:54:52.883774+00:00"
    }
   }
  },
@@ -9422,5 +9438,6 @@
     "last_attempt": "2026-11-27T01:31:16.310504+00:00"
    }
   }
- }
+ },
+ "2026-11-27": {}
 }
