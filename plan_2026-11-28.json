@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-28",
+  "posts": [
+    {
+      "slot": "morning",
+      "item_id": "EP-EN-21",
+      "type": "quote_reel",
+      "how": "quote",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Stop scrolling for ten seconds.",
+      "caption": "How many hours did you waste today? One number, be honest.\nSave it for when you need it.\n\nStop scrolling for ten seconds.\n\n“Let death and exile and every other thing which appears dreadful be daily before your eyes; but most of all death: and you will never think of anything mean nor will you desire anything extravagantly.”\n— Epictetus, Enchiridion 21\n\nSave this. You'll need it.\n\n#stoicism #stoic #epictetus #wisdom #mindset #selfimprovement",
+      "first_comment": "Epictetus on time: what's one thing you'll stop putting off this week?"
+    },
+    {
+      "slot": "midday",
+      "item_id": "SD-PM-57",
+      "type": "story_reel",
+      "how": "story",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Most people will scroll past this. Don't.",
+      "caption": "Rate how your week is going, 1 to 10.\nTag someone who needs this today.\n\nMost people will scroll past this. Don't.\n\n“Zeno, the chief of our school, when he heard the news of a shipwreck, in which all his property had been lost, remarked, “Fortune bids me follow philosophy in lighter marching order.””\n— Seneca, On Peace of Mind 14 (on Zeno)\n\nSend this to someone who needs it today.\n\n#stoicism #stoic #seneca #mindset #philosophy #discipline",
+      "first_comment": "Seneca on hardship: what's the toughest thing you've gotten through?"
+    },
+    {
+      "slot": "midday_static",
+      "item_id": "MA-09-04",
+      "type": "quote_reel",
+      "how": "quote_or_passage",
+      "formats": [
+        "instagram_post",
+        "instagram_story",
+        "facebook_post",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": null,
+      "caption": null,
+      "first_comment": null
+    },
+    {
+      "slot": "evening",
+      "item_id": "EP-EN-20",
+      "type": "passage_reel",
+      "how": "passage",
+      "formats": [
+        "tiktok",
+        "youtube_short",
+        "instagram_reel",
+        "facebook_reel",
+        "instagram_story",
+        "facebook_story"
+      ],
+      "recycled": false,
+      "hook": "Read this slowly.",
+      "caption": "Who tested your patience today? One word.\nTag someone who needs this today.\n\nRead this slowly.\n\n— Epictetus, Enchiridion 20\nFull passage in the video.\n\nWhich line hit hardest? Comment below.\n\n#stoicism #stoic #epictetus #mindset #wisdom #motivation",
+      "first_comment": "Epictetus on other people: who is the hardest person to stay calm around?"
+    }
+  ],
+  "history_rows": [
+    {
+      "date": "2026-11-28",
+      "slot": "morning",
+      "item_id": "EP-EN-21",
+      "group": "EP-EN-21",
+      "author": "Epictetus",
+      "hook_id": "h13",
+      "cta_id": "c02",
+      "how": "quote"
+    },
+    {
+      "date": "2026-11-28",
+      "slot": "midday",
+      "item_id": "SD-PM-57",
+      "group": "SD-PM-57",
+      "author": "Seneca",
+      "hook_id": "h09",
+      "cta_id": "c01",
+      "how": "story"
+    },
+    {
+      "date": "2026-11-28",
+      "slot": "midday_static",
+      "item_id": "MA-09-04",
+      "group": "MA-09-04",
+      "author": "Marcus Aurelius",
+      "hook_id": null,
+      "cta_id": null,
+      "how": "quote_or_passage"
+    },
+    {
+      "date": "2026-11-28",
+      "slot": "evening",
+      "item_id": "EP-EN-20",
+      "group": "EP-EN-20a",
+      "author": "Epictetus",
+      "hook_id": "h10",
+      "cta_id": "c03",
+      "how": "passage"
+    }
+  ],
+  "phase": "full_library",
+  "day_n": 59
+}
